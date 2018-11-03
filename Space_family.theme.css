@@ -1,6 +1,6 @@
 //META{"name":"Space_family","description":"Space family éditer pour la famille Marshals (clash of clans)","author":"Bibitor31","version":"1.3.0"}*//{}
 @import url("https://intrnl.github.io/discordcustomizations/emojiSamsung/dist/themefile.css");
-@import url(https://qwerasd205.github.io/ColoredChannels.css);
+@import url("https://qwerasd205.github.io/ColoredChannels.css");
 
  /*Bibitor removes the discord logo svg (image)*/
 .da-wordmark svg path {
