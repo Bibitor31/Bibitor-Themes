@@ -1180,6 +1180,11 @@ text-align:center !important;
     background-size:  cover !important;  
     border: 1px solid #bc7c00 !important;
 }
+.userPopout-3XzG_A {
+    background: url(https://i.imgur.com/1nnlZvu.jpg)!important;
+    background-size:  cover !important;  
+    border: 1px solid #bc7c00!important;
+}
 .theme-dark .topSectionNormal-2-vo2m {
     background-color: rgba(32, 34, 37, 0);
 }
@@ -3197,3 +3202,9 @@ display: none !important;
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {flex: 0}
 .standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {max-width: 80%;padding: 40px 30px 80px}
  /*Bibitor */ 
+.emojiPicker-3m1S-j {
+    height:87vh;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 {
+    height:87vh;
+}
