@@ -2898,11 +2898,12 @@ transition: all 0.5s;
     color: red;
 }
 .theme-dark .autocomplete-1vrmpx {
-    background-color: rgba(88, 27, 9, 0.5) !important; 
-    border: 3px solid #bc7c00;
+    background-color: rgba(0, 0, 0, 0.9) !important; 
+    border: 2px solid #bc7c00;
 }
 .theme-dark .selectorSelected-1_M1WV {
-    background-color: #bc7c00;
+    background-image: url(https://i.imgur.com/1nnlZvu.jpg);
+	border: 1px solid #bc7c00;
 }
 .theme-dark .contentTitle-2tG_sM {
     color: #ffffff;
@@ -3094,7 +3095,7 @@ display: none !important;
 	position: relative;
 	float: left;
 	left: 35px;
-	top: -42px;
+	top: -35px;
 	width: 0;
 	height: 0;
 	border: 10px solid transparent;
