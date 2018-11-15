@@ -1,4 +1,4 @@
-//META{"name":"Marshals_family","description":"Marshals family RED Edition pour la famille Marshals (clash of clans)","author":"Bibitor31","version":"1.0.8"}*//{}
+//META{"name":"Marshals_family","description":"Marshals family Red éditer pour la famille Marshals (clash of clans)","author":"Bibitor31","version":"1.0.8"}*//{}
 
 @import url("https://intrnl.github.io/discordcustomizations/emojiSamsung/dist/themefile.css");
 @import url(https://qwerasd205.github.io/ColoredChannels.css);
@@ -123,7 +123,6 @@
     -webkit-mask: none;
 }
 .app { 
-    /* background-image: url(	https://cdn.hipwallpaper.com/i/53/31/AVwMzR.jpg); */
 	background-image: url(https://i.imgur.com/b8EovZZ.jpg);
     background-size:  cover !important;
 }
@@ -167,7 +166,6 @@
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB {
    
 }
-
 .theme-dark .membersGroup-v9BXpm {
     text-align: center;
     color: #9d0000 ;
@@ -1194,18 +1192,6 @@ text-align:center !important;
  .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
 	background-color: #5d0700!important;
 }
-.side-8zPYf6 .header-2RyJ0Y:after {
-   content: "";
-   height: 0px;
-   margin-top:5px;
-   height:3px;
-   background: -webkit-gradient(radial, 0% 50%, 0, 0% 0%, 45, from(#9d0000), to(transparent));
-   width: 45px;
-   margin-top:8px;
-   text-align: center;
-   transform: translate(150px,-17px);
-   display:block;
-} 
 .side-8zPYf6 .header-2RyJ0Y {
     text-align:center;
     color:#9d0000!important;
@@ -1214,52 +1200,12 @@ text-align:center !important;
     border-radius:4px;
     padding-left:2px;
 }
-.side-8zPYf6 .header-2RyJ0Y:before {
-   content: "";
-   height: 0px;
-   margin-top:5px;
-   height:3px;
-   background: -webkit-gradient(radial, 0% 50%, 0, 0% 0%, 45, from(transparent), to(#9d0000));
-   width: 45px;
-   margin-top:8px;
-   text-align: center;
-   transform: translate(-10px,10px);
-   border-radius:4px;
-   display:block;
-   padding-left:4px;
-}
 #bd-settings-sidebar .ui-tab-bar-header {
     text-align:center;
     color:#9d0000!important;
     border:1px solid #9d0000;
     padding:0px;
     border-radius:4px;
-}
-#bd-settings-sidebar .ui-tab-bar-header:after {
-   content: "";
-   height: 0px;
-   margin-top:5px;
-   height:3px;
-   background: -webkit-gradient(radial, 0% 50%, 0, 0% 0%, 45, from(#9d0000), to(transparent));
-   width: 45px;
-   margin-top:8px;
-   text-align: center;
-   transform: translate(150px,-17px);
-   display:block;
-} 
-#bd-settings-sidebar .ui-tab-bar-header:before {
-   content: "";
-   height: 0px;
-   margin-top:5px;
-   height:3px;
-   background: -webkit-gradient(radial, 0% 50%, 0, 0% 0%, 45, from(transparent), to(#9d0000));
-   width: 45px;
-   margin-top:8px;
-   text-align: center;
-   transform: translate(-10px,10px);
-   border-radius:4px;
-   display:block;
-   padding-left:4px;
 }
 .header-2RyJ0Y {
     font-size: 13px;
