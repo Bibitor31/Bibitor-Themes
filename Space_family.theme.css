@@ -1261,6 +1261,7 @@ border:1px solid #134670;
 padding:0px;
 border-radius:4px;
 padding-left:2px;
+box-shadow: 0px -10px 10px -10px #fff inset;
 }
 .side-8zPYf6 .header-2RyJ0Y:before {
 content: "";
@@ -1281,6 +1282,7 @@ color:#256498!important;
 border:1px solid #134670;
 padding:0px;
 border-radius:4px;
+box-shadow: 0px -10px 10px -10px #fff inset;
 }
 #bd-settings-sidebar .ui-tab-bar-header:after {
 content: "";
