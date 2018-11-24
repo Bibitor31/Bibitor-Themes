@@ -1254,6 +1254,7 @@ border:1px solid #bc7c00;
 padding:0px;
 border-radius:4px;
 padding-left:2px;
+box-shadow: 0px -10px 10px -10px #fff inset;
 }
 .side-8zPYf6 .header-2RyJ0Y:before {
 content: "";
@@ -1274,17 +1275,34 @@ color:#bc7c00!important;
 border:1px solid #bc7c00;
 padding:0px;
 border-radius:4px;
+box-shadow: 0px -10px 10px -10px #fff inset;
 }
-.header-2RyJ0Y {
-font-size: 13px;
-font-weight: bolder;
-line-height: 16px;
-text-transform: uppercase;
+#bd-settings-sidebar .ui-tab-bar-header:after {
+content: "";
+height: 0px;
+margin-top:5px;
+height:3px;
+width: 45px;
+margin-top:8px;
+text-align: center;
+transform: translate(150px,-17px);
+display:block;
 }
-#bd-settings-sidebar .ui-tab-bar-header {
-font-size: 13px;
-font-weight: bolder;
+#bd-settings-sidebar .ui-tab-bar-header:before {
+content: "";
+height: 0px;
+margin-top:5px;
+height:3px;
+width: 45px;
+margin-top:8px;
+text-align: center;
+transform: translate(-10px,10px);
+border-radius:4px;
+display:block;
+padding-left:4px;
+
 }
+
 .topSectionPlaying-1J5E4n {
 background: rgba(16, 102, 212, 0.3);
 }
