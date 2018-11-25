@@ -650,6 +650,7 @@ color: #f6f6f7;
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
 background-color: #9d0000!important;
 color: #fff;
+border: 1px solid #b0b0b0 !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
 background-color: #5d0700!important;
@@ -2051,6 +2052,7 @@ background-color: #9d0000;
 height: 38px;
 min-width: 90px;
 padding: 0!important;
+
 }
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary {
 background-color: #fff;
