@@ -120,6 +120,7 @@ box-shadow: 0 0 3px 3px #256498 !important;
 }
 .app {
 background-image: url(https://i.imgur.com/RJ0Uv4d.jpg);
+/* background-image: url(https://cdn.hipwallpaper.com/i/53/31/AVwMzR.jpg); */
 background-size:  cover !important;
 }
 .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO, .contentSelectedVoice-1WDIBM, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO, .contentSelectedVoice-1WDIBM {
@@ -690,6 +691,7 @@ color: #f6f6f7;
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
 background-color: #256498!important;
 color: #fff;
+border: 1px solid #b0b0b0 !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
 background-color: #134670!important;
@@ -2061,6 +2063,7 @@ background-color: #256498;
 height: 38px;
 min-width: 90px;
 padding: 0!important;
+border: 1px solid #b0b0b0 !important;
 }
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary {
 background-color: #fff;
@@ -3039,13 +3042,13 @@ opacity:0.9;
 }
 @keyframes pulse {
 0% {
-background-color: #ff004d;
+background-color: #8e0000;
 }
 50% {
 background-color: #256498;
 }
 100% {
-background-color: #ff004d;
+background-color: #8e0000;
 }
 }
 .channels-Ie2l6A {
