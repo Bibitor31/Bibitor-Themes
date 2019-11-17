@@ -4,7 +4,7 @@ class AvatarIconViewer {
 
 	getName() { return "User Avatar And Server Icon Viewer"; }
 	getDescription() { return "Allows you to view server icons, user avatars, and emotes in fullscreen via the context menu. You may also directly copy the image URL or open the URL externally."; }
-	getVersion() { return "0.5.23"; }
+	getVersion() { return "0.5.27"; }
 	getAuthor() { return "Metalloriff"; }
 
 	load() {}
@@ -50,7 +50,7 @@ class AvatarIconViewer {
 	}
 
 	onContextMenu(e) {
-		let context = NeatoLib.ContextMenu.get(), viewLabel = "Afficher l'avatar", copyLabel = "Copier l'avatar";
+		let context = NeatoLib.ContextMenu.get(), viewLabel = "Voir L'avatar", copyLabel = "Copier le lien d'avatar";
 
 		if(!context && !e.target.classList.contains(this.classes.maskProfile.split(" ")[0]) && !e.target.classList.contains(this.classes.guildIconImage.split(" ")[0]) && !e.target.classList.contains("clickable")) return;
 
@@ -77,10 +77,8 @@ class AvatarIconViewer {
 			else if (e.target.className.includes("guildIconImage")) this.url = e.target.style.backgroundImage.split('"')[1];
 			else return null;
 
-			console.log(this.url);
-
-			viewLabel = "Afficher l'avatar";
-			copyLabel = "Copier l'avatar";
+			viewLabel = "View Icon";
+			copyLabel = "Copy Icon Link";
 
 			return this.url;
 		},
@@ -90,17 +88,16 @@ class AvatarIconViewer {
 
 			this.url = e.target.src;
 
-			viewLabel = "Voir les Emojis";
+			viewLabel = "View Emoji";
 
 			return this.url;
 		},
 
 		formatURL = () => {
-			if(this.url.indexOf("?size") != -1) this.url = this.url.substring(0, this.url.indexOf("?size"));
-			this.url += "?size=2048";
+			this.url = this.url.split("?size")[0] + "?size=2048";
 		};
 
-		if(context && (getServerIcon() || getAvatar() || getEmoji())) {
+		if(context && NeatoLib.ReactData.get(context) && (getServerIcon() || getAvatar() || getEmoji())) {
 
 			formatURL();
 
@@ -119,10 +116,10 @@ class AvatarIconViewer {
 
 			formatURL();
 
-			NeatoLib.ContextMenu.create([
+			const menu = NeatoLib.ContextMenu.create([
 				NeatoLib.ContextMenu.createGroup([
-					NeatoLib.ContextMenu.createItem("Voir l'avatar", () => this.createImagePreview()),
-					NeatoLib.ContextMenu.createItem("Copier le lien", () => this.copyURL())
+					NeatoLib.ContextMenu.createItem("Voir L'avatar", () => this.createImagePreview(menu)),
+					NeatoLib.ContextMenu.createItem("Copier le lien d'avatar", () => this.copyURL(menu))
 				])
 			], e);
 
@@ -130,27 +127,28 @@ class AvatarIconViewer {
 
 	}
 
-	createImagePreview() {
+	createImagePreview(cm) {
 		if(!document.getElementById("avatar-img-preview")){
 			document.addEventListener("keyup", this.keyUpEvent);
 
+			if (cm) cm.remove();
 			NeatoLib.ContextMenu.close();
 
 			let scale = window.innerHeight - 160;
 
-			document.getElementsByClassName("app")[0].insertAdjacentHTML("beforeend",
+			document.getElementsByClassName(NeatoLib.getClass("app"))[0].insertAdjacentHTML("beforeend",
 			`<div id="aiv-preview-window" style="z-index: 5000">
 				<div id="aiv-preview-backdrop" style="opacity: 0.85; background-color: rgb(0, 0, 0); transform: translateZ(0px); top: 0; left: 0; bottom: 0; right: 0; position: fixed;"></div>
 				<div class="modal-1UGdnR" style="opacity: 1; transform: scale(1) translateZ(0px);">
 					<div class="inner-1JeGVc">
 						<div>
 							<div class="imageWrapper-2p5ogY" style="width: ${scale}px; height: ${scale}px;"><img src="${this.url}" style="width: 100%; height: 100%;"></div>
-							<div style="text-align: center; padding-top: 5px;"><button id="aiv-preview-copy" class="button-38aScr lookFilled-1Gx00P colorBrand-3pXr91 sizeSmall-2cSMqn grow-q77ONN" type="button" style="display: inline-block; height: 30px !important; min-height: 30px !important; margin-right: 5px; margin-left: 5px;"><div class="contents-4L4hQM">Copier L'url</div></button>
+							<div style="text-align: center; padding-top: 5px;"><button id="aiv-preview-copy" class="button-38aScr lookFilled-1Gx00P colorBrand-3pXr91 sizeSmall-2cSMqn grow-q77ONN" type="button" style="display: inline-block; height: 30px !important; min-height: 30px !important; margin-right: 5px; margin-left: 5px;"><div class="contents-4L4hQM">Copier le lien</div></button>
 								<button id="aiv-preview-close" class="button-38aScr lookFilled-1Gx00P colorBrand-3pXr91 sizeSmall-2cSMqn grow-q77ONN" type="button" style="display: inline-block; height: 30px !important; min-height: 30px !important; margin-right: 5px; margin-left: 5px;">
 									<div class="contents-4L4hQM">Fermer</div>
 								</button>
 								<button id="aiv-preview-open" class="button-38aScr lookFilled-1Gx00P colorBrand-3pXr91 sizeSmall-2cSMqn grow-q77ONN" type="button" style="display: inline-block; height: 30px !important; min-height: 30px !important; margin-right: 5px; margin-left: 5px;">
-									<div class="contents-4L4hQM">Ouvrir L'url</div>
+									<div class="contents-4L4hQM">Ouverture externe</div>
 								</button>
 							</div>
 						</div>
@@ -170,7 +168,8 @@ class AvatarIconViewer {
 		document.removeEventListener("keyup", this.keyUpEvent);
 	}
 
-	copyURL() {
+	copyURL(cm) {
+		if (cm) cm.remove();
 		NeatoLib.ContextMenu.close();
 
 		NeatoLib.Modules.get("copy").copy(this.url);
