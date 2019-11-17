@@ -64,20 +64,20 @@ animation: CLog 10s infinite linear;
 font-size: 0px;
 }
 .wordmark-2iDDfm svg {
-  display: none;
+display: none;
 }
 .titleBar-AC4pGV:not(.typeMacOS-3EmCyP)::after {
-  content: "DISCORD";
-  position: absolute;
-  opacity: 0.8;
-  top: 5px;
-  left: 10px;
-  font-weight: bolder;
-  color: #256498;
-  font-family: Titan One;
-  display: block;
-  height: 16px;
-  font-size: 14px;
+content: "DISCORD";
+position: absolute;
+opacity: 0.8;
+top: 5px;
+left: 10px;
+font-weight: bolder;
+color: #256498;
+font-family: Titan One;
+display: block;
+height: 16px;
+font-size: 14px;
 }
 .da-wordmark svg path {
 display: none;
@@ -130,15 +130,15 @@ border-radius: 5px;
 }
 /* /////////////////Bibi///////////////////// */
 .users-i_3-kL {
-  background-color: var(--blurple-sheer);
-  color: white;
+background-color: var(--blurple-sheer);
+color: white;
 }
 .total-3tKGEB {
-  background-color: var(--blurple);
-  color: white;
+background-color: var(--blurple);
+color: white;
 }
 .total-3tKGEB::after {
-  border-right-color: var(--blurple);
+border-right-color: var(--blurple);
 }
 /* /////////////////Bibi///////////////////// */
 .circleIconButton-jET_ig {
@@ -1781,7 +1781,7 @@ color: #f6f6f7;
 mask: none;
 }
 .da-button[tabindex="2"]{
-    display:none;
+display:none;
 }
 .avatar-SmRMf2{
 border: 1px solid var(--color-bibi);
@@ -3481,7 +3481,7 @@ border-radius: 6px;
 }
 @media (max-width: 1300px) {
 .container-3gCOGc .friendsTable-133bsv .friendsColumnGuilds-2we6jb {
-	display:inline-flex !important
+display:inline-flex !important
 }
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud {
