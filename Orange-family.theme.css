@@ -2,10 +2,11 @@
 * @name Orange_family
 * @author Bibitor31#7704
 * @version 1.5.3
-* @description Orange family éditer pour la famille Marshals (clash of clans) | Un thème orange qui fait rage avec des couleurs personnalisables
-* @source http://discord.gg/UGDQppx
-* @website https://github.com/Bibitor31/Discord
+* @description Orange family éditer pour la famille Marshals (clash of clans) | Un thème orange qui fait rage avec des couleurs personnalisables | @website https://github.com/rauenzi/BetterDiscordApp/releases
+* @source https://github.com/Bibitor31/Discord
+* @website http://discord.gg/UGDQppx
 */
+
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 :root {
 --bg1:url(https://i.imgur.com/1nnlZvu.jpg);
@@ -14,28 +15,13 @@
 --uiGradient1: #f4690d;
 --uiGradient2: #f8cb16;
 --BG-image:url(https://i.imgur.com/knByO3k.jpg);
---BG-serverlist-brightness: 0.8;
---BG-left-brightness: 0.8;
---BG-right-brightness: 0.6;
---BG-popout-brightness: 0.7;
 --BG-gradient-one: 164,123,0;
 --BG-gradient-two: 65,49,0;
 --BG-gradient-direction: 180deg;
---BG-window-padding: 20px;
---BG-window-roundness: 10px;
---BG-left-right-split: 10px;
---Main-Colour: rgba(188,163,137, 1);
---Background-Colour: rgba(0, 0, 0, 1);
 --columns: 1;
 --guildsize: 45;
 --guildgap: 4;
 --aligndms: 0;
---color-high: rgb(218,212,187);
---color-low: rgb(87,84,74);
---color-mid: rgb(151, 147, 129);
---color-alert: rgb(205,102,77);
---nier-font: sce-ps3_rodin_latinregular;
---avatar-image-radius: 50%;
 --blurple: rgb(155, 102, 0);
 --blurple-sheer: rgba(188, 125, 1, 0.420);
 }
@@ -54,7 +40,34 @@ animation: background 10s infinite linear
 90% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
-:root {     --emojiHeight: 500px; } .emojiPicker-3m1S-j .scroller-3vODG7 {     height: var(--emojiHeight); } .emojiPicker-3m1S-j .scroller-3vODG7.containerWithInfoBar-2acjZU {     height: calc(var(--emojiHeight) - 56px); }
+:root {--emojiHeight: 500px; }.emojiPicker-3m1S-j .scroller-3vODG7{height: var(--emojiHeight);}.emojiPicker-3m1S-j .scroller-3vODG7.containerWithInfoBar-2acjZU {height: calc(var(--emojiHeight) - 56px);}
+.esc-text:after, .keybind-KpFkfr:after {
+content: url(https://i.imgur.com/lhoxFfl.png);
+animation: CLog 10s infinite linear;
+}
+.esc-text:after, .keybind-KpFkfr {
+font-size: 0px;
+}
+.wordmark-2iDDfm svg {
+  display: none;
+}
+.titleBar-AC4pGV:not(.typeMacOS-3EmCyP)::after {
+  content: "DISCORD";
+  position: absolute;
+  opacity: 0.8;
+  top: 5px;
+  left: 10px;
+  font-weight: bolder;
+  color: #bc7c00;
+  font-family: Titan One;
+  display: block;
+  height: 16px;
+  font-size: 14px;
+}
+.da-wordmark svg path {
+display: none;
+fill: transparent;
+}
 .wordmark-2iDDfm:after {
 content: 'Bibitor Version: 1.5.3';
 opacity: 0.8;
@@ -65,7 +78,7 @@ color: white;
 font-family: Titan One;
 display: block;
 top: 5px;
-left: 115px;
+left: 80px;
 }
 .da-wordmark svg path {
 display: none;
@@ -73,11 +86,11 @@ fill: transparent;
 }
 .da-wordmark {
 content: "";
-background-image: url("https://i.imgur.com/EXMrkFU.png");
+/* background-image: url(https://i.imgur.com/spELEak.png); */
 background-size: contain;
 background-repeat: no-repeat;
-width: 220px;
-height: 15px;
+width: 250px;
+height: 20px;
 }
 .username-_4ZSMR {
 font-size: 0.9rem;
@@ -3579,13 +3592,13 @@ background:url(https://i.imgur.com/8bFP6Yz.jpg) !important;
 border: 1px solid var(--color-bibi) !important;
 }
 .bd-guild:hover{
-box-shadow: 0 0 15px 0 var(--Main-Colour);
+box-shadow: 0 0 15px 0 rgba(188,163,137, 1);
 border-radius: 20%;
 transition: box-shadow 200ms;
 }
 .base-PmTxvP{
-background: var(--Background-Colour)!important;
-color: var(--Main-Colour)!important;
+background: rgba(0, 0, 0, 1)!important;
+color: rgba(188,163,137, 1)!important;
 border: 1px solid var(--color-bibi) !important;
 animation: pulse 2.5s infinite;
 border-radius: 10% 10% 10% 10%;
@@ -3656,3 +3669,4 @@ color: #ffffff;
 }
 .embedFull-2tM8-- {   max-width: 476px;   border-left-width: 1px;   box-shadow: 1px 0 0 1px #ff0000; } .embedFull-2tM8-- .grid-1nZz7S {   padding: 4px 8px 8px; } .embedFull-2tM8-- .embedMargin-UO5XwE {   margin-top: 2px; } .embedFull-2tM8-- .embedFields-2IPs5Z {   margin-top: 3px; } .embedFull-2tM8-- .embedMedia-1guQoW {   margin-top: 4px; } .embedFull-2tM8-- .embedAuthor-3l5luH {   font-size: 0.8rem; } .embedFull-2tM8-- .embedTitle-3OXDkz {   font-size: 0.9rem;   font-weight: normal; }
 .container-3baos1 .title-eS5yk3 {  color: var(--color-bibi); } #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Orange Family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid var(--color-bibi) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
+
