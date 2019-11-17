@@ -1,10 +1,10 @@
 /**
- * @name Space_family
- * @author Bibitor31#7704
- * @version 1.5.3
- * @description Space family éditer pour la famille Marshals (clash of clans) | Un thème bleu qui fait rage avec des couleurs personnalisables
- * @source http://discord.gg/UGDQppx
- * @website https://github.com/Bibitor31/Discord
+* @name Space_family
+* @author Bibitor31#7704
+* @version 1.5.3
+* @description Space family éditer pour la famille Marshals (clash of clans) | Un thème bleu qui fait rage avec des couleurs personnalisables | @website https://github.com/rauenzi/BetterDiscordApp/releases
+* @source https://github.com/Bibitor31/Discord
+* @website http://discord.gg/UGDQppx
 */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 :root {
@@ -13,7 +13,7 @@
 --color-bibi:#256498;
 --uiGradient1: #1661f8;
 --uiGradient2: #37beed;
---BG-image:url(https://i.imgur.com/fbhmVG6.jpg);
+--BG-image: url(https://i.imgur.com/fbhmVG6.jpg);
 --BG-image-blur: 2px;
 --BG-serverlist-brightness: 0.8;
 --BG-left-brightness: 0.8;
@@ -54,19 +54,35 @@ animation: background 10s infinite linear
 90% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
+:root {     --emojiHeight: 500px; } .emojiPicker-3m1S-j .scroller-3vODG7 {     height: var(--emojiHeight); } .emojiPicker-3m1S-j .scroller-3vODG7.containerWithInfoBar-2acjZU {     height: calc(var(--emojiHeight) - 56px); }
+/* water marks */
+.esc-text:after, .keybind-KpFkfr:after {
+content: url(https://i.imgur.com/k0t6wsC.png);
+animation: CLog 10s infinite linear;
+}
+.esc-text:after, .keybind-KpFkfr {
+font-size: 0px;
+}
+.wordmark-2iDDfm svg {
+  display: none;
+}
+.titleBar-AC4pGV:not(.typeMacOS-3EmCyP)::after {
+  content: "DISCORD";
+  position: absolute;
+  opacity: 0.8;
+  top: 5px;
+  left: 10px;
+  font-weight: bolder;
+  color: #256498;
+  font-family: Titan One;
+  display: block;
+  height: 16px;
+  font-size: 14px;
+}
 .da-wordmark svg path {
 display: none;
 fill: transparent;
 }
-.da-wordmark {
-content: "";
-background-image: url("https://i.imgur.com/8FEH7hW.png");
-background-size: contain;
-background-repeat: no-repeat;
-width: 220px;
-height: 15px;
-}
-:root {     --emojiHeight: 500px; } .emojiPicker-3m1S-j .scroller-3vODG7 {     height: var(--emojiHeight); } .emojiPicker-3m1S-j .scroller-3vODG7.containerWithInfoBar-2acjZU {     height: calc(var(--emojiHeight) - 56px); }
 .wordmark-2iDDfm:after {
 content: 'Bibitor Version: 1.5.3';
 opacity: 0.8;
@@ -76,8 +92,20 @@ font-weight: bolder;
 color: white;
 font-family: Titan One;
 display: block;
-top: 6px;
-left: 115px;
+top: 5px;
+left: 80px;
+}
+.da-wordmark svg path {
+display: none;
+fill: transparent;
+}
+.da-wordmark {
+content: "";
+/* background-image: url(https://i.imgur.com/spELEak.png); */
+background-size: contain;
+background-repeat: no-repeat;
+width: 250px;
+height: 20px;
 }
 .username-_4ZSMR {
 font-size: 0.9rem;
