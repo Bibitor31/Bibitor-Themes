@@ -101,7 +101,6 @@ fill: transparent;
 }
 .da-wordmark {
 content: "";
-/* background-image: url(https://i.imgur.com/spELEak.png); */
 background-size: contain;
 background-repeat: no-repeat;
 width: 250px;
@@ -255,7 +254,7 @@ box-shadow: 0 0 3px 3px var(--color-bibi) !important;
 -webkit-mask: none;
 }
 .theme-dark .childWrapper-anI2G9 {
-background-image: url(https://i.imgur.com/4DZ1gzA.jpg);
+background-image: url(https://i.imgur.com/62OhVP9.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: 140px 80px;
