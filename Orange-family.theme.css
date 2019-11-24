@@ -3,12 +3,11 @@
 * @author Bibitor31#7704
 * @version 1.5.3
 * @description Orange family éditer pour la famille Marshals (clash of clans) | Un thème orange qui fait rage avec des couleurs personnalisables | @website https://github.com/rauenzi/BetterDiscordApp/releases
-* @source https://github.com/Bibitor31/Discord
+* @source https://github.com/Bibitor31/Discord 
 * @website http://discord.gg/UGDQppx
 */
-
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
-
+@import url("https://ressources-31.fr/test/addons/statusColor.css");
 :root {
 --bg1:url(https://i.imgur.com/1nnlZvu.jpg);
 --bg2:url(https://i.imgur.com/8bFP6Yz.jpg);
@@ -16,13 +15,16 @@
 --uiGradient1: #f4690d;
 --uiGradient2: #f8cb16;
 --BG-image:url(https://i.imgur.com/knByO3k.jpg);
+/* --BG-image: url(https://i.imgur.com/fbhmVG6.jpg) !important; */
+/* --BG-image: url(https://i.imgur.com/RJ0Uv4d.jpg) !important; */
+/* --BG-image: url(https://zerthox.github.io/ClearVision/images/winter.jpg) !important; */
 --BG-gradient-one: 164,123,0;
 --BG-gradient-two: 65,49,0;
 --BG-gradient-direction: 180deg;
 --columns: 1;
 --guildsize: 45;
---guildgap: 4;
---aligndms: 0;
+--guildgap: 3;
+--aligndms: 1;
 --blurple: rgb(155, 102, 0);
 --blurple-sheer: rgba(188, 125, 1, 0.420);
 }
@@ -81,10 +83,6 @@ display: block;
 top: 5px;
 left: 80px;
 }
-.da-wordmark svg path {
-display: none;
-fill: transparent;
-}
 .da-wordmark {
 content: "";
 /* background-image: url(https://i.imgur.com/spELEak.png); */
@@ -120,7 +118,7 @@ color: white;
 border-radius: 0;
 }
 .total-3tKGEB {
-background-color: var(--blurple);
+background-color: var(--blurple); 
 color: white;
 border-radius: 0;
 }
@@ -161,6 +159,41 @@ color: #e6e6e6;
 border-radius: 5px ;
 border: 1px solid #ffb76f !important;
 }
+.listItemWrapper-3X98Pc {
+background: -webkit-linear-gradient(30deg, var(--uiGradient1), var(--uiGradient2));
+box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.5);
+color: #e6e6e6;
+border-radius: 5px ;
+}
+#bd-pub-button{
+background: -webkit-linear-gradient(30deg, var(--uiGradient1), var(--uiGradient2));
+color:#fff;
+font-weight: bolder;
+opacity: 0.3
+	}
+.wrapper-3UweLa {
+border: 1px solid #ffb76f !important;
+opacity: 0.7 !important;
+}
+.emptyCard-3CNsz2 {
+border: 1px solid #ffb76f !important;
+}
+.itemContainer-302Zx6 {
+border: 1px solid #ffb76f !important;
+}
+/* Role colors */
+.role-2irmRk {
+border-color: #bc7c00 !important;
+--role-color: #ffdd9a;
+}
+.roleName-32vpEy {
+color: var(--role-color) !important;
+}
+.wrapper-35wsBm{
+border-radius: 5px ;
+/* border: 1px solid #bc7c00 !important; */
+}
+
 #voice-connection,
 #friends,
 .friends-header,
@@ -236,17 +269,27 @@ box-shadow: 0 0 2px 2px #caa45b !important;
 -webkit-mask: none;
 }
 .theme-dark .childWrapper-anI2G9 {
+/* background-image: url(https://i.imgur.com/P3vCiOB.png); */
 background-image: url(https://i.imgur.com/4DZ1gzA.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: 140px 80px;
 height: 50px;
 width: 50px;
-border-radius: 12px;
+border-radius: 7px;
 background-color: transparent !important;
 z-index: 10;
 color: transparent !important;
+/* -webkit-animation: rotation 2s infinite linear; */
 }
+/* @-webkit-keyframes rotation { */
+/* from { */
+/* -webkit-transform: rotate(0deg); */
+/* } */
+/* to { */
+/* -webkit-transform: rotate(359deg); */
+/* } */
+/* } */
 .homeIcon-tEMBK1 {
 display: none;
 }
@@ -360,8 +403,8 @@ padding: 10px 0 20px 0px;
 }
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
 position: absolute;
-top: -45px;
-width: 70px;
+top: -53px;
+width: 60px;
 display: flex;
 justify-content: center;
 }
@@ -2744,9 +2787,6 @@ font-weight:500;
 .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
 background: var(--color-bibi);
 }
-.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
-background: var(--color-bibi);
-}
 .theme-dark .messageGroupWrapper-o-Zw7G {
 background-color: rgba(78,70 , 50, 0.25);
 border-color: rgb(167, 110, 0);
@@ -3262,7 +3302,7 @@ top: -35px;
 width: 0;
 height: 0;
 border: 10px solid transparent;
-border-right: 15px solid rgb(68, 50, 1);
+border-right: 15px solid #ad7e01;
 }
 .contentCozy-3XX413 {
 margin-left: 10px !important;
@@ -3362,7 +3402,8 @@ display:inline-flex !important
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud {
 background:url(https://i.imgur.com/1nnlZvu.jpg) !important;
-box-shadow: 0px 0px 5px 1px #ffb76f;;
+/* opacity: 0.5; */
+box-shadow: 0px 0px 5px 1px #ffb76f;
 border-radius: 6px;
 margin: 10px;
 padding:0;
@@ -3381,6 +3422,7 @@ position: relative
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud:hover {
 background:url(https://i.imgur.com/8bFP6Yz.jpg) !important;
+/* opacity: 0.3; */
 background-color: rgba(0, 0, 0, 0.75) ;
 box-shadow: 0 0 10px 2px #ffb76f;
 }
@@ -3390,7 +3432,7 @@ transform: scale(.98)
 }
 #app-mount .container-3gCOGc .friends-header .tabBar-1E2ExX .item-3HpYcP .badge-1GsMF2 {
 background: rgba(0, 0, 0, 0.4) ;
-color: #ffb76f; ;
+color: #ffb76f;
 opacity: 0.7;
 transition: opacity 500ms
 }
@@ -3437,7 +3479,7 @@ z-index:10;left: 115px;
 text-shadow: 1px 1px 1px hsl(0, 0%, 0%);
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag .discriminator {
-visibility: visible;opacity: 1
+visibility: visible;opacity: 0
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq,
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {
@@ -3580,15 +3622,18 @@ border: 1px solid var(--color-bibi) !important;
 #app-mount .scroller-2FKFPG { background: transparent ; }
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
 background:url(https://i.imgur.com/8bFP6Yz.jpg) !important;
+box-shadow: 0px -10px 10px -10px #fff inset;
 border: 1px solid var(--color-bibi) !important;
 }
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU{
 background:url(https://i.imgur.com/8bFP6Yz.jpg) !important;
 background-size: 200% 200%;
+box-shadow: 0px -10px 10px -10px #fff inset;
 border: 1px solid var(--color-bibi) !important;
 }
 .selected-aXhQR6 .layout-2DM8Md,.clickable-1JJAn8:hover .layout-2DM8Md{
 background:url(https://i.imgur.com/8bFP6Yz.jpg) !important;
+box-shadow: 0px -10px 10px -10px #fff inset;
 border: 1px solid var(--color-bibi) !important;
 }
 .bd-guild:hover{
@@ -3681,5 +3726,5 @@ border: 1px solid var(--color-bibi) !important;
 color: #ffffff;
 }
 .embedFull-2tM8-- {   max-width: 476px;   border-left-width: 1px;   box-shadow: 1px 0 0 1px #ff0000; } .embedFull-2tM8-- .grid-1nZz7S {   padding: 4px 8px 8px; } .embedFull-2tM8-- .embedMargin-UO5XwE {   margin-top: 2px; } .embedFull-2tM8-- .embedFields-2IPs5Z {   margin-top: 3px; } .embedFull-2tM8-- .embedMedia-1guQoW {   margin-top: 4px; } .embedFull-2tM8-- .embedAuthor-3l5luH {   font-size: 0.8rem; } .embedFull-2tM8-- .embedTitle-3OXDkz {   font-size: 0.9rem;   font-weight: normal; }
-.container-3baos1 .title-eS5yk3 {  color: var(--color-bibi); } #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Orange Family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid var(--color-bibi) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
-
+.embedFull-2tM8-- {background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important; }
+.container-3baos1 .title-eS5yk3 { color: var(--color-bibi); } #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Orange Family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid var(--color-bibi) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
