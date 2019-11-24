@@ -7,14 +7,14 @@
 * @website http://discord.gg/UGDQppx
 */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+@import url("https://ressources-31.fr/test/addons/statusColor.css");
 :root {
 --bg1:url(https://i.imgur.com/g2Rr6gY.jpg);
 --bg2:url(https://i.imgur.com/1nnlZvu.jpg);
 --color-bibi:#256498;
 --uiGradient1: #1661f8;
 --uiGradient2: #37beed;
-/* --BG-image: url(https://i.imgur.com/fbhmVG6.jpg) !important; */
---BG-image: url(https://zerthox.github.io/ClearVision/images/winter.jpg) !important;
+--BG-image: url(https://i.imgur.com/RJ0Uv4d.jpg) !important;
 --BG-image-blur: 2px;
 --BG-serverlist-brightness: 0.8;
 --BG-left-brightness: 0.8;
@@ -29,8 +29,8 @@
 --Main-Colour: rgba(14,39,59,  1);
 --columns: 1;
 --guildsize: 45;
---guildgap: 4;
---aligndms: 0;
+--guildgap: 3;
+--aligndms: 1;
 --color-high: rgb(218,212,187);
 --color-low: rgb(87,84,74);
 --color-mid: rgb(151, 147, 129);
@@ -56,7 +56,6 @@ animation: background 10s infinite linear
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
 :root {     --emojiHeight: 500px; } .emojiPicker-3m1S-j .scroller-3vODG7 {     height: var(--emojiHeight); } .emojiPicker-3m1S-j .scroller-3vODG7.containerWithInfoBar-2acjZU {     height: calc(var(--emojiHeight) - 56px); }
-/* water marks */
 .esc-text:after, .keybind-KpFkfr:after {
 content: url(https://i.imgur.com/k0t6wsC.png);
 animation: CLog 10s infinite linear;
@@ -129,7 +128,6 @@ width: 100%;
 left: 0;
 border-radius: 5px;
 }
-/* /////////////////Bibi///////////////////// */
 .users-i_3-kL {
 background-color: var(--blurple-sheer);
 color: white;
@@ -141,13 +139,44 @@ color: white;
 .total-3tKGEB::after {
 border-right-color: var(--blurple);
 }
-/* /////////////////Bibi///////////////////// */
 .circleIconButton-jET_ig {
 background: -webkit-linear-gradient(30deg, var(--uiGradient1), var(--uiGradient2));
 box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.5);
 color: #e6e6e6;
 border-radius: 5px ;
 border: 1px solid #25647b !important;
+}
+.listItemWrapper-3X98Pc {
+background: -webkit-linear-gradient(30deg, var(--uiGradient1), var(--uiGradient2));
+box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.5);
+color: #e6e6e6;
+border-radius: 5px ;
+}
+#bd-pub-button{
+background: -webkit-linear-gradient(30deg, var(--uiGradient1), var(--uiGradient2));
+color:#fff;
+font-weight: bolder;
+opacity: 0.3
+}
+.wrapper-3UweLa {
+border: 1px solid #25647b !important;
+opacity: 0.7 !important;
+}
+.itemContainer-302Zx6 {
+border: 1px solid #25647b !important;
+/* opacity: 0.8 !important; */
+}
+/* Role colors */
+.role-2irmRk {
+border-color: #256498 !important;
+--role-color: #ffdd9a;
+}
+.roleName-32vpEy {
+color: var(--role-color) !important;
+}
+.wrapper-35wsBm{
+border-radius: 5px ;
+border: 1px solid #256498 !important;
 }
 #voice-connection,
 #friends,
@@ -349,8 +378,8 @@ padding: 10px 0 20px 0px;
 }
 .wrapper-1Rf91z .scrollerWrap-1IAIlv .scroller-2TZvBN>.listItem-2P_4kh:first-child {
 position: absolute;
-top: -45px;
-width: 70px;
+top: -50px;
+width: 60px;
 display: flex;
 justify-content: center;
 }
@@ -3291,6 +3320,7 @@ background-repeat: no-repeat;
 background-size: 140px 80px;
 height: 50px;
 width: 50px;
+border-radius: 7px;
 background-color: transparent !important;
 z-index: 10;
 color: transparent !important;
@@ -3707,16 +3737,19 @@ border: 1px solid var(--color-bibi) !important;
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
 background:url(https://i.imgur.com/1nnlZvu.jpg) !important;
 background-size:  cover !important;
+box-shadow: 0px -10px 10px -10px #fff inset;
 border: 1px solid var(--color-bibi) !important;
 }
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU{
 background:url(https://i.imgur.com/g2Rr6gY.jpg) !important;
 background-size:  cover !important;
 background-size: 200% 200%;
+box-shadow: 0px -10px 10px -10px #fff inset;
 border: 1px solid var(--color-bibi) !important;
 }
 .selected-aXhQR6 .layout-2DM8Md,.clickable-1JJAn8:hover .layout-2DM8Md{
 background:url(https://i.imgur.com/g2Rr6gY.jpg) !important;
+box-shadow: 0px -10px 10px -10px #fff inset;
 border: 1px solid var(--color-bibi) !important;
 }
 .bd-guild:hover{
@@ -3808,5 +3841,7 @@ background-size:  cover !important;
 border: 1px solid var(--color-bibi) !important;
 color: #ffffff;
 }
-.embedFull-2tM8-- {   max-width: 476px;   border-left-width: 1px;   box-shadow: 1px 0 0 1px #ff0000; } .embedFull-2tM8-- .grid-1nZz7S {   padding: 4px 8px 8px; } .embedFull-2tM8-- .embedMargin-UO5XwE {   margin-top: 2px; } .embedFull-2tM8-- .embedFields-2IPs5Z {   margin-top: 3px; } .embedFull-2tM8-- .embedMedia-1guQoW {   margin-top: 4px; } .embedFull-2tM8-- .embedAuthor-3l5luH {   font-size: 0.8rem; } .embedFull-2tM8-- .embedTitle-3OXDkz {   font-size: 0.9rem;   font-weight: normal; }
+.embedFull-2tM8-- {   max-width: 476px;   border-left-width: 0px;   box-shadow: 1px 0 0 1px #ff0000; } .embedFull-2tM8-- .grid-1nZz7S {   padding: 4px 8px 8px; } .embedFull-2tM8-- .embedMargin-UO5XwE {   margin-top: 2px; } .embedFull-2tM8-- .embedFields-2IPs5Z {   margin-top: 3px; } .embedFull-2tM8-- .embedMedia-1guQoW {   margin-top: 4px; } .embedFull-2tM8-- .embedAuthor-3l5luH {   font-size: 0.8rem; } .embedFull-2tM8-- .embedTitle-3OXDkz {   font-size: 0.9rem;   font-weight: normal; }
+.embedFull-2tM8-- {background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;}
 .container-3baos1 .title-eS5yk3 {  color: #1682e8; } #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Space family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid #1682e8 !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
+
