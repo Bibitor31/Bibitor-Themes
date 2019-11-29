@@ -1,3 +1,2 @@
 theme: jekyll-theme-midnight
 system_zip = zip
-zip = lambda x: list(system_zip(x))
