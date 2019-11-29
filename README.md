@@ -1,6 +1,5 @@
 # Orange-family / Space_family - Theme for BetterDiscord
-<a href="http://www.alsacreations.com/css/img/picto-quiz.png"
-   download="Pacman_Kiwi">Télécharger l'image</a>
+<A href="http://getfirefox.com/" title="Get Firefox - Web browsing redefined."><IMG src="http://www.mozilla.org/products/firefox/buttons/getfirefox_large2.png" border="0" alt="Get Firefox" ></A>
 Installer BandagedBD pour utiliser les Themes  [BetterDiscord](https://betterdiscord.net/home/) !
 Preview: Orange-family / Space_family 
 
