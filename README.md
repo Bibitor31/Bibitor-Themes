@@ -1,5 +1,5 @@
 # Orange-family / Space_family - Theme for BetterDiscord
-<a href="{{ bibitor31.github.io/Discord/themes.zip}}">ZIP</a>
+<a href="{{ https://bibitor31.github.io/Discord/themes.zip}}">ZIP</a>
 Installer BandagedBD pour utiliser les Themes  [BetterDiscord](https://betterdiscord.net/home/) !
 Preview: Orange-family / Space_family 
 
