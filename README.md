@@ -8,3 +8,5 @@ Preview: Orange-family / Space_family
 <p align="center">
   <img alt=".titleImage-3pXr91" src="https://i.imgur.com/budElif.png">
 </p>
+<li class="downloads"><a href="{{ site.github.zip_url }}">ZIP</a></li>
+<li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
