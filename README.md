@@ -1,5 +1,6 @@
 # Orange-family / Space_family - Theme for BetterDiscord
-<a href="{{ https://bibitor31.github.io/Discord/themes.zip}}">ZIP</a>
+<a href="http://www.alsacreations.com/css/img/picto-quiz.png"
+   download="Pacman_Kiwi">Télécharger l'image</a>
 Installer BandagedBD pour utiliser les Themes  [BetterDiscord](https://betterdiscord.net/home/) !
 Preview: Orange-family / Space_family 
 
