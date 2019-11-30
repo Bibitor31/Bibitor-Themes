@@ -203,6 +203,12 @@ color:#ffb76f;
 .unread-3zKkbm {
 background-color:#ffb76f;
 }
+.rtcConnectionStatusConnected-VRZDjy {
+color: #990000;
+}
+.rtcConnectionQualityFine-2J6i8z .ping-2NgC8E {
+color: var(--color-bibi);
+}
 #voice-connection,
 #friends,
 .friends-header,
