@@ -8,5 +8,3 @@ Preview: Orange-family / Space_family
 <p align="center">
   <img alt=".titleImage-3pXr91" src="https://i.imgur.com/budElif.png">
 </p>
-[download-badge]:
-[download-link]:
