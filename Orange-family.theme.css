@@ -183,7 +183,6 @@ border: 1px solid #ffb76f !important;
 .itemContainer-302Zx6 {
 border: 1px solid #ffb76f !important;
 }
-/* Role colors */
 .role-2irmRk {
 border-color: #bc7c00 !important;
 --role-color: #ffdd9a;
@@ -204,7 +203,7 @@ color:#ffb76f;
 background-color:#ffb76f;
 }
 .rtcConnectionStatusConnected-VRZDjy {
-color: #990000;
+color: #126100;
 }
 .rtcConnectionQualityFine-2J6i8z .ping-2NgC8E {
 color: var(--color-bibi);
