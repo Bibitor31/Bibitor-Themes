@@ -209,6 +209,11 @@ color: #990000;
 .rtcConnectionQualityFine-2J6i8z .ping-2NgC8E {
 color: var(--color-bibi);
 }
+#app-mount .icon-1_QxNX {
+color: #ffb76f;
+width: 16px;
+height: 16px;
+}
 #voice-connection,
 #friends,
 .friends-header,
