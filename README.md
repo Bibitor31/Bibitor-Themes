@@ -1,6 +1,6 @@
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Theme for BetterDiscord`
-- ![#bc7c00](https://placehold.it/15/c5f015/000000?text=+) `Orange-family`
-- ![#256498](https://placehold.it/15/1589F0/000000?text=+) `Bleu_family`
+- ![#bc7c00](https://placehold.it/15/bc7c00/000000?text=+) `Orange-family`
+- ![#256498](https://placehold.it/15/256498/000000?text=+) `Bleu_family`
 # Orange-family / Bleu_family - Theme for BetterDiscord
 
 Installer BandagedBD pour utiliser les Themes  [BetterDiscord](https://betterdiscord.net/home/) !
