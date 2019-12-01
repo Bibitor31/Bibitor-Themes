@@ -6,8 +6,8 @@
 * @source https://bibitor31.github.io/Bibitor-Themes/
 * @website http://discord.gg/UGDQppx
 */
-@import url("https://bibitor31.github.io/Discord/addons/ServerColumns.css");
-@import url("https://bibitor31.github.io/Discord/addons/statusColor.css");
+@import url("https://bibitor31.github.io/Bibitor-Themes/addons/ServerColumns.css");
+@import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
 :root {
 --bg1:url(https://i.imgur.com/g2Rr6gY.jpg);
 --bg2:url(https://i.imgur.com/1nnlZvu.jpg);
@@ -3855,4 +3855,3 @@ color: #ffffff;
 .embedFull-2tM8-- {   max-width: 476px;   border-left-width: 1px;   box-shadow: 1px 0 0 1px #ff0000; } .embedFull-2tM8-- .grid-1nZz7S {   padding: 4px 8px 8px; } .embedFull-2tM8-- .embedMargin-UO5XwE {   margin-top: 2px; } .embedFull-2tM8-- .embedFields-2IPs5Z {   margin-top: 3px; } .embedFull-2tM8-- .embedMedia-1guQoW {   margin-top: 4px; } .embedFull-2tM8-- .embedAuthor-3l5luH {   font-size: 0.8rem; } .embedFull-2tM8-- .embedTitle-3OXDkz {   font-size: 0.9rem;   font-weight: normal; }
 .embedFull-2tM8-- {background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;}
 .container-3baos1 .title-eS5yk3 {  color: #1682e8; } #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Space family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid #1682e8 !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
-
