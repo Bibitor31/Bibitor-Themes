@@ -1,4 +1,4 @@
-# Theme for BetterDiscord
+<h1 align="center">Theme for BetterDiscord</h1>
 
 - ![#f03c15](https://placehold.it/15/f03c15/008000?text=+) `Theme for BetterDiscord`
 - ![#bc7c00](https://placehold.it/15/bc7c00/008000?text=+) `Orange-family`
