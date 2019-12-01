@@ -1,5 +1,5 @@
 # Theme for BetterDiscord
-# Theme for BetterDiscord {align=center}
+<p style="text-align: center;"> Theme for BetterDiscord </p>
 
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Theme for BetterDiscord`
 - ![#bc7c00](https://placehold.it/15/bc7c00/000000?text=+) `Orange-family`
