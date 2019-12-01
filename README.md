@@ -4,7 +4,7 @@
 - ![#256498](https://placehold.it/15/256498/b5e853?text=+) `Bleu_family`
 
 Installer BandagedBD pour utiliser les Themes  [BetterDiscord](https://betterdiscord.net/home/) !
-Preview: Orange-family / Space_family
+Preview: Orange-family / Bleu_family
 <p align="center">
   <img alt=".titleImage-3pXr91" src="https://i.imgur.com/OxNaNFO.png">
 </p>
