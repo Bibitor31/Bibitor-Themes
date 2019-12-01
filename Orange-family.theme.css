@@ -2,12 +2,13 @@
 * @name Orange_family
 * @author Bibitor31#7704
 * @version 1.5.4
-* @description Orange family éditer pour la famille Marshals (clash of clans) | Un thème orange qui fait rage avec des couleurs personnalisables | @website https://github.com/rauenzi/BetterDiscordApp/releases
+* @description Orange family éditer pour la famille Marshals (clash of clans) | Un thème orange avec des couleurs personnalisables 
 * @source https://bibitor31.github.io/Bibitor-Themes/
 * @website http://discord.gg/UGDQppx
 */
-@import url("https://bibitor31.github.io/Discord/addons/ServerColumns.css");
-@import url("https://bibitor31.github.io/Discord/addons/statusColor.css");
+@import url("https://bibitor31.github.io/Bibitor-Themes/addons/ServerColumns.css");
+@import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
+
 :root {
 --bg1:url(https://i.imgur.com/1nnlZvu.jpg);
 --bg2:url(https://i.imgur.com/8bFP6Yz.jpg);
@@ -2920,7 +2921,7 @@ background-image: url(none);
 }
 .theme-dark .isMentioned-N-h9aa {
 background-image: url(https://i.imgur.com/8bFP6Yz.jpg);
-opacity: 0.8;
+opacity: 0.7;
 border: 1px solid var(--color-bibi);
 }
 .theme-dark .guild-1EfMGQ.audio-3vVhBi .guildInner-3DSoA4:after, .theme-dark .guild-1EfMGQ.video-15yGu3 .guildInner-3DSoA4:after {
@@ -3726,7 +3727,7 @@ border-width: 1px;
 border-radius: 0;
 }
 .theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover,
-.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, /* USER SETTINGS ACTIVE */
+.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
 .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover
 {
 background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;
@@ -3734,20 +3735,7 @@ background-size:  cover !important;
 border: 1px solid var(--color-bibi) !important;
 color: #ffffff;
 }
-.embedFull-2tM8-- {   
-max-width: 476px;   
-border-left-width: 1px;   
-box-shadow: 1px 0 0 1px #ff0000; 
-border-color: #ff0000; 
-} .embedFull-2tM8-- .grid-1nZz7S {   
-padding: 4px 8px 8px; 
-} .embedFull-2tM8-- .embedMargin-UO5XwE {   
-margin-top: 2px; } 
-.embedFull-2tM8-- .embedFields-2IPs5Z {   
-margin-top: 3px; } 
-.embedFull-2tM8-- .embedMedia-1guQoW {   
-margin-top: 4px; } .embedFull-2tM8-- .embedAuthor-3l5luH {   
-font-size: 0.8rem; } .embedFull-2tM8-- .embedTitle-3OXDkz {   
-font-size: 0.9rem;   font-weight: normal; }
-.embedFull-2tM8-- {background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important; }
+.embedFull-2tM8-- {   max-width: 476px;   border-left-width: 1px;   box-shadow: 1px 0 0 1px #ff0000; } .embedFull-2tM8-- .grid-1nZz7S {   padding: 4px 8px 8px; } .embedFull-2tM8-- .embedMargin-UO5XwE {   margin-top: 2px; } .embedFull-2tM8-- .embedFields-2IPs5Z {   margin-top: 3px; } .embedFull-2tM8-- .embedMedia-1guQoW {   margin-top: 4px; } .embedFull-2tM8-- .embedAuthor-3l5luH {   font-size: 0.8rem; } .embedFull-2tM8-- .embedTitle-3OXDkz {   font-size: 0.9rem;   font-weight: normal; }
+.embedFull-2tM8-- {background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;}
 .container-3baos1 .title-eS5yk3 { color: var(--color-bibi); } #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Orange Family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid var(--color-bibi) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
+	
