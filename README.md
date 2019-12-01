@@ -5,12 +5,7 @@
 
 - ![#990000](https://placehold.it/15/990000/b5e853?text=+) `Installer BandagedBD pour utiliser les Themes`  [BetterDiscord](https://betterdiscord.net/home/) !
 `Preview: Orange-family / Bleu_family`
-<p align="center">
-  <img alt=".titleImage-3pXr91" src="https://i.imgur.com/OxNaNFO.png">
-</p>
-<p align="center">
-  <img alt=".titleImage-3pXr91" src="https://i.imgur.com/budElif.png">
-</p>
+
 ![Légende](https://i.imgur.com/OxNaNFO.png)
 
 ![Légende](https://i.imgur.com/budElif.png)
