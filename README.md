@@ -3,10 +3,6 @@
 - ![#bc7c00](https://placehold.it/15/bc7c00/b5e853?text=+) `Orange-family`
 - ![#256498](https://placehold.it/15/256498/b5e853?text=+) `Bleu_family`
 
-
-![BetterDiscord](http://icons.iconarchive.com/icons/ncrow/mega-pack-1/24/WinZIP-icon.png)
-
-
 Installer BandagedBD pour utiliser les Themes  [BetterDiscord](https://betterdiscord.net/home/) !
 Preview: Orange-family / Bleu_family
 <p align="center">
