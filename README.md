@@ -1,3 +1,10 @@
+<section id="downloads">
+          
+            <a href="https://github.com/pages-themes/hacker/zipball/master" class="btn">Download as .zip</a>
+            <a href="https://github.com/pages-themes/hacker/tarball/master" class="btn">Download as .tar.gz</a>
+          
+          <a href="https://github.com/pages-themes/hacker" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
 <h1 align="center">Themes for BetterDiscord</h1>
 
 - ![#bc7c00](https://placehold.it/15/bc7c00/b5e853?text=+) **`Orange-family`** [theme.css](https://bibitor31.github.io/Bibitor-Themes/Orange-family.theme.css) **`Update 01/12/2019`**
