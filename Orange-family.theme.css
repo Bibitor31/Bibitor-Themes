@@ -16,6 +16,7 @@
 --uiGradient1: #f4690d;
 --uiGradient2: #f8cb16;
 --BG-image:url(https://i.imgur.com/knByO3k.jpg);
+--BG-gradient-two: 65,49,0;
 --BG-gradient-one: 164,123,0;
 --BG-gradient-two: 65,49,0;
 --BG-gradient-direction: 180deg;
@@ -3353,8 +3354,8 @@ background-color: rgba(54, 57, 63, 0);
 .gameLibrary-TTDw4Y .icon-1IKq3C, .gameLibrary-TTDw4Y .textCell-1aBIUP {color: #a66e02}
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ,#app-mount #bd-settings-sidebar .ui-tab-bar-item{line-height:14px}
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e {padding: 20px 18px 30px 250px ;width: 500px }
-/* .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {flex: 0} */
-/* .standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {max-width: 80%;padding: 40px 30px 80px} */
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {flex: 0}
+.standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {max-width: 80%;padding: 40px 30px 80px}
 .theme-dark .container-2Thooq{
 background-image: url(https://i.imgur.com/8bFP6Yz.jpg)!important;
 background-size:  cover !important;
@@ -3412,7 +3413,6 @@ display:inline-flex !important
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud {
 background:url(https://i.imgur.com/1nnlZvu.jpg) !important;
-/* opacity: 0.5; */
 box-shadow: 0px 0px 5px 1px #ffb76f;
 border-radius: 6px;
 margin: 10px;
@@ -3432,7 +3432,6 @@ position: relative
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud:hover {
 background:url(https://i.imgur.com/8bFP6Yz.jpg) !important;
-/* opacity: 0.3; */
 background-color: rgba(0, 0, 0, 0.75) ;
 box-shadow: 0 0 10px 2px #ffb76f;
 }
@@ -3626,6 +3625,7 @@ height: calc(100vh - 80px);
 #app-mount .tooltipBlack-PPG47z,
 #app-mount .tooltipRed-8-9NeP {
 background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+font-size: 14px;
 color: #fff;
 border: 1px solid var(--color-bibi) !important;
 }
@@ -3720,7 +3720,7 @@ margin-right: 230px;     margin-top: 5px; background-image: url(https://i.imgur.
 #app-mount .searchBar-3dMhjb .searchFilter-2ESiM3, #app-mount .searchBar-TUoVPN .searchFilter-2ESiM3, #app-mount .searchBar-s2JxlI .searchFilter-2ESiM3 { background: rgba(255, 255, 255, 0.1); }
 #app-mount .searchBar-3dMhjb .searchAnswer-3Dz2-q, #app-mount .searchBar-TUoVPN .searchAnswer-3Dz2-q, #app-mount .searchBar-s2JxlI .searchAnswer-3Dz2-q { background: rgba(255, 255, 255, 0.1); margin-left: 0; }
 .theme-dark .cardPrimaryOutline-29Ujqw,
-.card-3Qj_Yx /
+.card-3Qj_Yx
 {
 border-color: var(--color-bibi);
 border-width: 1px;
@@ -3735,7 +3735,24 @@ background-size:  cover !important;
 border: 1px solid var(--color-bibi) !important;
 color: #ffffff;
 }
-.embedFull-2tM8-- {   max-width: 476px;   border-left-width: 1px;   box-shadow: 1px 0 0 1px #ff0000; } .embedFull-2tM8-- .grid-1nZz7S {   padding: 4px 8px 8px; } .embedFull-2tM8-- .embedMargin-UO5XwE {   margin-top: 2px; } .embedFull-2tM8-- .embedFields-2IPs5Z {   margin-top: 3px; } .embedFull-2tM8-- .embedMedia-1guQoW {   margin-top: 4px; } .embedFull-2tM8-- .embedAuthor-3l5luH {   font-size: 0.8rem; } .embedFull-2tM8-- .embedTitle-3OXDkz {   font-size: 0.9rem;   font-weight: normal; }
-.embedFull-2tM8-- {background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;}
+.embedFull-2tM8-- {  
+ max-width: 476px;   
+ border-left-width: 1px;   
+ box-shadow: 1px 0 0 1px #ff0000; 
+ background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;
+ border-color: #ff0000;}
+ } 
+.embedFull-2tM8-- .grid-1nZz7S {   
+padding: 4px 8px 8px; } 
+.embedFull-2tM8-- .embedMargin-UO5XwE {   
+margin-top: 2px; } 
+.embedFull-2tM8-- .embedFields-2IPs5Z {   
+margin-top: 3px; } 
+.embedFull-2tM8-- .embedMedia-1guQoW {   
+margin-top: 4px; } 
+.embedFull-2tM8-- .embedAuthor-3l5luH {  
+font-size: 0.8rem; } 
+.embedFull-2tM8-- .embedTitle-3OXDkz {  
+font-size: 0.9rem;   
+font-weight: normal; }
 .container-3baos1 .title-eS5yk3 { color: var(--color-bibi); } #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Orange Family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid var(--color-bibi) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
-	
