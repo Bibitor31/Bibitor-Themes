@@ -207,6 +207,8 @@ border-color: #bc7c00 !important;
 color: var(--role-color) !important;
 }
 .wrapper-35wsBm{
+background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;
+border: 1px solid var(--color-base) ;
 border-radius: 5px ;
 }
 .item-2hkk8m {
@@ -281,9 +283,6 @@ border: 2px solid #f04747;
 -webkit-transition: background-color 1.00s ease-out;
 transition: background-color 1.00s ease-out;
 }
-/* .scrollableContainer-38zsVD{ */
-/* background-color: rgba(0, 0, 0, 0.0); */
-/* } */
 #app-mount, .da-chat .da-title, .titleBar-AC4pGV 
 {
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointOrange.cur'), default !important;
