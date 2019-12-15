@@ -1,7 +1,7 @@
 <h1 align="center">Themes for BetterDiscord</h1>
 <h2 align="center">Clash of Clans</h2>
 
-- ![#00a118](https://placehold.it/15/bc7c00/b5e853?text=+) **`Discord Zobby`** [theme.css](https://bibitor31.github.io/Bibitor-Themes/Orange-family.theme.css) **`Update 15/12/2019`**
+- ![#00a118](https://placehold.it/15/00a118/b5e853?text=+) **`Discord Zobby`** [Serveur Discord](https://bibitor31.github.io/Bibitor-Themes/Orange-family.theme.css) **`Update 15/12/2019`**
 
 - ![#bc7c00](https://placehold.it/15/bc7c00/b5e853?text=+) **`Orange-family`** [theme.css](https://bibitor31.github.io/Bibitor-Themes/Orange-family.theme.css) **`Update 15/12/2019`**
 - ![#256498](https://placehold.it/15/256498/b5e853?text=+) **`Bleu_family`** [theme.css](https://bibitor31.github.io/Bibitor-Themes/Bleu_family.theme.css) **`Update 15/12/2019`**
