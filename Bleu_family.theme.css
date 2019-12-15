@@ -179,6 +179,7 @@ border-color: #256498 !important;
 color: var(--role-color) !important;
 }
 .wrapper-35wsBm{
+background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;
 border-radius: 5px ;
 border: 1px solid #256498 !important;
 }
@@ -250,25 +251,21 @@ border: 2px solid #f04747;
 -webkit-transition: background-color 1.00s ease-out;
 transition: background-color 1.00s ease-out;
 }
-/* .scrollableContainer-38zsVD{ */
- /* background-color: rgba(0, 0, 0, 0.0); */
-/* } */
-/* ===============CURSORS Cyan================== */
-#app-mount, .da-chat .da-title, .titleBar-AC4pGV /* DEFAULT */
+#app-mount, .da-chat .da-title, .titleBar-AC4pGV
 {
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointCyan.cur'), default !important;
 }
-textarea, input, .da-markup /* TEXT */
+textarea, input, .da-markup
 {
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointCyan6.cur'), default !important;
 }
 a, .da-textHover, .da-expandable, [role="button"], [role="button"] header, [type="checkbox"], label, .da-button, .item-26Dhrx, 
 .clickable-1JJAn8:hover .layout-2DM8Md, .clickable-3Ya1ho, .da-item, .da-interactive, .friendsTable-133bsv .friendsRow-2yicud,
-.da-winButton .ui-tab-bar-item /* POINTER */
+.da-winButton .ui-tab-bar-item 
 {
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointCyan15.cur'), default !important;
 }
-.disabled, .modeLocked-SZJhTy /* DISABLED PLACES */
+.disabled, .modeLocked-SZJhTy
 {
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointCyan8.cur'), default !important;
 }
