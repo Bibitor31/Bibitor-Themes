@@ -9,5 +9,3 @@
 ![Légende](https://i.imgur.com/ThpC7lm.png)
 
 ![Légende](https://i.imgur.com/TM5r5i3.png)
-
-![Légende](https://i.imgur.com/2cSiWvk.jpg)
