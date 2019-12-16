@@ -3,8 +3,10 @@
 * @author Bibitor31#7704
 * @version 1.5.6
 * @description Bleu family éditer pour la famille Marshals (clash of clans) | Un thème bleu avec des couleurs personnalisables
-* @source https://bibitor31.github.io/Bibitor-Themes/
 * @website https://discord.gg/jStesM5
+* @website BetterDiscord https://discord.gg/0Tmfo5ZbORCRqbAd
+* @website BetterDiscord2 https://discord.gg/2HScm8j
+* @source https://bibitor31.github.io/Bibitor-Themes/
 */
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/ServerColumns.css");
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
@@ -3854,12 +3856,12 @@ box-shadow: 0 0 15px 0 #5093d2;
 border-radius: 20%;
 transition: box-shadow 200ms;
 }
-.base-PmTxvP{
-background: var(--Background-Colour)!important;
-color: rgba(14,39,59,  1)!important;
-border: 1px solid #5bafff!important;
+.numberBadge-2s8kKX {
+height: 22px;
+width: 22px !important;
+margin-bottom: -3px;
+margin-right: -5px;
 animation: pulse 2.5s infinite;
-border-radius: 10% 10% 10% 10%;
 }
 @keyframes pulse {
 0% {
@@ -3871,6 +3873,17 @@ background-color: #000000;
 100% {
 background-color: #ffffff;
 }
+}
+.base-PmTxvP{
+background: var(--Background-Colour)!important;
+color: rgba(255, 255, 254,  0.5)!important;
+border: 1px solid #5bafff!important;
+border-radius: 10% 10% 10% 10%;
+}
+.markup-2BOw-j {
+position: relative;
+color: white;
+text-shadow: 0 0 23px #5093d2,0 0 23px #5093d2;
 }
 #app-mount .contentWrapper-3WC1ID{
 background-image: url(https://i.imgur.com/g2Rr6gY.jpg);
@@ -3958,4 +3971,5 @@ font-size: 0.8rem; }
 .embedFull-2tM8-- .embedTitle-3OXDkz {  
 font-size: 0.9rem;   
 font-weight: normal; }
-.container-3baos1 .title-eS5yk3 {  color: #1682e8; } #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Bleu family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid #1682e8 !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
+.container-3baos1 .title-eS5yk3 {  color: #1682e8; } 
+#app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Bleu family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid #1682e8 !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
