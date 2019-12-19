@@ -8,7 +8,7 @@
 - ![#2d2d2d](https://placehold.it/15/2d2d2d/b5e853?text=+) **`Black_family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Black-family.theme.css) **`Update 19/12/2019`**
 
 - ![#990000](https://placehold.it/15/990000/b5e853?text=+) `Installer BandagedBD pour utiliser les Themes`  [BetterDiscord](https://betterdiscord.net/home/) !
-`Preview: Orange-family / Bleu_family / Black_family`
+`Preview Themes: Orange / Bleu / Black`
 
 ![Légende](https://i.imgur.com/eTfyIu4.png)
 
