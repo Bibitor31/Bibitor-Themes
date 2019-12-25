@@ -8,7 +8,6 @@
 * @website BetterDiscord2 https://discord.gg/2HScm8j
 * @source https://bibitor31.github.io/Bibitor-Themes/
 */
-
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/ServerColumns.css");
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/settingsIcons.css");
@@ -21,6 +20,8 @@
 --bg-gradient-one: 75,75,75;
 --bg-gradient-two: 12,12,12;
 --bg-gradient-direction: 180deg;
+--gradient1: #bfbfbf;
+--gradient2: #1f1f1f;
 --color-base:#5f5f5f;
 --columns: 1;
 --guildsize: 45;
@@ -172,7 +173,7 @@ mask: none;}
 border-radius: 5px ;
 }
 .circleIconButton-jET_ig {
-background: -webkit-linear-gradient(30deg, var(--bg-gradient-one), var(--bg-gradient-two));
+background: -webkit-linear-gradient(30deg, var(--gradient1), var(--gradient2));
 box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.5);
 color: #e6e6e6;
 border-radius: 5px ;
@@ -182,13 +183,13 @@ border: 1px solid var(--color-base) !important;
  background-color: var(--color-base);
 }
 .listItemWrapper-3X98Pc {
-background: -webkit-linear-gradient(30deg, var(--bg-gradient-one), var(--bg-gradient-two));
+background: -webkit-linear-gradient(30deg, var(--gradient1), var(--gradient2));
 box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.5);
 color: #e6e6e6;
 border-radius: 5px ;
 }
 #bd-pub-button{
-background: -webkit-linear-gradient(30deg, var(--bg-gradient-one), var(--bg-gradient-two));
+background: -webkit-linear-gradient(30deg, var(--gradient1), var(--gradient2));
 color:#fff;
 font-weight: bolder;
 opacity: 0.3
