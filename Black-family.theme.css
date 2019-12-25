@@ -283,7 +283,7 @@ background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;
 border: 1px solid var(--bg-gradient-one)!important;
 }
 .guildsError-b7zR5H {
-background-color: #705700;
+background-color: #1f1f1f;
 border: 2px solid #f04747;
 -webkit-transition: background-color 1.00s ease-out;
 transition: background-color 1.00s ease-out;
@@ -3447,7 +3447,7 @@ margin: -30px 10 -3px 5px!important;
 line-height: 20px;margin-top: 0px;
 }
 #user-settings {
-background: url(https://i.imgur.com/b8EovZZ.jpg) ;
+background: url(https://i.imgur.com/i9hXUOM.jpg) ;
 background-size: 100vw 100vh;
 }
 .theme-dark .contentRegion-3nDuYy {
@@ -3741,9 +3741,6 @@ font-size: 12px;
 color: #fff; 
 border: 1px solid var(--color-base) !important;
 box-shadow: 0px -10px 10px -10px #fff inset;
-
-/* animation: loadnotif 10s cubic-bezier(.25, 1, .25, 1); */
-  /* background: linear-gradient(to right,red,orange,yellow, green, blue,indigo,violet);  */
 }
 #app-mount .scroller-2FKFPG { background: transparent ; }
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
