@@ -8,6 +8,7 @@
 * @website BetterDiscord2 https://discord.gg/2HScm8j
 * @source https://bibitor31.github.io/Bibitor-Themes/
 */
+
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/ServerColumns.css");
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/settingsIcons.css");
@@ -22,7 +23,7 @@
 --bg-gradient-direction: 180deg;
 --color-base:#bc7c00;
 --gradient1: #bc7c00;
---gradient2: #ab7f29;
+--gradient2: #5d3d00;
 --columns: 1;
 --guildsize: 45;
 --guildgap: 3;
@@ -111,10 +112,6 @@ color: #ffffff!important;
 border: 1px solid var(--color-base);
 border-radius: 5px;
 }
-.anchor-3Z-8Bb{
-border: 1px solid var(--color-base);
-border-radius: 5px;
-}
 .username-_4ZSMR {
 font-size: 0.9rem;
 font-weight: 600;
@@ -176,12 +173,19 @@ mask: none;}
 .avatar-VxgULZ {
 border-radius: 5px ;
 }
+.avatar-17mtNa .wrapper-3t9DeA {
+  border: 2px solid var(--color-base);
+  border-radius: 7px;
+}
 .circleIconButton-jET_ig {
 background: -webkit-linear-gradient(30deg, var(--gradient1), var(--gradient2));
 box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.5);
 color: #e6e6e6;
 border-radius: 5px ;
 border: 1px solid #ffb76f !important;
+}
+.circleIconButton-jET_ig.selected-ugP_am {
+ background-color: var(--color-base);
 }
 .listItemWrapper-3X98Pc {
 background: -webkit-linear-gradient(30deg, var(--gradient1), var(--gradient2));
@@ -529,9 +533,9 @@ height: 30px;
 padding-top:5px;
 box-shadow: 0px -10px 10px -10px #fff inset;
 }
-.da-app {
-background-image: var(--bg-image)!important;
-background-size:  cover !important;
+.app-2rEoOp {
+  background-image: var(--bg-image)!important;
+  background-size: cover !important;
 }
 .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO, .contentSelectedVoice-1WDIBM, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO, .contentSelectedVoice-1WDIBM {
 background-image: url((https://i.imgur.com/8bFP6Yz.jpg)!important;
@@ -1893,6 +1897,11 @@ border: 1px solid var(--color-base);
 .activity-1IYsbk strong {
 color: #43b581!important
 }
+.theme-dark .theme-dark .action-1lSjCi, .theme-dark .theme-light .action-1lSjCi {
+background-image: url(https://i.imgur.com/1nnlZvu.jpg);
+border: 1px solid var(--color-base);
+box-shadow: 0 0 10px 6px rgba(78,70 , 50, 0.3);
+}
 .avatarSpeaking-1wJCNq{
 border-color: transparent !important;
 box-shadow: none !important;
@@ -1915,6 +1924,13 @@ width: 100%;
 background: linear-gradient(to right, var(--color-base)0%, transparent 100%)!important;
 opacity: 0.9;
 z-index: 1;
+}
+.avatarSpeaking-3MqCHL{
+border-radius: 5px;
+}
+.avatarSmall-2CW6I1
+{
+border-radius: 5px;
 }
 .theme-dark .keyboardShortcutsModal-3piNz7 {
 background-image: url(https://i.imgur.com/8bFP6Yz.jpg)!important;
@@ -3724,6 +3740,8 @@ background: linear-gradient(var(--bg-gradient-direction), rgba(var(--bg-gradient
 font-size: 12px;
 color: #fff; 
 border: 1px solid var(--color-base) !important;
+
+animation: loadnotif 10s cubic-bezier(.25, 1, .25, 1);
 }
 #app-mount .scroller-2FKFPG { background: transparent ; }
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
@@ -3861,6 +3879,8 @@ margin-top: 4px; }
 font-size: 0.8rem; } 
 .embedFull-2tM8-- .embedTitle-3OXDkz {  
 font-size: 0.9rem;   
-font-weight: normal; }
+font-weight: normal;}
 .container-3baos1 .title-eS5yk3 { color: var(--color-base); } 
 #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Orange Family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid var(--color-base) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
+
+
