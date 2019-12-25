@@ -2,7 +2,7 @@
 * @name Bleu_family
 * @author Bibitor31#7704
 * @version 1.5.6
-* @description Bleu family éditer pour la famille Marshals (clash of clans) | Un thème bleu avec des couleurs personnalisables
+* @description Bleu family | Un thème Bleu avec des couleurs personnalisables 
 * @website https://discord.gg/jStesM5
 * @website BetterDiscord https://discord.gg/0Tmfo5ZbORCRqbAd
 * @website BetterDiscord2 https://discord.gg/2HScm8j
@@ -115,10 +115,10 @@ color: #ffffff!important;
 border: 1px solid var(--color-base);
 border-radius: 5px;
 }
-.anchor-3Z-8Bb{
-border: 1px solid var(--color-base);
-border-radius: 5px;
-}
+/* .anchor-3Z-8Bb{ */
+/* border: 1px solid var(--color-base); */
+/* border-radius: 5px; */
+/* } */
 .username-_4ZSMR {
 font-size: 0.9rem;
 font-weight: 600;
@@ -240,7 +240,6 @@ border-color: var(--gradient1)!important;
 box-shadow: 0 0 5px 0 var(--gradient1)!important;
 }
 .art-347BZj {
-/* display: none; */
 background-image: url(https://i.imgur.com/wU3LRqz.png)!important;
 }
 .theme-dark .optionNormal-12VR9V {
@@ -1875,6 +1874,11 @@ border: 1px solid var(--color-base);
 .activity-1IYsbk strong {
 color: #43b581!important
 }
+.theme-dark .theme-dark .action-1lSjCi, .theme-dark .theme-light .action-1lSjCi {
+background-image: url(https://i.imgur.com/1nnlZvu.jpg) !important;
+border: 1px solid var(--color-base);
+box-shadow: 0 0 10px 6px rgba(0, 76, 131, 0.3);
+}
 .avatarSpeaking-1wJCNq{
 border-color: transparent !important;
 box-shadow: none !important;
@@ -1898,8 +1902,15 @@ background: linear-gradient(to right, var(--color-base) 0%, transparent 100%)!im
 opacity: 0.5;
 z-index: 1;
 }
+.avatarSpeaking-3MqCHL{
+border-radius: 5px;
+}
+.avatarSmall-2CW6I1
+{
+border-radius: 5px;
+}
 .theme-dark .keyboardShortcutsModal-3piNz7 {
-background-image: url(https://i.imgur.com/g2Rr6gY.jpg)!important;
+background-image: url(https://i.imgur.com/g2Rr6gY.jpg) !important;
 background-size:  cover !important;
 border: 1px solid var(--color-base) !important;
 }
@@ -1935,6 +1946,10 @@ mask: none;
 }
 .avatar-VxgULZ {
 border-radius: 5px ;
+}
+.avatar-17mtNa .wrapper-3t9DeA {
+  border: 2px solid var(--color-base);
+  border-radius: 7px;
 }
 @import url(https://spthiel.github.io/css/CodeBlocks.raw.css);
 :root {
@@ -3835,6 +3850,7 @@ background: linear-gradient(var(--bg-gradient-direction), rgba(var(--bg-gradient
 font-size: 12px;
 color: #fff; 
 border: 1px solid var(--color-base) !important;
+animation: loadnotif 10s cubic-bezier(.25, 1, .25, 1);
 }
 #app-mount .scroller-2FKFPG { background: transparent ; }
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
@@ -3879,7 +3895,7 @@ background-color: #ffffff;
 }
 }
 .base-PmTxvP{
-background: var(--Background-Colour)!important;
+background: var(--color-base)!important;
 color: rgba(255, 255, 254,  0.5)!important;
 border: 1px solid #5bafff!important;
 border-radius: 10% 10% 10% 10%;
@@ -3975,5 +3991,4 @@ font-size: 0.8rem; }
 .embedFull-2tM8-- .embedTitle-3OXDkz {  
 font-size: 0.9rem;   
 font-weight: normal; }
-.container-3baos1 .title-eS5yk3 {  color: #1682e8; } 
-#app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Bleu family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid #1682e8 !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
+.container-3baos1 .title-eS5yk3 {  color: #1682e8; } #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Bleu family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid #1682e8 !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
