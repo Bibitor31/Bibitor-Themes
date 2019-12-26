@@ -8,6 +8,7 @@
 * @website BetterDiscord2 https://discord.gg/2HScm8j
 * @source https://bibitor31.github.io/Bibitor-Themes/
 */
+
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/ServerColumns.css");
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/settingsIcons.css");
@@ -181,6 +182,11 @@ border: 1px solid var(--color-base) !important;
 }
 .circleIconButton-jET_ig.selected-ugP_am {
  background-color: var(--color-base);
+}
+.theme-dark .theme-dark .or-3THJsp, .theme-dark .theme-light .or-3THJsp {
+background: -webkit-linear-gradient(120deg, var(--gradient1), var(--gradient2));
+border: 2px solid var(--color-base);
+box-shadow: 0 0 10px 0 var(--gradient1)!important;
 }
 .listItemWrapper-3X98Pc {
 background: -webkit-linear-gradient(30deg, var(--gradient1), var(--gradient2));
@@ -3543,7 +3549,7 @@ align-items: center;
 position: relative
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud:hover {
-background:url(https://i.imgur.com/1nnlZvu.jpg) !important;
+background:url(https://i.imgur.com/8bFP6Yz.jpg) !important;
 background-color: rgba(0, 0, 0, 0.75) ;
 box-shadow: 0 0 10px 2px var(--color-base);
 }
@@ -3741,6 +3747,7 @@ font-size: 12px;
 color: #fff; 
 border: 1px solid var(--color-base) !important;
 box-shadow: 0px -10px 10px -10px #fff inset;
+/* animation: loadnotif 10s cubic-bezier(.25, 1, .25, 1); */
 }
 #app-mount .scroller-2FKFPG { background: transparent ; }
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
