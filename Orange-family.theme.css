@@ -187,6 +187,11 @@ border: 1px solid #ffb76f !important;
 .circleIconButton-jET_ig.selected-ugP_am {
  background-color: var(--color-base);
 }
+.theme-dark .theme-dark .or-3THJsp, .theme-dark .theme-light .or-3THJsp {
+background: -webkit-linear-gradient(120deg, var(--gradient1), var(--gradient2));
+border: 2px solid var(--color-base);
+box-shadow: 0 0 10px 0 var(--gradient1)!important;
+}
 .listItemWrapper-3X98Pc {
 background: -webkit-linear-gradient(30deg, var(--gradient1), var(--gradient2));
 box-shadow: inset 0 0 10000px 0 rgba(0,0,0,.5);
@@ -3740,8 +3745,7 @@ background: linear-gradient(var(--bg-gradient-direction), rgba(var(--bg-gradient
 font-size: 12px;
 color: #fff; 
 border: 1px solid var(--color-base) !important;
-
-animation: loadnotif 10s cubic-bezier(.25, 1, .25, 1);
+/* animation: loadnotif 10s cubic-bezier(.25, 1, .25, 1); */
 }
 #app-mount .scroller-2FKFPG { background: transparent ; }
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
