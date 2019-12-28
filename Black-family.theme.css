@@ -1,7 +1,7 @@
 /**
 * @name Black_family
 * @author Bibitor31#7704
-* @version 1.5.6
+* @version 1.5.7
 * @description Black family | Un thème Black avec des couleurs personnalisables 
 * @website https://discord.gg/jStesM5
 * @website BetterDiscord https://discord.gg/0Tmfo5ZbORCRqbAd
@@ -108,7 +108,7 @@ display: none;
 fill: transparent;
 }
 .wordmark-2iDDfm:after {
-content: 'Bibitor Version: 1.5.6';
+content: 'Bibitor Version: 1.5.7';
 opacity: 0.8;
 position: absolute;
 font-size: 12px;
