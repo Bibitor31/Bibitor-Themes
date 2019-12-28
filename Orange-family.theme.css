@@ -44,6 +44,26 @@ animation: background 10s infinite linear
 90% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
+.bda-slist::before {
+content:'Merci d\0027utiliser les Themes Family, Orange-family, Bleu_family, Black_family! Bien que c\0027 est themes soit parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Discord Zobby Clash of Clans full Th13 https://discord.gg/jStesM5. Amusez-vous bien!';
+word-wrap:break-word;
+max-width:100%;
+padding:10px;
+color:#bfbfbf;
+border: 1px solid var(--color-base)!important;
+border-radius: 5px;
+background: rgba(32, 32, 32, 0.8);
+font-size:15px;
+line-height:25px;
+font-weight:500;
+margin:12px 0;
+padding-left:120px;
+display:block;
+background-image:url(https://i.imgur.com/KI3ynN7.png);
+background-size:80px;
+background-position:20px 50%;
+background-repeat:no-repeat;
+}
 .emojiPicker-3m1S-j .scroller-3vODG7 { height: 500px; }
 .emojiPicker-3m1S-j,.infoBar-U6oBFk,.categories-1feg4n  {
 background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;
@@ -538,9 +558,9 @@ height: 30px;
 padding-top:5px;
 box-shadow: 0px -10px 10px -10px #fff inset;
 }
-.app-2rEoOp {
-  background-image: var(--bg-image)!important;
-  background-size: cover !important;
+#app-mount .app-2rEoOp {
+background-image: var(--bg-image)!important;
+background-size: cover !important;
 }
 .contentSelectedText-3wUhMi, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO, .contentSelectedVoice-1WDIBM, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO, .contentSelectedVoice-1WDIBM {
 background-image: url((https://i.imgur.com/8bFP6Yz.jpg)!important;
@@ -1077,9 +1097,9 @@ background-color: #9f6519!important;
 background-color: #9f6519!important;
 color: #fff;
 }
-.button-38aScr {
-color: #bc7c00;
-}
+/* .button-38aScr { */
+/* color: #bc7c00; */
+/* } */
 .dotNormal-tB6Tle {
 opacity: .4;
 }
@@ -1579,6 +1599,9 @@ background: var(--color-base);
 margin-top:5px!important;
 margin-bottom:5px!important;
 padding:5px;
+}
+.theme-dark .bda-slist li {
+border-color: var(--color-base);
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper input {
 background: rgba(114, 118, 125, 0)!important;
@@ -3499,6 +3522,7 @@ margin-bottom: 0px;
 }
 .button-38aScr {
 overflow: hidden;
+color: var(--color-base);
 }
 .button-38aScr:after,
 .button-38aScr:before {
@@ -3745,7 +3769,7 @@ background: linear-gradient(var(--bg-gradient-direction), rgba(var(--bg-gradient
 font-size: 12px;
 color: #fff; 
 border: 1px solid var(--color-base) !important;
-/* animation: loadnotif 10s cubic-bezier(.25, 1, .25, 1); */
+/* animation: loadnotif 3s cubic-bezier(.25, 1, .25, 1); */
 }
 #app-mount .scroller-2FKFPG { background: transparent ; }
 .theme-dark .wrapper-1ucjTd:hover .content-3at_AU{
@@ -3886,5 +3910,3 @@ font-size: 0.9rem;
 font-weight: normal;}
 .container-3baos1 .title-eS5yk3 { color: var(--color-base); } 
 #app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci D\0027utilise Orange Family!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid var(--color-base) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
-
-
