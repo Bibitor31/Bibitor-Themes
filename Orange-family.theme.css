@@ -336,6 +336,11 @@ cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointOran
 {
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointOrange8.cur'), default !important;
 }
+.button-14-BFJ.enabled-2cQ-u7:hover {
+color: var(--color-base);
+background-color: rgba(255, 255, 255, 0.32);
+border: 1px solid var(--color-base)!important;
+}
 #voice-connection,
 #friends,
 .friends-header,
