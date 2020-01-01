@@ -10,7 +10,7 @@
 
 - ![#620000](https://placehold.it/15/620000/b5e853?text=+) **`Rouge_family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Rouge-family.theme.css) **`Update 01/01/2020`**
 
-- ![#9900cc](https://placehold.it/15/9900cc/b5e853?text=+) **`Violet_family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Violet-family.theme.csss) **`Update 01/01/2020`**
+- ![#9900cc](https://placehold.it/15/9900cc/b5e853?text=+) **`Violet_family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Violet-family.theme.css) **`Update 01/01/2020`**
 
 - ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+) `Installer BandagedBD pour utiliser les Themes`  [BetterDiscord](https://betterdiscord.net/home/) !
 `Preview Themes: Family`
