@@ -48,7 +48,7 @@ animation: background 10s infinite linear
     color: #f6f6f7;
 }
 .bda-slist::before {
-content:'Merci d\0027utiliser les Themes Family, Rouge, Bleu, Black! Bien que c\0027 est themes soit parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!. --> Discord Zobby Clash of Clans full Th13 https://discord.gg/jStesM5.';
+content:'Merci d\0027utiliser les Themes Family ! Bien que c\0027 est themes soit parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!. --> Discord Zobby Clash of Clans full Th13 https://discord.gg/jStesM5.';
 word-wrap:break-word;
 max-width:100%;
 padding:10px;
@@ -324,26 +324,39 @@ transition: background-color 1.00s ease-out;
 }
 #app-mount, .da-chat .da-title, .titleBar-AC4pGV 
 {
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointOrange.cur'), default !important;
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Select.cur'), default !important;
 }
-textarea, input, .da-markup
+textarea, input, .da-markup 
 {
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointOrange6.cur'), default !important;
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/TextSelect.cur'), default !important;
 }
 a, .da-textHover, .da-expandable, [role="button"], [role="button"] header, [type="checkbox"], label, .da-button, .item-26Dhrx, 
 .clickable-1JJAn8:hover .layout-2DM8Md, .clickable-3Ya1ho, .da-item, .da-interactive, .friendsTable-133bsv .friendsRow-2yicud,
 .da-winButton 
 {
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointOrange15.cur'), default !important;
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/LinkSelect.cur'), default !important;
 }
 .disabled, .modeLocked-SZJhTy 
 {
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointOrange8.cur'), default !important;
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Unavailable.cur'), default !important;
 }
 .button-14-BFJ.enabled-2cQ-u7:hover {
 color: var(--color-base);
 background-color: rgba(255, 255, 255, 0.32);
 border: 1px solid var(--color-base)!important;
+}
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+background: linear-gradient(var(--bg-gradient-direction), rgba(var(--bg-gradient-one), 1) 20%, rgba(var(--bg-gradient-two), 1));
+font-size: 12px;
+color: #fff; 
+border: 1px solid var(--color-base) !important;
+}
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg:hover {
+filter: blur(0)
+}
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg {
+filter: blur(5px);
+transition: 250ms filter ease-in-out
 }
 #voice-connection,
 #friends,
@@ -556,6 +569,7 @@ margin: 0 calc(12.5% - 21px);
 padding: 0;
 }
 .name-IbjUBS {
+background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;
 text-align: center;
 color: #1f9300;
 font-size: 14px;
@@ -602,29 +616,8 @@ text-align: center;
 }
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB {
 }
-.theme-dark .membersGroup-v9BXpm::before {
-content:"";
-height: 0px;
-margin-top:0px!important;
-height:5px;
-margin-top:0px!important;
-text-align: center;
-width:40px;
-display:block;
-transform: translate(-27px,12px)!important;
-}
-.theme-dark .membersGroup-v9BXpm::after {
-content:"";
-height: 0px;
-margin-top:0px!important;
-height:5px;
-margin-top:0px!important;
-text-align: center;
-width:50px;
-display:inherit;
-transform:translate(190px,-13px)
-}
 .theme-dark .membersGroup-v9BXpm {
+background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;
 text-align: center;
 transform: translateY(-0px) !important;
 color: #1f9300;
@@ -1291,11 +1284,11 @@ background: var(--color-base);
 }
 .mention-1f5kbO {
 background-color: var(--color-base);
-border: 1px solid #ffb21f;
+border: 1px solid #da4141;
 }
 .mention-1f5kbO:hover {
-background-color: #9f6519;
-border: 1px solid #ffb21f;
+background: var(--bg2);
+border: 1px solid #da4141;
 }
 .badge {
 background-color: var(--color-base);
@@ -3106,7 +3099,7 @@ transition: all 0.9s;
 .theme-dark .markup-2BOw-j pre {
 background: transparent;
 border-color: var(--color-base);
-box-shadow: 0 0 8px #ff2121;
+box-shadow: 0 0 10px #ff2121;
 }
 .theme-dark .wrapper-29NfPK {
 background-color: rgba(32, 34, 37, 0);
@@ -3444,7 +3437,7 @@ padding: 10px 0 !important;
 margin: 10px 5px 10px 70px !important;
 border-radius: 8px !important;
 border: 1px solid var(--color-base);
-background: rgba(0, 0, 0 ,0.3)!important;
+background: rgba(0, 0, 0 ,0.4)!important;
 }
 .headerCozy-2N9HOL {
 position: relative !important;
