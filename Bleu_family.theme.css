@@ -44,7 +44,7 @@ animation: background 10s infinite linear
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
 .bda-slist::before {
-content:'Merci d\0027utiliser les Themes Family, Orange-family, Bleu_family, Black_family! Bien que c\0027 est themes soit parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Discord Zobby Clash of Clans full Th13 https://discord.gg/jStesM5. Amusez-vous bien!';
+content:'Merci d\0027utiliser les Themes Family ! Bien que c\0027 est themes soit parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!. --> Discord Zobby Clash of Clans full Th13 https://discord.gg/jStesM5.';
 word-wrap:break-word;
 max-width:100%;
 padding:10px;
@@ -62,6 +62,7 @@ background-image:url(https://i.imgur.com/lHmyTk6.png);
 background-size:80px;
 background-position:20px 50%;
 background-repeat:no-repeat;
+box-shadow: 0px -10px 10px -10px #fff inset;
 }
 .emojiPicker-3m1S-j .scroller-3vODG7 { height: 500px; }
 .emojiPicker-3m1S-j,.infoBar-U6oBFk,.categories-1feg4n  {
@@ -112,7 +113,7 @@ opacity: 0.8;
 position: absolute;
 font-size: 12px;
 font-weight: bolder;
-color: white;
+/* color: white; */
 font-family: Titan One;
 display: block;
 top: 5px;
@@ -284,28 +285,41 @@ border: 2px solid #f04747;
 -webkit-transition: background-color 1.00s ease-out;
 transition: background-color 1.00s ease-out;
 }
-#app-mount, .da-chat .da-title, .titleBar-AC4pGV
+#app-mount, .da-chat .da-title, .titleBar-AC4pGV 
 {
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointCyan.cur'), default !important;
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Select.cur'), default !important;
 }
-textarea, input, .da-markup
+textarea, input, .da-markup 
 {
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointCyan6.cur'), default !important;
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/TextSelect.cur'), default !important;
 }
 a, .da-textHover, .da-expandable, [role="button"], [role="button"] header, [type="checkbox"], label, .da-button, .item-26Dhrx, 
 .clickable-1JJAn8:hover .layout-2DM8Md, .clickable-3Ya1ho, .da-item, .da-interactive, .friendsTable-133bsv .friendsRow-2yicud,
-.da-winButton .ui-tab-bar-item 
+.da-winButton 
 {
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointCyan15.cur'), default !important;
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/LinkSelect.cur'), default !important;
 }
-.disabled, .modeLocked-SZJhTy
+.disabled, .modeLocked-SZJhTy 
 {
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/ColourPointCyan8.cur'), default !important;
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Unavailable.cur'), default !important;
 }
 .button-14-BFJ.enabled-2cQ-u7:hover {
 color: var(--color-base);
 background-color: rgba(255, 255, 255, 0.32);
 border: 1px solid var(--color-base)!important;
+}
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+background: linear-gradient(var(--bg-gradient-direction), rgba(var(--bg-gradient-one), 1) 20%, rgba(var(--bg-gradient-two), 1));
+font-size: 12px;
+color: #fff; 
+border: 1px solid var(--color-base) !important;
+}
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg:hover {
+filter: blur(0)
+}
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg {
+filter: blur(5px);
+transition: 250ms filter ease-in-out
 }
 #voice-connection,
 #friends,
@@ -519,6 +533,7 @@ margin: 0 calc(12.5% - 21px);
 padding: 0;
 }
 .name-IbjUBS {
+background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;
 text-align: center;
 color: #1f9300;
 font-size: 14px; 
@@ -565,29 +580,8 @@ text-align: center;
 }
 .nameCollapsed-34uFWo, .nameDefault-2DI02H, .iconHoveredCollapsed-3caIIZ, .nameHovered-1gxhWH, .nameHoveredCollapsed-2orEWB {
 }
-.theme-dark .membersGroup-v9BXpm::before {
-content:"";
-height: 0px;
-margin-top:0px!important;
-height:5px;
-margin-top:0px!important;
-text-align: center;
-width:40px;
-display:block;
-transform: translate(-27px,12px)!important;
-}
-.theme-dark .membersGroup-v9BXpm::after {
-content:"";
-height: 0px;
-margin-top:0px!important;
-height:5px;
-margin-top:0px!important;
-text-align: center;
-width:50px;
-display:inherit;
-transform:translate(190px,-13px)
-}
 .theme-dark .membersGroup-v9BXpm {
+background-image: url(https://i.imgur.com/1nnlZvu.jpg)!important;
 text-align: center;
 color: #1f9300;
 font-size: 14px; 
@@ -662,7 +656,7 @@ border-color: rgba(46,48,54,.6);
 background-color: hsl(207, 100%, 34%);
 }
 .botTagRegular-2HEhHi {
-background: var(--color-base);
+background: -webkit-linear-gradient(60deg, var(--gradient1), var(--gradient2));
 color: #fff;
 }
 .theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
@@ -3113,7 +3107,7 @@ transition: all 0.5s;
 .theme-dark .markup-2BOw-j pre {
 background: transparent;
 border-color: rgb(52, 94, 148);
-box-shadow: 0 0 8px #5593bc;
+box-shadow: 0 0 10px #5593bc;
 }
 .theme-dark .wrapper-29NfPK {
 background-color: rgba(32, 34, 37, 0);
@@ -3507,7 +3501,7 @@ padding: 10px 0 !important;
 margin: 10px 5px 10px 70px !important;
 border-radius: 8px !important;
 border: 1px solid var(--color-base);
-background: rgba(0, 0, 0 ,0.3)!important;
+background: rgba(0, 0, 0 ,0.4)!important;
 }
 .headerCozy-2N9HOL {
 position: relative !important;
@@ -3936,11 +3930,11 @@ color: rgba(255, 255, 254,  0.5)!important;
 border: 1px solid #5bafff!important;
 border-radius: 10% 10% 10% 10%;
 }
-.markup-2BOw-j {
-position: relative;
-color: white;
-text-shadow: 0 0 23px #5093d2,0 0 23px #5093d2;
-}
+/* .markup-2BOw-j { */
+/* position: relative; */
+/* color: white; */
+/* text-shadow: 0 0 23px #5093d2,0 0 23px #5093d2; */
+/* } */
 #app-mount .contentWrapper-3WC1ID{
 background-image: url(https://i.imgur.com/g2Rr6gY.jpg);
 border: 1px solid #256498;
