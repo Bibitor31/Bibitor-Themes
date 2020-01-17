@@ -12,6 +12,7 @@
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item, .side-8zPYf6 .item-PXvHYJ {padding-left: 40px;}
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item,
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
+#user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(1)::before{background:url(https://bibitor31.github.io/Bibitor-Themes/icons/hype2.png) center}
 #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(2)::before {background:url(https://bibitor31.github.io/Bibitor-Themes/icons/User.png) center}
 #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(3)::before {background:url(https://bibitor31.github.io/Bibitor-Themes/icons/Control.png) center}
 #user-settings .side-8zPYf6 .item-PXvHYJ:nth-child(4)::before{background:url(https://bibitor31.github.io/Bibitor-Themes/icons/Movie.png) center}
