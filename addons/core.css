@@ -20,6 +20,7 @@
 --guildgap: 3;
 --aligndms: 1;
 }
+
 .headerTop-3C2Zn0 {
 animation: background 10s infinite linear
 }
@@ -1589,6 +1590,7 @@ width: 35px!important;
 height: 11px!important;
 margin-right: 10px;
 }
+
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper {
 -webkit-user-select: none;
 -moz-user-select: none;
@@ -1663,6 +1665,7 @@ box-shadow: 0 0 8px 8px var(--color-base)!important;
 transition: background-color 0.9s, box-shadow 0.9s ,border-radius 0.9s !important;
 margin-top: auto !important;
 margin-bottom: auto !important;
+
 border-radius: 3px !important;
 }
 .bd-blue *[style*="background-color: rgb(114, 137, 218)"] {
@@ -2052,6 +2055,7 @@ background-color: var(--color-base);
 border: 1px solid #292929;
 color: #f6f6f7;
 }
+
 .theme-dark .message-group .comment .markup code.inline{
 margin-left: -2px;
 margin-right: -2px;
@@ -3196,6 +3200,7 @@ line-height: 20px;margin-top: 0px;
 #user-settings {
 background: var(--bg-image2);
 background-size: 100vw 100vh;
+
 }
 .theme-dark .contentRegion-3nDuYy {
 background: rgba(54, 57, 63, 0);
@@ -3221,6 +3226,7 @@ background-size:  cover !important;
 border-radius: 5px;
 border: 1px solid #a66e02;
 }
+
 .da-appMount .da-titleBar, #app-mount .titleBar-AC4pGV {
 padding-top: 4px;
 margin-top: 0px;
@@ -3610,6 +3616,7 @@ color: rgba(255, 255, 255, 0.3);
 font-weight: 400; }
 #app-mount .searchBar-3dMhjb .searchFilter-2ESiM3, #app-mount .searchBar-TUoVPN .searchFilter-2ESiM3, #app-mount .searchBar-s2JxlI .searchFilter-2ESiM3 { background: rgba(255, 255, 255, 0.1); }
 #app-mount .searchBar-3dMhjb .searchAnswer-3Dz2-q, #app-mount .searchBar-TUoVPN .searchAnswer-3Dz2-q, #app-mount .searchBar-s2JxlI .searchAnswer-3Dz2-q { background: rgba(255, 255, 255, 0.1); margin-left: 0; }
+
 .theme-dark .cardPrimaryOutline-29Ujqw,.card-3Qj_Yx{
 border-color: var(--color-base);
 border-width: 1px;
@@ -3722,6 +3729,7 @@ border-radius: 5px;
 }
 .side-8zPYf6 .item-PXvHYJ:nth-child(8){
 color: var(--interactive-normal)!important; 
+
 }
 .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"] {
 background-image: var(--bg2)!important;
