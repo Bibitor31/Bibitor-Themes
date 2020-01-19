@@ -1,4 +1,4 @@
-<h2 align="center">Themes for BetterDiscord</h2>
+<h2 align="center">Thèmes for BetterDiscord</h2>
 <h4 align="center">Couleurs des thèmes personnalisables sur deux lignes</h4>
 <h4 align="center">(--color-base:#xxxxxx;)  (--color-text-category:#xxxxxx;)</h4>
 
@@ -14,8 +14,8 @@
 
 - ![#9900cc](https://placehold.it/15/9900cc/b5e853?text=+) **`Violet_family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Violet-family.theme.css) **`Update 19/01/2020`**
 
-- ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+) `Installer BandagedBD pour utiliser les Themes`  [BetterDiscord](https://betterdiscord.net/home/) !
-`Preview Themes: Family`
+- ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+) `Installer BandagedBD pour utiliser les Thèmes`  [BetterDiscord](https://betterdiscord.net/home/) !
+`Preview Thèmes: Family`
 
 ![Légende](https://i.imgur.com/e6FMY5b.png)
 
