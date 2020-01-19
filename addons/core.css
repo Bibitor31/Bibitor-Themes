@@ -40,7 +40,7 @@ animation: background 10s infinite linear
 color: #f6f6f7;
 }
 .bda-slist::before {
-content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!. --> Discord Zobby Clash of Clans full Th13 https://discord.gg/jStesM5';
+content:'Merci d\0027utiliser les Thèmes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!. --> Discord Zobby Clash of Clans full Th13 https://discord.gg/jStesM5';
 word-wrap:break-word;
 max-width:100%;
 padding:10px;
@@ -3757,9 +3757,6 @@ box-shadow: 0px -5px 5px -5px #fff inset;
 background-image: var(--bg2)!important;
 border: 1px solid var(--color-base) !important; 
 box-shadow: 0px -5px 5px -5px #fff inset;
-/* font-weight:bold; */
-/* transform: translatex(10px) !important; */
-/* text-transform: uppercase; */
 }
 .theme-dark .embedFull-2tM8-- {
 background-image: var(--bg2)!important; 
@@ -3781,4 +3778,4 @@ font-size: 0.9rem;
 font-weight: normal;
 }
 .container-3baos1 .title-eS5yk3 { color: var(--color-base); } 
-#app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci d\0027utiliser les Themes Family-Fusion!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid var(--color-base) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
+#app-mount .wrapper-1Rf91z foreignObject { mask: none !important; } #app-mount::after { content: 'Merci d\0027utiliser les Thèmes Family-Fusion!'; color: #fff; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top: 89%; color: #b9bbbe !important; border: 1px solid var(--color-base) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(255, 255, 255, 0.05); padding: 20px; white-space: nowrap; box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.05), inset 0 0 10000px rgba(255, 255, 255, 0.08); border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 100s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
