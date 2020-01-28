@@ -1,8 +1,8 @@
 /**
 * @name Family-Fusion-Violet
 * @author Bibitor31#7704
-* @version 1.6.4
-* @description  Family | Un thème  avec des couleurs personnalisables | ---> (--color-base:#xxxxxx;)  
+* @version 1.6.5
+* @description  Family | Thème avec des couleurs personnalisables | ---> (--color-base:#xxxxxx;)  
 * @website https://bibitor31.github.io/Bibitor-Themes/
 * @source https://github.com/Bibitor31/Bibitor-Themes
 **/
@@ -19,9 +19,4 @@
 --gradient1: rgb(64, 64, 64);
 --gradient2: var(--color-base);
 --bggradient-direction: 25deg ; 
-/* ServerColumns By DevilBro*/
---columns: 1;
---guildsize: 45;
---guildgap: 3;
---aligndms: 1;
 }
