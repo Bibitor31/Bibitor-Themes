@@ -1,6 +1,6 @@
 <h2 align="center">Thèmes for BetterDiscord</h2>
 <h4 align="center">Couleurs des thèmes personnalisables sur deux lignes</h4>
-<h4 align="center">(--color-base:#xxxxxx;)  (--color-text-category:#xxxxxx;)</h4>
+<h4 align="center">(--color-base:#xxxxxx;)  (--color-text-cat:#xxxxxx;)</h4>
 
 - ![#00a118](https://placehold.it/15/00a118/b5e853?text=+) **`Discord Zobby`** [Serveur Discord](https://discord.gg/jStesM5) **`Clash of Clans full Th13`**
 
