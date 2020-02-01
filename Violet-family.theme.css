@@ -1,12 +1,12 @@
 /**
 * @name Family-Fusion-Violet
 * @author Bibitor31#7704
-* @version 1.6.5
-* @description  Family | Thème avec des couleurs personnalisables | ---> (--color-base:#xxxxxx;)  
+* @version 1.6.6
+* @description  Couleurs personnalisables | (--color-base:#xxxxxx;) (--color-text-cat:#xxxxxx;)
 * @website https://bibitor31.github.io/Bibitor-Themes/
 * @source https://github.com/Bibitor31/Bibitor-Themes
 **/
-@import url("https://bibitor31.github.io/Bibitor-Themes/addons/core.css	");
+@import url("https://bibitor31.github.io/Bibitor-Themes/addons/core.css");
 :root {
 --color-base:#9900cc;
 --color-text-category:#1f9300;
