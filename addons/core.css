@@ -356,6 +356,10 @@ top: 2px;
 margin-right: 15px;
 margin-left: 20px;
 }
+.text-3MU_QQ{
+color: var(--color-text-cat);
+font-weight: bold;
+}
 .title-30qZAO {
 margin: 16px 20px 16px 30px;
 height:30px;
