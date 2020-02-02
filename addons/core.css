@@ -5,7 +5,7 @@
 --color-base:#256498;   
 --color-text-cat:#1f9300;
 --bg-image:url(https://i.imgur.com/GYj8bmI.jpg);
---bg-image2:url(https://i.imgur.com/RVruCQo.jpg);
+--bg-image2:url(https://i.imgur.com/RVruCQo.jpg) ;
 --bg1:url(https://i.imgur.com/8bFP6Yz.jpg);
 --bg2:url(https://i.imgur.com/1nnlZvu.jpg);
 --bg3: var(--color-base);
@@ -443,6 +443,14 @@ color: var(--color-text-cat);
 background-image: var(--bg2);
 border: 1px solid var(--color-base);
 border-radius: 5px;
+}
+.theme-dark .uploadModal-2ifh8j{
+background-image: var(--bg2);
+border: 1px solid var(--color-base) !important;
+border-radius: 5PX;
+}
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC{
+background-image: var(--bg2);
 }
 .ghostPill-2-KUPM{
 border: 1px solid var(--color-base);
