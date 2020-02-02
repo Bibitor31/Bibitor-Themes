@@ -596,6 +596,11 @@ border-radius: 5px;
 border: 2px solid var(--color-base);
 border-radius: 5px;
 }
+.theme-dark .card-3DjzTQ, .theme-dark .cardPlaceholder-1zrbbe{
+background: linear-gradient(var(--bggradient-direction), var(--gradient2), var(--gradient1));
+border: 1px solid var(--color-base);
+border-radius: 5px;
+}
 .avatar-17mtNa .wrapper-3t9DeA foreignObject[mask] {
 mask: none;
 }													
