@@ -459,6 +459,11 @@ border-radius: 5px;
 .theme-dark .game-1ipmAa{
 background:rgba(0,0,0,0.4) !important;
 }
+.theme-dark .addGamePopout-2RY8Ju{
+background-image: var(--bg2);
+border: 1px solid var(--color-base) !important;
+border-radius: 5PX;
+}
 .theme-dark .gameNameInput-385LoS:focus, .theme-dark .gameNameInput-385LoS:hover{
 background-image: var(--bg2);
 border: 1px solid var(--color-base);
