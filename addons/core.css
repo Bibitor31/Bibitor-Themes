@@ -1,6 +1,5 @@
 /* Bibitor31#7704  https://bibitor31.github.io/Bibitor-Themes */
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
-@import url("https://bibitor31.github.io/Bibitor-Themes/addons/settingsIcons.css");
 :root {
 --color-base:#256498;   
 --color-text-cat:#1f9300;
@@ -479,8 +478,34 @@ border: 1px solid var(--color-base)!important;
 border-radius: 5px ;
 background: var(--bg2)!important;
 box-shadow: 0px -5px 5px -5px #fff inset;
-transition: padding .2s ease;
-padding-left: 50px;
+}
+.item-PXvHYJ:hover{
+background-image: var(--bg2)!important;
+color: rgb(240, 71, 71);
+border: 1px solid var(--color-base) !important; 
+border-radius: 5px ;
+box-shadow: 0px -5px 5px -5px #fff inset;
+font-weight: bold;
+}
+.side-8zPYf6 .item-PXvHYJ:nth-child(8){
+color: var(--interactive-normal)!important; 
+}
+.item-PXvHYJ:hover:not([style*="color: rgb(240, 71, 71);"]) {
+color:var(--color-text-cat)!important;
+border: 1px solid var(--color-base) !important;
+}																										   
+.side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"] {
+background-image: var(--bg1)!important;
+color: var(--color-text-cat)!important;
+border: 1px solid var(--color-base) !important; 
+box-shadow: 0px -5px 5px -5px #fff inset;
+}
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ{
+background-image: var(--bg1)!important;
+background-size:  cover !important;
+border: 1px solid var(--color-base) !important; 
+box-shadow: 0px -5px 5px -5px #fff inset;
+color: var(--color-text-cat);
 }
 .listRow-hutiT_:hover{
 background: var(--bg2)!important;
@@ -1450,8 +1475,8 @@ background-color: rgba(54, 57, 63, 0);
 background-color: rgba(54, 57, 63, 0);
 }
 .gameLibrary-TTDw4Y .icon-1IKq3C, .gameLibrary-TTDw4Y .textCell-1aBIUP {color: var(--color-base);}
-.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ,#app-mount #bd-settings-sidebar .ui-tab-bar-item{line-height:14px}
-.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e {padding: 20px 18px 30px 250px ;width: 500px }
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ,#app-mount #bd-settings-sidebar .ui-tab-bar-item{line-height:14px;}
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e {padding: 20px 18px 30px 250px;width: 500px; }
 .theme-dark .container-2Thooq{
 background-image: var(--bg2)!important;
 background-size:  cover !important;
@@ -1962,9 +1987,6 @@ border-color:var(--color-base) !important;
 box-shadow: inset 0 0 6px 1px var(--color-base);
 border-radius: 5px;
 }
-.side-8zPYf6 .item-PXvHYJ:nth-child(8){
-color: var(--interactive-normal)!important; 
-}
 .wrapper-1cBijl{
 background:rgba(0,0,0,0.4) !important;
 border: 1px solid var(--color-base) !important;
@@ -1974,23 +1996,6 @@ box-shadow: 0px -5px 5px -5px #fff inset;
 box-shadow: inset 0 0 6px 1px var(--color-base);
 border-radius: 8px;
 border: 1px solid var(--color-base) !important; 
-}
-.item-PXvHYJ:hover:not([style*="color: rgb(240, 71, 71);"]) {
-color:var(--color-text-cat)!important;
-border: 1px solid var(--color-base) !important;
-}																										   
-.side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"] {
-background-image: var(--bg1)!important;
-color: var(--color-text-cat)!important;
-border: 1px solid var(--color-base) !important; 
-box-shadow: 0px -5px 5px -5px #fff inset;
-}
-.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ{
-background-image: var(--bg1)!important;
-background-size:  cover !important;
-border: 1px solid var(--color-base) !important; 
-box-shadow: 0px -5px 5px -5px #fff inset;
-color: var(--color-text-cat);
 }
 .tabBar-ZmDY9v .item-3HknzM {
 background-image: var(--bg2);
@@ -2105,7 +2110,22 @@ opacity: 0.5;
 .esc-text:after, .keybind-KpFkfr {
 font-size: 0px;
 }
-#dv-mount{background-color:rgba(14,14,14,0.35) !important;}
+#dv-mount{
+background-color:rgba(14,14,14,0.35) !important;
+}
+.side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item, .side-8zPYf6 .item-PXvHYJ {padding-left: 40px;}
+.sidebar-CFHs9e .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf)::before,
+.side-8zPYf6 .item-PXvHYJ:not(.role-3wi9Tf)::before {
+content: "";
+background-image:url(https://i.imgur.com/KI3ynN7.png);
+width: 20px;
+height: 20px;
+background-size: cover!important;
+position: absolute;
+left: 10px;
+top: 50%;
+transform: translateY(-50%);
+}
 .bda-slist::before {
 content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!. --> Discord Zobby Clash of Clans full Th13 https://discord.gg/jStesM5';
 word-wrap:break-word;
