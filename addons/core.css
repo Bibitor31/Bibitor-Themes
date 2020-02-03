@@ -168,6 +168,24 @@ border-radius: 8px !important;
 border: 1px solid var(--color-base);
 background: rgba(0, 0, 0 ,0.5)!important;
 }
+.itemCard-v9viV7:first-of-type{
+background-image: var(--bg2);
+opacity: 0.8;
+border-radius: 5px;
+border: 1px solid var(--color-base);
+}
+.theme-dark .enabled-1t_Gxm:hover {
+background-image: var(--bg2);
+border: 1px solid var(--color-base);
+}
+.theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
+background-image: var(--bg2);
+border: 1px solid var(--color-base);
+}
+.section-2gLsgF,.theme-dark .popout-13LQ_3{
+background-image: var(--bg2);
+border: 1px solid var(--color-base);
+}
 .theme-dark .isMentioned-N-h9aa {
 background-image: var(--bg2);
 opacity: 0.8;
