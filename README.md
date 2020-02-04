@@ -17,15 +17,15 @@
 - ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+) `Installer BandagedBD pour utiliser les Thèmes`  [BetterDiscord](https://betterdiscord.net/home/) !
 `Preview Thèmes: Family`
 
-![Légende](https://i.imgur.com/rEklPee.png)
+![Légende](https://i.imgur.com/JivuJyQ.png)
 
-![Légende](https://i.imgur.com/t7lc3iD.png)
+![Légende](https://i.imgur.com/Dq95IK8.png)
 
-![Légende](https://i.imgur.com/6YdmJzw.png)
+![Légende](https://i.imgur.com/H0j1TX0.png)
 
-![Légende](https://i.imgur.com/vmUrf7F.png)
+![Légende](https://i.imgur.com/tVeiXs5.png)
 
-![Légende](https://i.imgur.com/rSAqP7y.png)
+![Légende](https://i.imgur.com/xeNxGAz.png)
 
-![Légende](https://i.imgur.com/x8M5pO9.png)
+![Légende](https://i.imgur.com/2lh8HkQ.png)
 
