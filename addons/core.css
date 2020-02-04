@@ -13,68 +13,6 @@
 --gradient2: var(--color-base);
 --bggradient-direction: 25deg ;
 }
-/* ***************Canary On*************** */
-.message-2qnXI6{
-background:rgba(0,0,0,0.4) !important;
-border: 1px solid var(--color-base) !important;
-border-radius: 8PX;
-margin-top: 10px!important;
-margin: 10px 5px 0px 10px !important;
-}
-.wrapper-2aW0bm{
-background-image: var(--bg2);
-border: 1px solid var(--color-base);
-}
-.button-1ZiXG9:hover{
-background-color: var(--color-base);
-opacity: 0.3;
-}
-.avatar-1BDn8e  {
-border: 2px solid var(--color-base);
-border-radius: 7px;
-}
-.avatar-1BDn8e:hover {
-box-shadow: 0 0 20px 0 var(--color-base);
-transition: box-shadow 200ms;
-}
-.hasContent-1cNJDh{
-border: 8px solid rgba(255, 255, 255, 0.1);
-border-style: double;
-border-radius: 25px;
-}
-.divider-JfaTT5 span {
-color: white!important;
-border: 3px solid var(--color-base);
-text-align: center;
-border-radius: 25px;
-width: 120px;
-}
-.group-spacing-16 .beforeGroup-1rH1F0 {
-margin-bottom: 10px;
-margin-top: 10px;
-top: .4rem;
-border-style: double;
-border-width:10px;
-border-radius: 25px;
-}
-.isUnread-3Ef-o9 {
-border-color: rgba(140, 10, 0, 0.4);
-border-radius: 7px;
-}
-.unreadPill-2HyYtt, .unreadPillCap-3_K2q2 {
-position: static;
-height: 24px;
-}
-.unreadPillCapStroke-7rkHbg {
-display:none;
-}
-.unreadPill-2HyYtt{
-background-color: rgb(140, 10, 0);
-}
-.unreadPillCap-3_K2q2, .da-unreadPillCap{
-display:none;
-}
-/* ***************Canary Off************** */
 #voice-connection, #friends, .friends-header, .friends-table, .guilds-wrapper, .guild-header header, .channels-wrap, .private-channels .search-bar, .private-channels, .guild-channels, .account, .friend-table-add-header, .chat, .content, .title-wrap:not(.search-bar), .messages-wrapper, .messages .divider span, .messages .divider:before, .content, .message-group-blocked, .is-local-bot-message, .channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .typing, .container-RYiLUQ, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .channel-members, .container-2OU7Cz, .theme-dark .chat form, .channels-3g2vYe, .theme-dark .friends-table, .theme-dark .messages-wrapper, .content .flex-spacer, .theme-dark .chat>.content, .theme-dark .chat, .channel-members, .search .search-bar, .container-iksrDt, .container-3lnMWU, .theme-dark .title-qAcLxz, .theme-dark .typing-3eiiL_, .container-2OU7Cz, .theme-dark .activityFeed-HeiGwL, .theme-dark .headerBar-cxbhPD, .theme-dark .lfg-3xoFkI, .video-3lOWa6, .theme-dark .private-channel-call, .appMount-3VJmYg, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8, .channels-Ie2l6A, .container-PNkimc, .container-2Thooq, .container-2Thooq, .theme-dark .title-3qD0b-, .theme-dark .typing-2GQL18, .search-bar.search-bar-light, .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S, .theme-dark .members-1998pB, .theme-dark .card-2WxYqG, .theme-dark .layer-kosS71,  .theme-dark .layers-20RVFW,
 .typeWindows-15E0Ys{
 background-color: rgba(14,14,14,0.35) !important;
@@ -222,6 +160,66 @@ animation: background 10s infinite linear
 90% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
+/* ***************Canary On*************** */
+.message-2qnXI6{
+background:rgba(0,0,0,0.4) !important;
+margin: 0px 10px 0px;
+}
+.wrapper-2aW0bm{
+background-image: var(--bg2);
+border: 1px solid var(--color-base);
+}
+.button-1ZiXG9:hover{
+background-color: var(--color-base);
+opacity: 0.3;
+}
+.avatar-1BDn8e  {
+border: 2px solid var(--color-base);
+border-radius: 7px;
+}
+.avatar-1BDn8e:hover {
+box-shadow: 0 0 20px 0 var(--color-base);
+transition: box-shadow 200ms;
+}
+.hasContent-1cNJDh{
+border: 8px solid rgba(255, 255, 255, 0.1);
+border-style: double;
+border-radius: 25px;
+}
+.divider-JfaTT5 span {
+background-image: var(--bg2);
+font-size: 14px;
+border: 2px solid var(--color-base);
+text-align: center;
+border-radius: 25px;
+width: 120px;
+}
+.group-spacing-16 .beforeGroup-1rH1F0 {
+margin-bottom: 10px;
+margin-top: 10px;
+border-style: double;
+border-width:8px;
+border-radius: 25px;
+}
+.isUnread-3Ef-o9 {
+border-color: rgba(140, 10, 0, 0.4);
+border-radius: 7px;
+}
+.unreadPill-2HyYtt, .unreadPillCap-3_K2q2 {
+position: static;
+height: 20px;
+color: rgb(140, 10, 0)!important;
+}
+.unreadPillCapStroke-7rkHbg {
+display:none;
+}
+.unreadPillCap-3_K2q2, .da-unreadPillCap{
+display:none;
+}
+.mentioned-xhSam7:before{
+display:none;
+}
+/* ***************Canary Off************** */
 .containerCozy-jafyvG {
 overflow: visible !important;
 padding: 10px 0 !important;
