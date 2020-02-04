@@ -135,10 +135,18 @@ padding-bottom: 10px;
 .wrapper-2aW0bm{
 background-image: var(--bg2);
 border: 1px solid var(--color-base);
+transform: scale(0.80);
 }
 .button-1ZiXG9:hover{
 background-color: var(--color-base);
 opacity: 0.3;
+}
+.buttons-cl5qTG {
+transform: translateY(22px);
+}
+.reaction-1hd86g.reactionMe-wv5HKu{
+background-image: var(--bg2);
+border: 1px solid var(--color-base) !important;
 }
 .avatar-1BDn8e  {
 border: 2px solid var(--color-base);
@@ -234,7 +242,7 @@ border: 2px solid  transparent !important;
 .da-chat .da-scroller:not(.members-1998pB)::-webkit-scrollbar-track-piece {
 display: none;
 }
-.reaction-1ELvT8{
+.reaction-1ELvT8, .reaction-1hd86g{
 background-image: var(--bg2);
 border: 1px solid var(--color-base) !important;
 }
@@ -453,7 +461,6 @@ margin: 10px 5px 0 20px;
 background-size:  cover !important;
 border: 1px solid var(--color-base) !important; 
 box-shadow: 0px -5px 5px -5px #fff inset;
-color: var(--color-text-cat);
 width: 385px!important;
 padding: 16px 10px;
 margin: 10px 5px 0 20px;
