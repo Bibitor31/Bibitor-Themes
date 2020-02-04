@@ -1,8 +1,8 @@
 /* Bibitor31#7704  https://bibitor31.github.io/Bibitor-Themes */
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
 :root {
---color-base:#256498;   
---color-text-cat:#1f9300;
+--color-base:rgb(37, 100, 152);   
+--color-text-cat:rgb(31, 147, 0);
 --bg-image:url(https://i.imgur.com/knByO3k.jpg);--bg-image:url(https://i.imgur.com/GYj8bmI.jpg);--bg-image2:url(https://i.imgur.com/RVruCQo.jpg) ;
 --bg1:url(https://i.imgur.com/8bFP6Yz.jpg);
 --bg2:url(https://i.imgur.com/1nnlZvu.jpg);
@@ -198,6 +198,10 @@ display:none;
 }
 .mentioned-xhSam7:before{
 display:none;
+}
+.channelNotice-1-XFjC.invite-OjTXrW{
+background-image:url(https://i.imgur.com/EpOeyom.png);
+background-size:60px;
 }
 /* ***************Canary Off************** */
 .containerCozy-jafyvG {
