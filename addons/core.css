@@ -164,6 +164,8 @@ animation: background 10s infinite linear
 .message-2qnXI6{
 background:rgba(0,0,0,0.4) !important;
 margin: 0px 10px 0px;
+padding-top:5px ;
+padding-bottom: 10px;
 }
 .wrapper-2aW0bm{
 background-image: var(--bg2);
