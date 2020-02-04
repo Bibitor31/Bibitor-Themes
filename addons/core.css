@@ -149,7 +149,7 @@ box-shadow: 0 0 20px 0 var(--color-base);
 transition: box-shadow 200ms;
 }
 .hasContent-1cNJDh{
-border: 8px solid var(--color-base);
+border: 6px solid var(--color-base);
 border-style: double;
 border-radius: 25px;
 }
@@ -165,7 +165,7 @@ width: 120px;
 margin-bottom: 10px;
 margin-top: 10px;
 border-style: double;
-border-width:8px;
+border-width:6px;
 border-radius: 25px;
 }
 .isUnread-3Ef-o9 {
