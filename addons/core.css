@@ -179,6 +179,8 @@ border-radius: 25px;
 .isUnread-3Ef-o9 {
 border-color: rgba(140, 10, 0, 0.4);
 border-radius: 7px;
+border-style: double;
+border-width:6px;
 }
 .unreadPill-2HyYtt, .unreadPillCap-3_K2q2 {
 position: static;
