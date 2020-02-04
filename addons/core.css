@@ -217,6 +217,10 @@ border: 2px solid var(--color-base);
 background: rgba(0, 0, 0 ,0.3)!important;
 border: 2px solid var(--color-base);
 }
+.form-2fGMdU:before {
+border:none !important;
+background:none !important;
+}
 .containerCozy-jafyvG {
 overflow: visible !important;
 padding: 10px 0 !important;
