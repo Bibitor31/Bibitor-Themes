@@ -1,10 +1,10 @@
 /* Bibitor31#7704  https://bibitor31.github.io/Bibitor-Themes */
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
 :root {
---color-base:rgb(37, 100, 152);
+--color-base:rgb(188, 124, 0);
 --color-text-cat:rgb(31, 147, 0);
---bg-image:url(https://i.imgur.com/fbhmVG6.jpg);
---bg-image2:url(https://i.imgur.com/RVruCQo.jpg) ;
+--bg-image:url(https://i.imgur.com/knByO3k.jpg);
+--bg-image2:url(https://i.imgur.com/la4WzC2.jpg);
 --bg1:url(https://i.imgur.com/8bFP6Yz.jpg);
 --bg2:url(https://i.imgur.com/1nnlZvu.jpg);
 --bg3: var(--color-base);
@@ -138,11 +138,23 @@ animation: background 10s infinite linear
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
 /* ***************Canary On*************** */
+
+
+/* ***************Canary On*************** */
+.groupStart-23k01U{
+background:rgba(0,0,0,0.4) !important;
+border: 1px solid var(--color-base) !important;
+border-radius: 7px;
+}
 .message-2qnXI6{
 background:rgba(0,0,0,0.4) !important;
 margin: 0px 10px 0px;
 padding-top:5px ;
 padding-bottom: 10px;
+}
+.timestampCozyAlt-1Hs08c{
+color: var(--color-text-cat) ;
+font-weight:bold;
 }
 .wrapper-2aW0bm{
 background-image: var(--bg2);
@@ -154,7 +166,7 @@ background-color: var(--color-base);
 opacity: 0.3;
 }
 .buttons-cl5qTG {
-transform: translateY(15px);
+transform: translateY(28px);
 }
 .reaction-1hd86g.reactionMe-wv5HKu{
 background-image: var(--bg2);
