@@ -8,7 +8,7 @@
 **/
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/core.css");
 :root {
---color-base:#256498;
+--color-base:rgb(37, 100, 152);
 --color-text-category:#1f9300;
 --bg-image:url(https://i.imgur.com/fbhmVG6.jpg);
 --bg-image2:url(https://i.imgur.com/RVruCQo.jpg) ;
