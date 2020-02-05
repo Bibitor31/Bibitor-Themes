@@ -1,17 +1,17 @@
 /* Bibitor31#7704  https://bibitor31.github.io/Bibitor-Themes */
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
 :root {
---color-base:rgb(37, 100, 152);   
---color-text-cat:rgb(31, 147, 0);
---bg-image:url(https://i.imgur.com/GYj8bmI.jpg);
---bg-image2:url(https://i.imgur.com/RVruCQo.jpg) ;
+--color-base:rgb(188, 124, 0);
+--color-text-category:rgb(31, 147, 0);
+--bg-image:url(https://i.imgur.com/knByO3k.jpg);
+--bg-image2:url(https://i.imgur.com/la4WzC2.jpg);
 --bg1:url(https://i.imgur.com/8bFP6Yz.jpg);
 --bg2:url(https://i.imgur.com/1nnlZvu.jpg);
 --bg3: var(--color-base);
 --bg4: rgba(64, 64, 64, 0.420);
 --gradient1: rgb(64, 64, 64);
 --gradient2: var(--color-base);
---bggradient-direction: 25deg ;
+--bggradient-direction: 25deg ; 
 }
 #voice-connection, #friends, .friends-header, .friends-table, .guilds-wrapper, .guild-header header, .channels-wrap, .private-channels .search-bar, .private-channels, .guild-channels, .account, .friend-table-add-header, .chat, .content, .title-wrap:not(.search-bar), .messages-wrapper, .messages .divider span, .messages .divider:before, .content, .message-group-blocked, .is-local-bot-message, .channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .typing, .container-RYiLUQ, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .channel-members, .container-2OU7Cz, .theme-dark .chat form, .channels-3g2vYe, .theme-dark .friends-table, .theme-dark .messages-wrapper, .content .flex-spacer, .theme-dark .chat>.content, .theme-dark .chat, .channel-members, .search .search-bar, .container-iksrDt, .container-3lnMWU, .theme-dark .title-qAcLxz, .theme-dark .typing-3eiiL_, .container-2OU7Cz, .theme-dark .activityFeed-HeiGwL, .theme-dark .headerBar-cxbhPD, .theme-dark .lfg-3xoFkI, .video-3lOWa6, .theme-dark .private-channel-call, .appMount-3VJmYg, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8, .channels-Ie2l6A, .container-PNkimc, .container-2Thooq, .container-2Thooq, .theme-dark .title-3qD0b-, .theme-dark .typing-2GQL18, .search-bar.search-bar-light, .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S, .theme-dark .members-1998pB, .theme-dark .card-2WxYqG, .theme-dark .layer-kosS71,  .theme-dark .layers-20RVFW,
 .typeWindows-15E0Ys{
@@ -168,6 +168,10 @@ border-radius: 7px;
 box-shadow: 0 0 20px 0 var(--color-base);
 transition: box-shadow 200ms;
 }
+.clickableHeader-2Cygs8 .avatar-1BDn8e{
+border: 2px solid var(--color-base);
+border-radius: 7px;
+}
 .hasContent-1cNJDh{
 border: 6px solid var(--color-base);
 border-style: double;
@@ -189,6 +193,12 @@ border: 2px solid rgba(175, 10, 0, 0.4);
 color: var(--color-text-cat) ;
 text-transform: capitalize;
 }
+.isUnread-3Ef-o9 .content-1o0f9g{
+color: var(--color-text-cat) ;
+}
+.unreadPillCap-3_K2q2 {
+color: var(--color-text-cat) ;
+}
 .group-spacing-16 .beforeGroup-1rH1F0 {
 margin-bottom: 10px;
 margin-top: 10px;
@@ -207,7 +217,7 @@ position: static;
 height: 22px;
 text-transform: capitalize;
 margin-top: -2px;
-color: rgb(240, 71, 71)!important;
+color: rgb(175, 10, 0)!important;
 }
 .divider-3_HH5L {
 margin: 20px 15rem 4px 15rem;
