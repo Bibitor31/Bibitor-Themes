@@ -39,8 +39,16 @@ background-color: transparent;
 .theme-dark .content-yTz4x3 {
 background-color: transparent;
 }
+.messagesWrapper-3lZDfY {
+  position: relative;
+  top: -15px;
+}
 .theme-dark .messagesWrapper-3lZDfY {
 background-color: transparent;
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
+background-color: hsl(0, 0%, 11%)!important;
+border-color: var(--color-base);
 }
 .theme-dark .chat-3bRxxu form {
 background-color: transparent;
@@ -1317,10 +1325,6 @@ color: hsl(0, 0%, 100%);
 background-color: var(--color-base);
 color: #fff;
 }
-.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
-background-color: hsl(0, 0%, 11%)!important;
-border-color: var(--color-base);
-}
 .theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
 display: none;
 }
@@ -1627,7 +1631,7 @@ background-color: transparent;
 display: none;
 }
 .bd-guild :hover{
-box-shadow: 0 0 15px 0 var(--color-base);
+box-shadow: 0 0 10px 0 var(--color-base);
 border-radius: 10%;
 transition: box-shadow 200ms;
 }
