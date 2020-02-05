@@ -185,6 +185,10 @@ width: 120px;
 .isUnread-3Ef-o9 span{
 border: 2px solid rgba(175, 10, 0, 0.4);
 }
+.content-1o0f9g{
+color: var(--color-text-cat) ;
+text-transform: capitalize;
+}
 .group-spacing-16 .beforeGroup-1rH1F0 {
 margin-bottom: 10px;
 margin-top: 10px;
