@@ -204,7 +204,7 @@ color: var(--color-text-cat) ;
 .unreadPillCap-3_K2q2 {
 color: var(--color-text-cat) ;
 }
-.group-spacing-16 .beforeGroup-1rH1F0 {
+.group-spacing-16,.group-spacing-8 .beforeGroup-1rH1F0 {
 margin-bottom: 10px;
 margin-top: 10px;
 border-style: double;
@@ -241,6 +241,22 @@ background-image:url(https://i.imgur.com/EpOeyom.png);
 background-size:60px;
 }
 /* ***************Canary Off************** */
+#editor-detached{
+background: rgba(0, 0, 0 ,0.5)!important;
+text-align: center;
+padding:15px;
+border-radius: 5px;
+border: 2px solid var(--color-base);
+}
+.standardSidebarView-3F1I7i #editor-detached h3{
+color: var(--color-text-cat);
+}
+.standardSidebarView-3F1I7i #editor-detached button{
+background-image: var(--bg2);
+border: 2px solid var(--color-base)!important;	
+color: var(--color-text-cat);
+margin: 10px 0px 5px 0px;
+}
 .theme-dark .activeButton-1BJAiN, .theme-dark .activeButton-1BJAiN:hover{
 background: rgba(0, 0, 0 ,0.5)!important;
 color: var(--color-text-cat);
