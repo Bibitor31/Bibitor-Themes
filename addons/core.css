@@ -1929,6 +1929,11 @@ background: var(--color-base);
 .theme-dark .bda-slist li {
 border-color: var(--color-base);
 }
+.bda-slist .bda-footer button{
+border: 1px solid var(--color-base)!important;	
+background-image: var(--bg2)!important;
+color: var(--color-text-cat);
+}
 .theme-dark .closeButton-1tv5uR{
 background-color: rgba(114, 118, 125, 0.10);
 border: 2px solid var(--color-base)!important;	
