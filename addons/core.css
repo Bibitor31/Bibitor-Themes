@@ -137,6 +137,7 @@ animation: background 10s infinite linear
 90% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
+
 /* ***************Canary On*************** */
 .groupStart-23k01U{
 background:rgba(0,0,0,0.4) !important;
@@ -241,9 +242,6 @@ background-image:url(https://i.imgur.com/EpOeyom.png);
 background-size:60px;
 }
 /* ***************Canary Off************** */
-.theme-dark #bd-settingspane-container h2.ui-form-title {
-color: var(--color-text-cat);
-}
 #editor-detached{
 background: rgba(0, 0, 0 ,0.5)!important;
 text-align: center;
@@ -257,7 +255,6 @@ color: var(--color-text-cat);
 .standardSidebarView-3F1I7i #editor-detached button{
 background-image: var(--bg2);
 border: 2px solid var(--color-base)!important;	
-color: var(--color-text-cat);
 margin: 10px 0px 5px 0px;
 }
 .theme-dark .activeButton-1BJAiN, .theme-dark .activeButton-1BJAiN:hover{
