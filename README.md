@@ -15,9 +15,10 @@
 - ![#9900cc](https://placehold.it/15/9900cc/b5e853?text=+) **`Violet_family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Violet-family.theme.css) **`Update 04/02/2020`**
 
 - ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+) `Installer Bandaged BD pour utiliser les Thèmes`  [BetterDiscord](https://betterdiscord.net/home/) !
+
 - ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+) `Guide Bandaged BD`  [Guide Bandaged BD](https://0x71.cc/bd/guide/) !
 
-- ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+)`Preview Thèmes: Family`
+- ![#cac60e](https://placehold.it/15/cac60e/b5e853?text=+)`Preview Thèmes: Family`
 
 ![Légende](https://i.imgur.com/7N1W8Nq.png)
 
