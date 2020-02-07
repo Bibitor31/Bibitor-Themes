@@ -137,6 +137,13 @@ animation: background 10s infinite linear
 90% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
+/* ***************Canary On*************** */
+/* .container-3FojY8{ */
+/* background:rgba(0,0,0,0.4) !important; */
+/* border: 1px solid var(--color-base) !important; */
+/* border-radius: 7px; */
+/* } */
+
 .groupStart-23k01U{
 background:rgba(0,0,0,0.4) !important;
 border: 1px solid var(--color-base) !important;
@@ -239,6 +246,18 @@ background-image:url(https://i.imgur.com/EpOeyom.png);
 background-size:60px;
 }
 /* ***************Canary Off************** */
+.toast,
+.bd-toast {
+background: rgba(0, 0, 0 ,0.9)!important; 
+color: var(--color-text-cat);
+text-align: center; 
+font-weight:bold; 
+font-size: 20px;
+border: 2px solid var(--color-base);
+box-shadow: 0px -10px 10px -10px #fff inset;
+padding: 30px ;
+border-radius: 8px;
+}
 #editor-detached{
 background: rgba(0, 0, 0 ,0.5)!important;
 text-align: center;
@@ -2217,81 +2236,7 @@ background-color:rgba(14,14,14,0.35) !important;
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item, .side-8zPYf6 .item-PXvHYJ {
 padding-left: 40px;
 }
-.sidebar-CFHs9e .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf)::before,
-.side-8zPYf6 .item-PXvHYJ:not(.role-3wi9Tf)::before {
-content: "";
-background-image:url(https://i.imgur.com/KI3ynN7.png);
-width: 20px;
-height: 20px;
-background-size: cover!important;
-position: absolute;
-left: 10px;
-top: 50%;
-transform: translateY(-50%);
-}
-.bda-slist::before {
-content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!';
-word-wrap:break-word;
-max-width:100%;
-padding:10px;
-color:#bfbfbf;
-border: 1px solid var(--color-base)!important;
-border-radius: 5px;
-background: rgba(32, 32, 32, 0.8);
-font-size:15px;
-line-height:25px;
-font-weight:500;
-margin:12px 0;
-padding-left:120px;
-display:block;
-background-image:url(https://i.imgur.com/CjJYCrF.png);
-filter: drop-shadow(0 0 0.60rem var(--color-base));
-background-size:80px;
-background-position:20px 50%;
-background-repeat:no-repeat;
-box-shadow: 0px -10px 10px -10px #fff inset;
-}
-[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after{
-content:'Themes Family!  https://bibitor31.github.io/Bibitor-Themes';
-word-wrap:break-word;
-max-width:100%;
-padding:35px;
-color:var(--color-text-cat);
-border: 1px solid var(--color-base)!important;
-border-radius: 5px;
-background:rgba(0,0,0,0.4);
-font-size:15px;
-line-height:25px;
-font-weight:500;
-margin:12px 0;
-padding-left:120px;
-display:block;
-background-image:url(https://i.imgur.com/cMOiGyt.png);
-background-size:80px;
-background-position:20px 50%;
-background-repeat:no-repeat;
-box-shadow: 0px -10px 10px -10px #fff inset;
-}
-#app-mount::after { 
-content: 'Merci d\0027utiliser Themes Family-Fusion!'; 
-font-weight: 500; 
-z-index: 9999999999; 
-position: absolute; 
-right: 0; top:90%; 
-color: var(--color-text-cat)!important;
-border: 1px solid var(--color-base) !important;
-border-radius: 10px; 
-transition: 450ms ease all !important; 
-background-color: rgba(0,0,0,0.5);
-padding: 20px; white-space: nowrap;
-box-shadow: 0px -10px 10px -10px #fff inset;
-border-left: 3px solid rgba(255, 255, 255, 0.3); 
-transform: translateX(105%);
-animation: loadnotif 120s cubic-bezier(.25, 1, .25, 1); 
-cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); 
-opacity: 0; } 5% { 
-transform: none; 
-opacity: 1; } 15% { 
-transform: translateX(105%); 
-opacity: 0;
-}
+.sidebar-CFHs9e .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf)::before, .side-8zPYf6 .item-PXvHYJ:not(.role-3wi9Tf)::before { content: ""; background-image:url(https://i.imgur.com/KI3ynN7.png); width: 20px; height: 20px; background-size: cover!important; position: absolute; left: 10px; top: 50%; transform: translateY(-50%); }
+.bda-slist::before { content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!'; word-wrap:break-word; max-width:100%; padding:10px; color:#bfbfbf; border: 1px solid var(--color-base)!important; border-radius: 5px; background: rgba(32, 32, 32, 0.8); font-size:15px; line-height:25px; font-weight:500; margin:12px 0; padding-left:120px; display:block; background-image:url(https://i.imgur.com/CjJYCrF.png); filter: drop-shadow(0 0 0.60rem var(--color-base)); background-size:80px; background-position:20px 50%; background-repeat:no-repeat; box-shadow: 0px -10px 10px -10px #fff inset; }
+[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after{ content:'Themes Family!  https://bibitor31.github.io/Bibitor-Themes'; word-wrap:break-word; max-width:100%; padding:35px; color:var(--color-text-cat); border: 1px solid var(--color-base)!important; border-radius: 5px; background:rgba(0,0,0,0.4); font-size:15px; line-height:25px; font-weight:500; margin:12px 0; padding-left:120px; display:block; background-image:url(https://i.imgur.com/cMOiGyt.png); background-size:80px; background-position:20px 50%; background-repeat:no-repeat; box-shadow: 0px -10px 10px -10px #fff inset; }
+#app-mount::after { content: 'Merci d\0027utiliser Themes Family-Fusion!'; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top:90%; color: var(--color-text-cat)!important; border: 1px solid var(--color-base) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(0,0,0,0.5); padding: 20px; white-space: nowrap; box-shadow: 0px -10px 10px -10px #fff inset; border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 120s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
