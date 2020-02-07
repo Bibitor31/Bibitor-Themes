@@ -3,7 +3,7 @@
 :root {
 --color-base:rgb(188, 124, 0);
 --color-text-cat:rgb(31, 147, 0);
---bg-image:url(https://i.imgur.com/knByO3k.jpg);/
+--bg-image:url(https://i.imgur.com/knByO3k.jpg);
 --bg-image2:url(https://i.imgur.com/la4WzC2.jpg);
 --bg1:url(https://i.imgur.com/8bFP6Yz.jpg);
 --bg2:url(https://i.imgur.com/1nnlZvu.jpg);
@@ -137,22 +137,15 @@ animation: background 10s infinite linear
 90% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
-/* ***************Canary On*************** */
-/* .container-3FojY8{ */
-/* background:rgba(0,0,0,0.4) !important; */
-/* border: 1px solid var(--color-base) !important; */
-/* border-radius: 7px; */
-/* } */
-
 .groupStart-23k01U{
-background:rgba(0,0,0,0.4) !important;
+background:rgba(0,0,0,0.4) !important; 
 border: 1px solid var(--color-base) !important;
-border-radius: 7px;
+border-radius: 7px; 
 }
 .message-2qnXI6{
 background:rgba(0,0,0,0.4) !important;
 margin: 0px 10px 0px;
-padding-top:5px ;
+padding-top:5px ; 
 padding-bottom: 10px;
 }
 .timestampCozyAlt-1Hs08c{
@@ -242,20 +235,18 @@ display:none;
 display:none;
 }
 .channelNotice-1-XFjC.invite-OjTXrW{
-background-image:url(https://i.imgur.com/EpOeyom.png);
+background-image:url(https://i.imgur.com/EpOeyom.png); 
 background-size:60px;
 }
-/* ***************Canary Off************** */
 .toast,
 .bd-toast {
-background: rgba(0, 0, 0 ,0.9)!important; 
+background: rgba(0, 0, 0 ,0.9)!important;
 color: var(--color-text-cat);
-text-align: center; 
-font-weight:bold; 
+font-weight:bold;  background-size:60px;
 font-size: 20px;
 border: 2px solid var(--color-base);
 box-shadow: 0px -10px 10px -10px #fff inset;
-padding: 30px ;
+padding: 3% 2%;
 border-radius: 8px;
 }
 #editor-detached{
@@ -676,7 +667,6 @@ box-shadow: 0 0 15px var(--color-base);
 }
 #app-mount .wrapper-1Rf91z foreignObject { 
 mask: none !important; 
-
 }	
 .circleIconButton-jET_ig {
 background: linear-gradient(var(--bggradient-direction), var(--gradient1), var(--gradient2));
