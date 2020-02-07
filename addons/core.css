@@ -3,7 +3,7 @@
 :root {
 --color-base:rgb(188, 124, 0);
 --color-text-cat:rgb(31, 147, 0);
---bg-image:url(https://i.imgur.com/knByO3k.jpg);
+--bg-image:url(https://i.imgur.com/knByO3k.jpg);/
 --bg-image2:url(https://i.imgur.com/la4WzC2.jpg);
 --bg1:url(https://i.imgur.com/8bFP6Yz.jpg);
 --bg2:url(https://i.imgur.com/1nnlZvu.jpg);
@@ -137,8 +137,6 @@ animation: background 10s infinite linear
 90% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
-
-/* ***************Canary On*************** */
 .groupStart-23k01U{
 background:rgba(0,0,0,0.4) !important;
 border: 1px solid var(--color-base) !important;
@@ -176,7 +174,7 @@ transition: box-shadow 200ms;
 }
 .clickableHeader-2Cygs8 .avatar-1BDn8e{
 border: 2px solid var(--color-base);
-border-radius: 7px;
+border-radius: 7px ;
 }
 .hasContent-1cNJDh{
 border: 6px solid var(--color-base);
@@ -208,7 +206,6 @@ color: var(--color-text-cat) ;
 .group-spacing-16,.group-spacing-8 .beforeGroup-1rH1F0 {
 margin-bottom: 10px;
 margin-top: 10px;
-border-style: double;
 border-width:6px;
 border-radius: 25px;
 }
@@ -542,7 +539,7 @@ outline-color: #00000000;
 background-color: transparent;
 }
 #app-mount .wrapper-1Rf91z {
-background-color: transparent
+background-color: transparent;
 }
 .emptyCard-1RJw8n{
 background:rgba(0,0,0,0.4) !important;
@@ -660,6 +657,7 @@ box-shadow: 0 0 15px var(--color-base);
 }
 #app-mount .wrapper-1Rf91z foreignObject { 
 mask: none !important; 
+
 }	
 .circleIconButton-jET_ig {
 background: linear-gradient(var(--bggradient-direction), var(--gradient1), var(--gradient2));
@@ -791,11 +789,18 @@ color: #ffffff;
 .theme-dark .jumpToPresentBar-9P20AM {
 background-color: var(--color-base);
 box-shadow: inset 0 0 6px 2px rgba(0,0,0,.5);
+padding-bottom: 1px;
 }
 .theme-dark .jumpToPresentBar-9P20AM:hover {
 background-color: #340000 !important;
 box-shadow: inset 0 0 6px 2px rgba(0,0,0,.5);
 border: 2px solid var(--color-base);
+}
+.jumpToPresentBar-9P20AM {
+color: hsl(0, 0%, 100%);
+}
+.jumpToPresentBar-9P20AM button:last-child {
+color: hsl(0, 0%, 100%);
 }
 .mention-1f5kbO {
 background-color: var(--color-base);
@@ -1130,12 +1135,6 @@ color: hsl(0, 0%, 100%);
 }
 .theme-dark .markup-2BOw-j code.inline {
 background: rgba(0, 0, 0, 0.5);
-}
-.jumpToPresentBar-9P20AM {
-color: hsl(0, 0%, 100%);
-}
-.jumpToPresentBar-9P20AM button:last-child {
-color: hsl(0, 0%, 100%);
 }
 #friends .friends-table .friends-row .friends-column-status .status {
 width: 320px !important;
