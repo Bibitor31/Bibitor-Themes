@@ -248,7 +248,7 @@ background-size:60px;
 .backgroundFlash-24qWLN{
 background-image: var(--bg1)!important;
 border: 2px solid var(--color-base);
-border-radius: 5px;
+border-radius: 6px;
 opacity: 0.85;
 padding: 1% 2%;
 }
@@ -2267,7 +2267,7 @@ top: 50%;
 transform: translateY(-50%);
 }
 .bda-slist::before {
-content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!. --> Discord Zobby Clash of Clans full Th13 https://discord.gg/jStesM5';
+content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!';
 word-wrap:break-word;
 max-width:100%;
 padding:10px;
