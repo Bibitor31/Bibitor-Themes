@@ -245,11 +245,16 @@ display:none;
 background-image:url(https://i.imgur.com/EpOeyom.png); 
 background-size:60px;
 }
+.backgroundFlash-24qWLN{
+background-image: var(--bg1)!important;
+opacity: 0.85;
+padding: 1% 2%;
+}
 .toast,
 .bd-toast {
 background: rgba(0, 0, 0 ,0.9)!important;
 color: var(--color-text-cat);
-font-weight:bold;  background-size:60px;
+font-weight:bold; 
 font-size: 16px;
 border: 2px solid var(--color-base);
 box-shadow: 0px -10px 10px -10px #fff inset;
