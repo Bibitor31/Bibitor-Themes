@@ -2232,8 +2232,6 @@ box-shadow: 0 0 10px 0 var(--gradient1)!important;
 }
 .keybind-KpFkfr:after {
 content: url(https://i.imgur.com/uNMwp1p.png);
-}
-.keybind-KpFkfr:hover {
 opacity: 0.5;
 }
 .esc-text:after, .keybind-KpFkfr {
