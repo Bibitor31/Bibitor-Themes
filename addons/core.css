@@ -137,13 +137,13 @@ animation: background 10s infinite linear
 90% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
+.cozyMessage-3V1Y8y.groupStart-23k01U .container-2LR0t2 {
+min-height: 3.0rem;
+}
 .groupStart-23k01U{
 background:rgba(0,0,0,0.4) !important; 
 border: 1px solid var(--color-base) !important;
 border-radius: 7px; 
-}
-.cozyMessage-3V1Y8y.groupStart-23k01U .container-2LR0t2 {
-min-height: 3.0rem;
 }
 .message-2qnXI6{
 background:rgba(0,0,0,0.4) !important;
@@ -172,7 +172,7 @@ background-image: var(--bg2);
 border: 1px solid var(--color-base) !important;
 }
 .avatar-1BDn8e:hover {
-box-shadow: 0 0 12px 0 var(--color-base);
+box-shadow: 0 0 10px 0 var(--color-base);
 }
 .searchResult-3pzFAB .hit-NLlWXA .messageGroupCozy-1BZuO8
 .clickableHeader-2Cygs8 .avatar-1BDn8e{
@@ -250,7 +250,7 @@ background-size:60px;
 background: rgba(0, 0, 0 ,0.9)!important;
 color: var(--color-text-cat);
 font-weight:bold;  background-size:60px;
-font-size: 20px;
+font-size: 16px;
 border: 2px solid var(--color-base);
 box-shadow: 0px -10px 10px -10px #fff inset;
 padding: 1% 2%;
@@ -769,7 +769,10 @@ background: linear-gradient(var(--bggradient-direction), var(--gradient2), var(-
 border: 2px solid var(--color-base);
 border-radius: 5px;
 }
-.avatar-17mtNa, .wrapper-3t9DeA, .avatarHint-1qgaV3 foreignObject[mask] {
+.avatar-17mtNa,.avatarHint-1qgaV3 foreignObject[mask] {
+mask: none;
+}
+.wrapper-3t9DeA foreignObject[mask] {
 mask: none;
 }
 .avatarHint-1qgaV3 {
@@ -787,7 +790,7 @@ box-shadow: inset 0 0 6px 2px rgba(0,0,0,.5);
 border: 2px solid var(--color-base);
 border-radius: 7px;
 }
-.wrapper-3t9DeA{
+.wrapper-3t9DeA.avatar-1BDn8e{
 border: 2px solid var(--color-base);
 border-radius: 5px;
 }
@@ -2234,6 +2237,9 @@ box-shadow: 0 0 10px 0 var(--gradient1)!important;
 content: url(https://i.imgur.com/uNMwp1p.png);
 opacity: 0.5;
 }
+/* .keybind-KpFkfr:hover { */
+/* opacity: 0.5; */
+/* } */
 .esc-text:after, .keybind-KpFkfr {
 font-size: 0px;
 }
