@@ -169,10 +169,14 @@ background-image: var(--bg2);
 border: 1px solid var(--color-base) !important;
 }
 .avatar-1BDn8e:hover {
-box-shadow: 0 0 20px 0 var(--color-base);
-transition: box-shadow 200ms;
+box-shadow: 0 0 12px 0 var(--color-base);
 }
+.searchResult-3pzFAB .hit-NLlWXA .messageGroupCozy-1BZuO8
 .clickableHeader-2Cygs8 .avatar-1BDn8e{
+border: 2px solid var(--color-base);
+border-radius: 7px ;
+}
+.avatar-1BDn8e{
 border: 2px solid var(--color-base);
 border-radius: 7px ;
 }
@@ -905,7 +909,12 @@ background: rgba(0, 0, 0, 0.5); }
 background: linear-gradient(var(--bggradient-direction), var(--gradient1), var(--gradient2)); 
 }
 #app-mount .searchResultsWrap-2DKFzt .searchResultMessage-2VxO12.hit-NLlWXA, #app-mount .searchResultsWrap-2DKFzt .embedInner-1-fpTo { 
-box-shadow: none; border: none; background: rgba(0, 0, 0, 0.3); } 
+box-shadow: none; 
+border: none; 
+background: rgba(0, 0, 0, 0.4); 
+border: 2px solid var(--color-base);
+border-radius: 7px;
+} 
 #app-mount .searchResultsWrap-2DKFzt .searchResult-3pzFAB.expanded-v2Szsz { 
 border: none; 
 background: rgba(0, 0, 0, 0.2); }
