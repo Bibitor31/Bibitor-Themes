@@ -247,6 +247,8 @@ background-size:60px;
 }
 .backgroundFlash-24qWLN{
 background-image: var(--bg1)!important;
+border: 2px solid var(--color-base);
+border-radius: 5px;
 opacity: 0.85;
 padding: 1% 2%;
 }
