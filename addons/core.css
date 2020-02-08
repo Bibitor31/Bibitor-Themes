@@ -252,6 +252,16 @@ border-radius: 6px;
 opacity: 0.85;
 padding: 1% 2%;
 }
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+background-image: var(--bg2)!important;
+border: 2px solid var(--color-base);
+border-radius: 5px;
+}
+.theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover {
+color: var(--color-text-cat);
+border: 2px solid var(--color-base);
+box-shadow: inset 0 0 4px 1px var(--gradient2);
+}
 .toast,
 .bd-toast {
 background: rgba(0, 0, 0 ,0.9)!important;
@@ -2241,12 +2251,9 @@ border: 2px solid var(--color-base);
 box-shadow: 0 0 10px 0 var(--gradient1)!important;
 }
 .keybind-KpFkfr:after {
-content: url(https://i.imgur.com/uNMwp1p.png);
+content: url(https://i.imgur.com/07JKTuF.png); 
 opacity: 0.5;
 }
-/* .keybind-KpFkfr:hover { */
-/* opacity: 0.5; */
-/* } */
 .esc-text:after, .keybind-KpFkfr {
 font-size: 0px;
 }
