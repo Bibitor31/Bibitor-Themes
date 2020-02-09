@@ -160,6 +160,9 @@ border: 1px solid var(--color-base);
 border-radius: 5px; 
 transform: scale(0.80);
 }
+/* #app-mount .wrapper-2aW0bm{ */
+    /* display: none; */
+/* } */
 .button-1ZiXG9:hover{
 background-color: var(--color-base);
 opacity: 0.3;
@@ -277,6 +280,11 @@ padding: 1% 2%;
    /* display: none; */
 /* } */
 /* ***************Canary Off************** */
+.privateChannels-1nO12o .channel-2QD9_O:nth-child(2),.privateChannels-1nO12o .channel-2QD9_O:nth-child(3){
+display: inline-block;
+max-width: 45%;
+overflow: visible
+}
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
 background-image: var(--bg2)!important;
 border: 2px solid var(--color-base);
