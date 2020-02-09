@@ -60,7 +60,7 @@ background-color: transparent;
 background-image: var(--bg2)!important;
 background-size:  cover !important;
 border: 1px solid var(--color-base)!important;
-width: 300px;
+width: 280px;
 }
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
 background-color: rgba(47, 49, 54, 0);
@@ -139,9 +139,6 @@ animation: background 10s infinite linear
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
 /* ***************Canary On*************** */
-.cozyMessage-3V1Y8y.groupStart-23k01U .container-2LR0t2 {
-min-height: 3.0rem;
-}
 .groupStart-23k01U{
 background:rgba(0,0,0,0.4) !important; 
 border: 1px solid var(--color-base) !important;
@@ -174,10 +171,6 @@ transform: translateY(15px);
 background-image: var(--bg2);
 border: 1px solid var(--color-base) !important;
 }
-.avatar-1BDn8e:hover {
-box-shadow: 0 0 20px 0 var(--color-base);
-}
-.searchResult-3pzFAB .hit-NLlWXA .messageGroupCozy-1BZuO8
 .clickableHeader-2Cygs8 .avatar-1BDn8e{
 border: 2px solid var(--color-base);
 border-radius: 7px ;
@@ -185,9 +178,14 @@ border-radius: 7px ;
 .avatar-1BDn8e{
 width: 40px;
 height: 40px;
-margin: 0px 0px 0px 10px!important;
+margin: 0px 0px 0px 5px!important;
 }
-.container-3FojY8 {
+.avatar-1BDn8e:hover {
+box-shadow: 0 0 10px 0 var(--color-base);
+}
+.cozyMessage-3V1Y8y.groupStart-23k01U .container-2LR0t2{
+margin: 0px 0px 0px 10px!important;
+min-height: 3.0rem;
 padding: 5px 10px 5px 80px;
 }
 .avatar-1BDn8e{
@@ -229,7 +227,7 @@ border-radius: 25px;
 }
 .isUnread-3Ef-o9 {
 border-color: rgba(175, 10, 0, 0.4);
-border-radius: 7px;
+border-radius: 25px;
 border-style: double;
 border-width:6px;
 }
@@ -241,7 +239,9 @@ margin-top: -2px;
 color: rgb(175, 10, 0)!important;
 }
 .divider-3_HH5L {
-margin: 20px 15rem 4px 15rem;
+margin: 15px 20rem 15px 20rem;
+height: 22px;
+border-top: 0;
 }
 .unreadPillCapStroke-7rkHbg {
 display:none;
@@ -353,7 +353,7 @@ display: none;
 }
 .da-chat .da-scroller:not(.members-1998pB)::-webkit-scrollbar-thumb {
 background-color:var(--color-base)!important;
-border: 2px solid  transparent !important;
+border: 8px solid  var(--color-base) !important;
 }
 .da-chat .da-scroller:not(.members-1998pB)::-webkit-scrollbar-track-piece {
 display: none;
