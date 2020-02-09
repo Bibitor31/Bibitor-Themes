@@ -856,12 +856,10 @@ color: hsl(0, 0%, 100%);
 .jumpToPresentBar-9P20AM button:last-child {
 color: hsl(0, 0%, 100%);
 }
-.mention {
+.mention{
 border: 2px solid rgb(140, 10, 0);
 border-radius: 5px;
-box-shadow: inset 0 0 6px 1px rgba(0,0,0,.5);
-}
-.mention {
+padding: 0 5px;
 color: #ff0000 !important;
 }
 .mention:hover {
