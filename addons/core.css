@@ -2276,7 +2276,7 @@ top: 50%;
 transform: translateY(-50%);
 }
 .bda-slist::before {
-content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!';
+content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!  (Update Themes version 1.6.8)';
 word-wrap:break-word;
 max-width:100%;
 padding:10px;
@@ -2298,7 +2298,7 @@ background-repeat:no-repeat;
 box-shadow: 0px -10px 10px -10px #fff inset;
 }
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
-content:'Themes Family!  https://bibitor31.github.io/Bibitor-Themes';
+content:'Themes Family!  https://bibitor31.github.io/Bibitor-Themes/ (Update Themes version 1.6.8)';
 word-wrap:break-word;
 max-width:100%;
 padding:35px;
