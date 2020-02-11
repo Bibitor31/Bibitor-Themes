@@ -11,9 +11,9 @@
 --bg4: rgba(64, 64, 64, 0.420);
 --gradient1: rgb(64, 64, 64);
 --gradient2: var(--color-base);
---ggradient-direction: 25deg ; 
+--ggradient-direction: 25deg ;
 }
-#voice-connection, #friends, .friends-header, .friends-table, .guilds-wrapper, .guild-header header, .channels-wrap, .private-channels .search-bar, .private-channels, .guild-channels, .account, .friend-table-add-header, .chat, .content, .title-wrap:not(.search-bar), .messages-wrapper, .messages .divider span, .messages .divider:before, .content, .message-group-blocked, .is-local-bot-message, .channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .typing, .container-RYiLUQ, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .channel-members, .container-2OU7Cz, .theme-dark .chat form, .channels-3g2vYe, .theme-dark .friends-table, .theme-dark .messages-wrapper, .content .flex-spacer, .theme-dark .chat>.content, .theme-dark .chat, .channel-members, .search .search-bar, .container-iksrDt, .container-3lnMWU, .theme-dark .title-qAcLxz, .theme-dark .typing-3eiiL_, .container-2OU7Cz, .theme-dark .activityFeed-HeiGwL, .theme-dark .headerBar-cxbhPD, .theme-dark .lfg-3xoFkI, .video-3lOWa6, .theme-dark .private-channel-call, .appMount-3VJmYg, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8, .channels-Ie2l6A, .container-PNkimc, .container-2Thooq, .container-2Thooq, .theme-dark .title-3qD0b-, .theme-dark .typing-2GQL18, .search-bar.search-bar-light, .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S, .theme-dark .members-1998pB, .theme-dark .card-2WxYqG, .theme-dark .layer-kosS71,  .theme-dark .layers-20RVFW,
+#voice-connection, #friends, .friends-header, .friends-table, .guilds-wrapper, .guild-header header, .channels-wrap, .private-channels .search-bar, .private-channels, .guild-channels, .account, .friend-table-add-header, .chat, .content, .title-wrap:not(.search-bar), .messages-wrapper, .messages .divider span, .messages .divider:before, .content, .message-group-blocked, .is-local-bot-message, .channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .typing, .container-RYiLUQ, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .channel-members, .container-2OU7Cz, .theme-dark .chat form, .channels-3g2vYe, .theme-dark .friends-table, .theme-dark .messages-wrapper, .content .flex-spacer, .theme-dark .chat>.content, .theme-dark .chat, .channel-members, .search .search-bar, .container-iksrDt, .container-3lnMWU, .theme-dark .title-qAcLxz, .theme-dark .typing-3eiiL_, .container-2OU7Cz, .theme-dark .activityFeed-HeiGwL, .theme-dark .headerBar-cxbhPD, .theme-dark .lfg-3xoFkI, .video-3lOWa6, .theme-dark .private-channel-call, .appMount-3VJmYg, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8, .channels-Ie2l6A, .container-PNkimc, .container-2Thooq, .container-2Thooq, .theme-dark .title-3qD0b-, .theme-dark .typing-2GQL18, .search-bar.search-bar-light, .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S, .theme-dark .members-1998pB, .theme-dark .card-2WxYqG, .theme-dark .layer-kosS71, .theme-dark .layers-20RVFW,
 .typeWindows-15E0Ys{
 background-color: rgba(14,14,14,0.35) !important;
 }
@@ -26,7 +26,7 @@ border: 2px solid var(--color-base);
 box-shadow: 0 0 15px var(--color-base);
 }
 .channelTextAreaDisabled-8rmlrp .scrollableContainer-2NUZem{
-background-image: var(--bg1);
+background-image: var(--bg1);  
 }
 #app-mount .app-2rEoOp {
 background-image: var(--bg-image) !important ;
@@ -86,7 +86,7 @@ fill: transparent;
 .wordmark-2iDDfm svg {
 display: none;
 }
-.titleBar-AC4pGV:not(.typeMacOS-3EmCyP)::after {
+.titleBar-AC4pGV:not(.typeMacOS-3EmCyP):after {
 content: "DISCORD";
 position: absolute;
 opacity: 0.8;
@@ -243,8 +243,8 @@ color: rgb(175, 10, 0)!important;
 }
 .divider-3_HH5L {
 margin: 15px 20rem 15px 20rem;
-height: 22px;
-border-top: 0;
+/* height: 22px; */
+/* border-top: 0px; */
 }
 .unreadPillCapStroke-7rkHbg {
 display:none;
@@ -280,9 +280,17 @@ padding: 1% 2%;
    /* display: none; */
 /* } */
 /* ***************Canary Off************** */
+#app-mount .isFailed-19WM0A .markupRtl-3M0hmN:after {
+    content: " [failed]";
+    color: red;
+}
+.isSending-1nPcL7 .markup-2BOw-j .markupRtl-3M0hmN:after {
+    content: " [sending]";
+    color: yellow;
+}
 .privateChannels-1nO12o .channel-2QD9_O:nth-child(2),.privateChannels-1nO12o .channel-2QD9_O:nth-child(3){
 display: inline-block;
-max-width: 45%;
+max-width: 100%;
 overflow: visible
 }
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
@@ -389,7 +397,7 @@ background-image: var(--bg2)!important;
 border: 2px solid var(--color-base) !important; 
 box-shadow: inset 0 0 6px 1px rgba(255, 255, 250, 0.557);
 background-color: rgba(0, 0, 0, 0.407);}
-.theme-dark .embedFull-2tM8-- .grid-1nZz7S {   
+.theme-dark .embedFull-2tM8-- .grid-1nZz7S {
 padding: 4px 8px 8px; } 
 .theme-dark .embedFull-2tM8-- .embedMargin-UO5XwE {   
 margin-top: 2px; } 
