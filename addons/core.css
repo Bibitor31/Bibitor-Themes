@@ -142,7 +142,7 @@ animation: background 10s infinite linear
 .groupStart-23k01U{
 background:rgba(0,0,0,0.4) !important; 
 border: 1px solid var(--color-base) !important;
-border-radius: 7px; 
+border-radius:  7px 7px 0px 0px; 
 }
 .message-2qnXI6{
 background:rgba(0,0,0,0.4) !important;
@@ -280,6 +280,29 @@ padding: 1% 2%;
 /* display: none; */
 /* } */
 /* ***************Canary Off************** */
+.winButton-iRh8-Z {
+height: 16px;
+width: 16px;
+border-radius: 3px;
+opacity: 0.6;
+margin-top: 5px;
+margin-right: 12px;
+}
+.winButtonMinMax-PBQ2gm:nth-child(3) {
+background: var(--color-base);
+}
+.winButtonMinMax-PBQ2gm:nth-child(4) {
+background: var(--color-base);
+}
+.winButtonClose-1HsbF- {
+background: var(--color-base);
+}
+.winButtonMinMax-PBQ2gm, .winButtonMinMax-PBQ2gm:hover {
+background: rgb(64, 64, 64);
+}
+.winButtonClose-1HsbF-:hover {
+background: rgb(240, 71, 71);
+}
 #app-mount .isFailed-19WM0A .markupRtl-3M0hmN:after {
 content: " [failed]";
 color: red;
