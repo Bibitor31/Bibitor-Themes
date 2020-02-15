@@ -187,10 +187,6 @@ margin: 0px 0px 0px 10px!important;
 min-height: 3.0rem;
 padding: 5px 10px 5px 80px;
 }
-.avatar-1BDn8e{
-border: 2px solid var(--color-base);
-border-radius: 7px ;
-}
 .hasContent-1cNJDh{
 border: 6px solid var(--color-base);
 border-style: double;
@@ -239,6 +235,8 @@ color: rgb(175, 10, 0)!important;
 }
 .divider-3_HH5L {
 margin: 15px 20rem 15px 20rem;
+/* height: 22px; */
+/* border-top: 0px; */
 }
 .unreadPillCapStroke-7rkHbg {
 display:none;
@@ -275,7 +273,7 @@ display: none;
 }
 blockquote {
 color: rgb(31, 147, 0);
-/* font-weight: 700; */
+font-weight: 700;
 }
 .blockquoteContainer-U5TVEi blockquote {
 padding: 0 !important;
@@ -620,6 +618,7 @@ margin: 5px;
 background-image: var(--bg1)!important;
 background-size: cover !important;
 border: 2px solid var(--color-base)!important;
+transform: scale(1.1);
 }
 .peopleListItem-2nzedh{
 border-top: 2px dashed var(--background-modifier-accent);
