@@ -275,7 +275,7 @@ display: none;
 }
 blockquote {
 color: rgb(31, 147, 0);
-font-weight: 700;
+/* font-weight: 700; */
 }
 .blockquoteContainer-U5TVEi blockquote {
 padding: 0 !important;
