@@ -3,10 +3,10 @@
 :root {
 --color-base:rgb(188, 124, 0);
 --color-text-cat:rgb(31, 147, 0);
---bg-image:url(https://i.imgur.com/yFRZRLj.jpg);
---bg-image2:url(https://i.imgur.com/nHmoO0k.jpg);
---bg1:url(https://i.imgur.com/8bFP6Yz.jpg);
---bg2:url(https://i.imgur.com/1nnlZvu.jpg);
+--bg-image:url("https://i.imgur.com/yFRZRLj.jpg");
+--bg-image2:url("https://i.imgur.com/nHmoO0k.jpg");
+--bg1:url("https://i.imgur.com/8bFP6Yz.jpg");
+--bg2:url("https://i.imgur.com/1nnlZvu.jpg");
 --bg3: var(--color-base);
 --bg4: rgba(64, 64, 64, 0.420);
 --gradient1: rgb(64, 64, 64);
@@ -258,7 +258,7 @@ background: var(--bg2);
 border: 2px solid var(--color-base);
 }
 .channelNotice-1-XFjC.invite-OjTXrW{
-background-image:url(https://i.imgur.com/EpOeyom.png); 
+background-image:url("https://i.imgur.com/EpOeyom.png"); 
 background-size:60px;
 }
 .backgroundFlash-24qWLN{
@@ -1190,11 +1190,11 @@ display: none;
 }
 .childWrapper-anI2G9 {
 background-color: transparent !important;
-background-image: url(https://i.imgur.com/CjJYCrF.png);
+background-image: url("https://i.imgur.com/CjJYCrF.png");
 background-size: cover;
 }
 .childWrapper-anI2G9:hover  {
-background-image:url(https://i.imgur.com/8Lg1rx3.png);
+background-image:url("https://i.imgur.com/8Lg1rx3.png");
 }
 #app-mount .tooltipBrand-g03Nz8,
 #app-mount .tooltipBlack-PPG47z,
@@ -1632,6 +1632,9 @@ background-color: #7814b94f;
 box-shadow: 0 2px 5px rgba(0,0,0,.2), 0 0 0 1px rgba(0,0,0,.1);
 color: #fff;
 }
+.theme-dark .input-1mgnkM{
+color: #8e9297;
+}
 .channel-2QD9_O.selected-1HYmZZ a {
 background-image: var(--bg2);
 background-size: cover;
@@ -2041,7 +2044,7 @@ background-color: rgba(114, 118, 125, 0.10);
 border: 2px solid var(--color-base)!important;	
 }
 .art-347BZj {
-background-image: url(https://i.imgur.com/CjJYCrF.png)!important;
+background-image: url("https://i.imgur.com/CjJYCrF.png")!important;
 background-position: center;
 }							 
 .theme-dark .input-cIJ7To:focus {
@@ -2311,7 +2314,7 @@ border: 2px solid var(--color-base);
 box-shadow: 0 0 10px 0 var(--gradient1)!important;
 }
 .keybind-KpFkfr:after {
-content: url(https://i.imgur.com/07JKTuF.png); 
+content: url("https://i.imgur.com/07JKTuF.png"); 
 opacity: 0.5;
 }
 .esc-text:after, .keybind-KpFkfr {
@@ -2324,7 +2327,7 @@ background-color:rgba(14,14,14,0.35) !important;
 .sidebar-CFHs9e .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf)::before,
 .side-8zPYf6 .item-PXvHYJ:not(.role-3wi9Tf)::before {
 content: "";
-background-image:url(https://i.imgur.com/KI3ynN7.png);
+background-image:url("https://i.imgur.com/KI3ynN7.png");
 width: 20px;
 height: 20px;
 background-size: cover!important;
@@ -2333,69 +2336,6 @@ left: 10px;
 top: 50%;
 transform: translateY(-50%);
 }
-.bda-slist::before {
-content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!  (Update Themes version 1.6.8)';
-word-wrap:break-word;
-max-width:100%;
-padding:10px;
-color:#bfbfbf;
-border: 1px solid var(--color-base)!important;
-border-radius: 5px;
-background: rgba(32, 32, 32, 0.8);
-font-size:15px;
-line-height:25px;
-font-weight: 500;
-margin:12px 0;
-padding-left:120px;
-display:block;
-background-image:url(https://i.imgur.com/CjJYCrF.png);
-filter: drop-shadow(0 0 0.60rem var(--color-base));
-background-size:80px;
-background-position:20px 50%;
-background-repeat:no-repeat;
-box-shadow: 0px -10px 10px -10px #fff inset;
-}
-[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
-content:'Themes Family!  https://bibitor31.github.io/Bibitor-Themes/ (Update Themes version 1.6.8)';
-word-wrap:break-word;
-max-width:100%;
-padding:35px;
-color:var(--color-text-cat);
-border: 1px solid var(--color-base)!important;
-border-radius: 5px;
-background:rgba(0,0,0,0.4);
-font-size:15px;
-line-height:25px;
-font-weight: 500;
-margin:12px 0;
-padding-left:120px;
-display:block;
-background-image:url(https://i.imgur.com/cMOiGyt.png);
-background-size:80px;
-background-position:20px 50%;
-background-repeat:no-repeat;
-box-shadow: 0px -10px 10px -10px #fff inset;
-}
-#app-mount::after { 
-content: 'Merci d\0027utiliser Themes Family-Fusion!'; 
-font-weight: 500; 
-z-index: 9999999999; 
-position: absolute; 
-right: 0; top:90%; 
-color: var(--color-text-cat)!important;
-border: 1px solid var(--color-base) !important;
-border-radius: 10px; 
-transition: 450ms ease all !important; 
-background-color: rgba(0,0,0,0.5);
-padding: 20px; white-space: nowrap;
-box-shadow: 0px -10px 10px -10px #fff inset;
-border-left: 3px solid rgba(255, 255, 255, 0.3); 
-transform: translateX(105%);
-animation: loadnotif 120s cubic-bezier(.25, 1, .25, 1); 
-cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); 
-opacity: 0; } 5% { 
-transform: none; 
-opacity: 1; } 15% { 
-transform: translateX(105%); 
-opacity: 0;
-}
+.bda-slist::before { content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!  (Update Themes version 1.6.8)'; word-wrap:break-word; max-width:100%; padding:10px; color:#bfbfbf; border: 1px solid var(--color-base)!important; border-radius: 5px; background: rgba(32, 32, 32, 0.8); font-size:15px; line-height:25px; font-weight: 500; margin:12px 0; padding-left:120px; display:block; background-image:url("https://i.imgur.com/CjJYCrF.png"); filter: drop-shadow(0 0 0.60rem var(--color-base)); background-size:80px; background-position:20px 50%; background-repeat:no-repeat; box-shadow: 0px -10px 10px -10px #fff inset; }
+[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after { content:'Themes Family!  https://bibitor31.github.io/Bibitor-Themes/ (Update Themes version 1.6.8)'; word-wrap:break-word; max-width:100%; padding:35px; color:var(--color-text-cat); border: 1px solid var(--color-base)!important; border-radius: 5px; background:rgba(0,0,0,0.4); font-size:15px; line-height:25px; font-weight: 500; margin:12px 0; padding-left:120px; display:block; background-image:url(https://i.imgur.com/cMOiGyt.png); background-size:80px; background-position:20px 50%; background-repeat:no-repeat; box-shadow: 0px -10px 10px -10px #fff inset; }
+#app-mount::after { content: 'Merci d\0027utiliser Themes Family-Fusion!'; font-weight: 500; z-index: 9999999999; position: absolute; right: 0; top:90%; color: var(--color-text-cat)!important; border: 1px solid var(--color-base) !important; border-radius: 10px; transition: 450ms ease all !important; background-color: rgba(0,0,0,0.5); padding: 20px; white-space: nowrap; box-shadow: 0px -10px 10px -10px #fff inset; border-left: 3px solid rgba(255, 255, 255, 0.3); transform: translateX(105%); animation: loadnotif 120s cubic-bezier(.25, 1, .25, 1); cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); opacity: 0; } 5% { transform: none; opacity: 1; } 15% { transform: translateX(105%); opacity: 0; }
