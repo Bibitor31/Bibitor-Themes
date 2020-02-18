@@ -1091,6 +1091,8 @@ cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/LinkSelect.cur'
 .disabled, .modeLocked-SZJhTy {
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Unavailable.cur'), default !important;
 }
+[role] .status-1AY8sU {
+display: none; }
 [role] .status-3Kz6VS {
 width: 20px !important;
 height: 20px !important;
@@ -1101,8 +1103,6 @@ background-position: 50%;
 border-radius: 3px;
 margin-right: 5px !important; 
 }
-[role] .status-1AY8sU {
-display: none; }
 [role] :nth-of-type(1) .status-3Kz6VS {
 background-color: rgb(67, 181, 129);
 }
