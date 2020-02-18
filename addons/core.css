@@ -1094,14 +1094,14 @@ cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Unavailable.cur
 [role] .status-1AY8sU {
 display: none; }
 [role] .status-3Kz6VS {
-width: 20px !important;
-height: 20px !important;
-background-image: url("https://i.imgur.com/KI3ynN7.png");
-background-repeat: no-repeat;
-background-size: 85%;
-background-position: 50%;
+width: 15px !important;
+height: 15px !important;
+/* background-image: url("https://i.imgur.com/KI3ynN7.png"); */
+/* background-repeat: no-repeat; */
+/* background-size: 85%; */
+/* background-position: 50%; */
 border-radius: 3px;
-margin-right: 5px !important; 
+margin-right: 8px !important; 
 }
 [role] :nth-of-type(1) .status-3Kz6VS {
 background-color: rgb(67, 181, 129);
@@ -1117,13 +1117,13 @@ background-color: rgb(116, 127, 141);
 }
 .customStatusEmojiPlaceholder-1NdyxH {
 background-color: rgb(66, 66, 66);
-background-image: url("https://i.imgur.com/LjOJHhj.png");
-background-repeat: no-repeat;
+/* background-image: url("https://i.imgur.com/LjOJHhj.png"); */
+/* background-repeat: no-repeat; */
 background-size: 85%;
 background-position: 50%; 
 border-radius: 4px;
-width: 25px !important;
-height: 25px !important;
+width: 20px !important;
+height: 20px !important;
 margin-right: 5px;
 }
 .users-i_3-kL {
