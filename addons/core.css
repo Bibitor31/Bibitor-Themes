@@ -17,6 +17,7 @@
 .typeWindows-15E0Ys{
 background-color: rgba(14,14,14,0.35) !important;
 }
+
 .firefoxFixScrollFlex-cnI2ix .da-scroller .da-firefoxFixScrollFlex, .systemPad-3UxEGl .da-systemPad .peopleList-3c4jOR .da-peopleList{
 border: 2px solid var(--color-base);
 }
@@ -1090,6 +1091,41 @@ cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/LinkSelect.cur'
 .disabled, .modeLocked-SZJhTy {
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Unavailable.cur'), default !important;
 }
+.menu-Sp6bN1[role="listbox"] .statusItem-2uzPIV .status-3Kz6VS {
+width: 20px !important;
+height: 20px !important;
+background-image: url("https://i.imgur.com/KI3ynN7.png");
+background-repeat: no-repeat;
+background-size: 85%;
+background-position: 50%;
+border-radius: 3px;
+margin-right: 5px !important; 
+}
+.menu-Sp6bN1[role="listbox"] .statusItem-2uzPIV .status-1AY8sU {
+display: none; }
+.menu-Sp6bN1[role="listbox"] .statusItem-2uzPIV:nth-of-type(1) .status-3Kz6VS {
+background-color: rgb(67, 181, 129);
+}
+.menu-Sp6bN1[role="listbox"] .statusItem-2uzPIV:nth-of-type(3) .status-3Kz6VS {
+background-color: rgb(250, 166, 26);
+}
+.menu-Sp6bN1[role="listbox"] .statusItem-2uzPIV:nth-of-type(4) .status-3Kz6VS {
+background-color: rgb(240, 71, 71);
+}
+.menu-Sp6bN1[role="listbox"] .statusItem-2uzPIV:nth-of-type(5) .status-3Kz6VS {
+background-color: rgb(116, 127, 141);
+}
+.customStatusEmojiPlaceholder-1NdyxH {
+background-color: rgb(66, 66, 66);
+background-image: url("https://bibitor31.github.io/Bibitor-Themes/icons/Yahoo.png");
+background-repeat: no-repeat;
+background-size: 85%;
+background-position: 50%; 
+border-radius: 4px;
+width: 25px !important;
+height: 25px !important;
+margin-right: 5px;
+}
 .users-i_3-kL {
 background-color: var(--bg4);
 color: white;
@@ -1123,6 +1159,7 @@ border: 1px solid var(--color-base);
 background-image: var(--bg2)!important;
 background-size:  cover !important;
 border: 1px solid var(--color-base)!important;
+border-radius: 6px;
 }
 .theme-dark .item-1GzJrl:hover {
 background-image: var(--bg2)!important;
