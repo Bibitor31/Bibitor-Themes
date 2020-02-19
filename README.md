@@ -6,7 +6,7 @@
 
 - ![#256498](https://placehold.it/15/256498/b5e853?text=+) **`Bleu_family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Bleu_family.theme.css) **`Update 17/02/2020`**
 
-- ![#bc7c00](https://placehold.it/15/bc7c00/b5e853?text=+) **`Orange-family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Orange-family.theme.css) **`Update 17/02/2020`**
+- ![#bc7c00](https://placehold.it/15/bc7c00/b5e853?text=+) **`Orange-family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Orange-family.theme.css) **`Update 19/02/2020`**
 
 - ![#2d2d2d](https://placehold.it/15/2d2d2d/b5e853?text=+) **`Gris_family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Gris-family.theme.css) **`Update 17/02/2020`**
 
