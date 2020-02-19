@@ -1096,10 +1096,10 @@ display: none; }
 [role] .status-3Kz6VS {
 width: 15px !important;
 height: 15px !important;
-/* background-image: url("https://i.imgur.com/KI3ynN7.png"); */
-/* background-repeat: no-repeat; */
-/* background-size: 85%; */
-/* background-position: 50%; */
+background-image: url("https://i.imgur.com/AMxDVYy.jpg");
+background-repeat: no-repeat;
+background-size: 75%;
+background-position: 50%;
 border-radius: 3px;
 margin-right: 8px !important; 
 }
@@ -1117,8 +1117,8 @@ background-color: rgb(116, 127, 141);
 }
 .customStatusEmojiPlaceholder-1NdyxH {
 background-color: rgb(66, 66, 66);
-/* background-image: url("https://i.imgur.com/LjOJHhj.png"); */
-/* background-repeat: no-repeat; */
+background-image: url("https://i.imgur.com/LjOJHhj.png");
+background-repeat: no-repeat;
 background-size: 85%;
 background-position: 50%; 
 border-radius: 4px;
