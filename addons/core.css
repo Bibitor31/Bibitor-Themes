@@ -2360,10 +2360,6 @@ background-color: rgba(0,0,0,0.4)!important;
 .ace-monokai .ace_gutter {
 background: rgba(0,0,0,0.5)!important;
 }
-.contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
-background: rgba(0,0,0,0.3)!important;
-color: var(--color-base);
-}
 .ace-monokai .ace_gutter-active-line,.ace-monokai .ace_marker-layer .ace_active-line {
 background-color: var(--color-base);
 opacity: 0.5;
@@ -2372,7 +2368,9 @@ opacity: 0.5;
 border: 1px solid var(--color-base);
 }
 .contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls{
+background: rgba(0,0,0,0.5)!important;
 border: 1px solid var(--color-base);
+color: var(--color-base);
 border-top: none;
 }
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
