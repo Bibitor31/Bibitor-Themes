@@ -2355,10 +2355,14 @@ top: 50%;
 transform: translateY(-50%);
 }
 .ace-monokai{
-background-color: rgba(0,0,0,0.4)!important;
+background-color: rgba(0,0,0,0.9)!important;
+background-image: var(--bg-image) !important ;
+background-repeat:no-repeat;
+background-size: cover !important;
+background-position:50% 50%;
 }
 .ace-monokai .ace_gutter {
-background: rgba(0,0,0,0.5)!important;
+background: rgba(0,0,0,1)!important;
 }
 .ace-monokai .ace_gutter-active-line,.ace-monokai .ace_marker-layer .ace_active-line {
 background-color: var(--color-base);
@@ -2380,14 +2384,14 @@ border-radius: 3px;
 }
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button, #bd-customcss-attach-controls .help-text .inline{
 background: rgba(0,0,0,0.5)!important;
-color: var(--color-text-cat) ;
+color: var(--color-text-cat);
 border: 1px solid var(--color-base);
 }
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover{
 background:  rgba(14,14,14,0.9)!important;
 }
 .bda-slist::before {
-content:'Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien!  (Update Themes version 1.6.8)';
+content:"Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien! (Update Themes version 1.6.8)";
 word-wrap:break-word;
 max-width:100%;
 padding:10px;
@@ -2402,14 +2406,14 @@ margin:12px 0;
 padding-left:120px;
 display:block;
 background-image:url(https://i.imgur.com/CjJYCrF.png);
+background-repeat:no-repeat;
 filter: drop-shadow(0 0 0.60rem var(--color-base));
 background-size:80px;
 background-position:20px 50%;
-background-repeat:no-repeat;
 box-shadow: 0px -10px 10px -10px #fff inset;
 }
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
-content:'Themes Family!  https://bibitor31.github.io/Bibitor-Themes/ (Update Themes version 1.6.8)';
+content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Themes version 1.6.8)";
 word-wrap:break-word;
 max-width:100%;
 padding:35px;
@@ -2423,14 +2427,14 @@ font-weight: 500;
 margin:12px 0;
 padding-left:120px;
 display:block;
-background-image:url(https://i.imgur.com/cMOiGyt.png);
+background-image:url("https://i.imgur.com/cMOiGyt.png");
+background-repeat:no-repeat;
 background-size:80px;
 background-position:20px 50%;
-background-repeat:no-repeat;
 box-shadow: 0px -10px 10px -10px #fff inset;
 }
 #app-mount::after { 
-content: 'Merci d\0027utiliser Themes Family-Fusion!'; 
+content:"Merci d\0027utiliser Themes Family-Fusion!"; 
 font-weight: 500; 
 z-index: 9999999999; 
 position: absolute; 
