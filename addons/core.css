@@ -2364,36 +2364,40 @@ border-radius:4px;
 box-shadow: 0px -6px 6px -6px #fff inset;
 }
 .ace-monokai{
-background-color: rgba(0,0,0,0.9)!important;
-background-image: var(--bg-image) !important ;
+background-color: rgba(0,0,0,0.9);
+background-image: var(--bg-image);
 background-repeat:no-repeat;
-background-size: cover !important;
+background-size: cover;
 background-position:50% 50%;
 }
 .ace-monokai .ace_gutter {
-background: rgba(0,0,0,1)!important;
+background: rgba(0,0,0,1);
 }
 .ace-monokai .ace_gutter-active-line,.ace-monokai .ace_marker-layer .ace_active-line {
 background-color: var(--color-base);
-opacity: 0.5;
+opacity: 0.4;
 }
 .editor-wrapper{
 border: 1px solid var(--color-base);
 }
 .contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls{
-background: rgba(0,0,0,0.6)!important;
+background: rgba(0,0,0,0.6);
 border: 1px solid var(--color-base);
 color: var(--color-base);
 border-top: none;
 }
-.contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
-background-color: rgba(0,0,0,0.9) !important;
-border: 1px solid var(--color-base)!important;
+background-color: rgba(0,0,0,0.9);
+border: 1px solid var(--color-base);
+color: var(--color-base);
 border-radius: 3px;
 }
+.theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span{
+background: rgba(64,64,64,0.4);
+border: 1px solid var(--color-base);
+}
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button, #bd-customcss-attach-controls .help-text .inline{
-background: rgba(0,0,0,0.5)!important;
+background: rgba(0,0,0,0.5);
 color: var(--color-text-cat);
 border: 1px solid var(--color-base);
 }
