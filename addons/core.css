@@ -2354,6 +2354,13 @@ left: 10px;
 top: 50%;
 transform: translateY(-50%);
 }
+#bd-settingspane-container h2.ui-form-title{
+color:var(--color-text-cat);
+border:1px solid var(--color-base);
+padding:3px;
+border-radius:4px;
+box-shadow: 0px -6px 6px -6px #fff inset;
+}
 .ace-monokai{
 background-color: rgba(0,0,0,0.9)!important;
 background-image: var(--bg-image) !important ;
