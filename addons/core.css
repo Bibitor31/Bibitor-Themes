@@ -891,6 +891,10 @@ border-radius: 5px;
 border: 2px solid var(--color-base);
 border-radius: 5px;
 }
+.topPill-30KHOu .item-PXvHYJ{ 
+border: 1px solid var(--color-base);
+border-radius: 5px;
+}
 .topPill-30KHOu .item-PXvHYJ:last-child { 
 color: var(--interactive-normal)!important;
 }
@@ -1799,7 +1803,7 @@ background-color: transparent;
 display: none;
 }
 .bd-guild :hover{
-box-shadow: 0 0 10px 0 var(--color-base);
+box-shadow: 0 0 7px 0 var(--color-base);
 border-radius: 10%;
 transition: box-shadow 200ms;
 }
@@ -2438,41 +2442,32 @@ background: rgba(54, 57, 63, 6);
 }
 .bda-slist::before {
 content:"Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien! (Update Themes version 1.6.8)";
-word-wrap:break-word;
-max-width:100%;
 padding:10px;
-color:#bfbfbf;
 border: 1px solid var(--color-base)!important;
 border-radius: 5px;
-background: rgba(32, 32, 32, 0.8);
-font-size:15px;
+background: rgba(0, 0, 0,0.9);
 line-height:25px;
-font-weight: 500;
-margin:12px 0;
 padding-left:120px;
 display:block;
-background-image:url(https://i.imgur.com/CjJYCrF.png);
+color:#bfbfbf;
+background-image:url("https://i.imgur.com/CjJYCrF.png");
 background-repeat:no-repeat;
-filter: drop-shadow(0 0 0.60rem var(--color-base));
 background-size:80px;
 background-position:20px 50%;
+filter: drop-shadow(0 0 0.40rem var(--color-base));
 box-shadow: 0px -6px 6px -6px #fff inset;
 }
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
 content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Themes version 1.6.8)";
-word-wrap:break-word;
-max-width:100%;
-padding:35px;
-color:var(--color-text-cat);
+padding:20px;
 border: 1px solid var(--color-base)!important;
 border-radius: 5px;
-background:rgba(0,0,0,0.4);
-font-size:15px;
+background:rgba(0,0,0,0.6);
 line-height:25px;
-font-weight: 500;
 margin:12px 0;
 padding-left:120px;
 display:block;
+color:#bfbfbf;
 background-image:url("https://i.imgur.com/cMOiGyt.png");
 background-repeat:no-repeat;
 background-size:80px;
