@@ -379,6 +379,15 @@ border: 1px solid var(--color-base);
 background-image: var(--bg2);
 border: 1px solid var(--color-base);
 }
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY {
+background-image: var(--bg2);
+border-radius: 5px;
+border: 1px solid var(--color-base);
+}
+.theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover{
+
+background-size:  cover !important;
+}
 .theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
 background-image: var(--bg2);
 border: 1px solid var(--color-base);
