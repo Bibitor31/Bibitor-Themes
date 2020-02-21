@@ -537,7 +537,7 @@ margin: 2px;
 }
 .button-14-BFJ.enabled-2cQ-u7:hover {
 color: white);
-background-color: rgba(204, 227, 246, 0.17);
+background-color: rgba(0,0,0,0.6);
 padding-bottom: 10%;
 }
 .container-3baos1:last-child:not(:hover) > div:last-child > :nth-child(1){
@@ -2073,6 +2073,10 @@ color: var(--color-text-cat);
 background-color: rgba(114, 118, 125, 0.10);
 border: 2px solid var(--color-base)!important;	
 border-radius: 5px;
+}
+.theme-dark .closeButton-1tv5uR:hover{
+background-color: rgba(0,0,0,0.6);
+box-shadow: 0 0 10px 0  var(--color-base)!important;
 }
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs{
 background-color: rgba(0,0,0,0.35) ;
