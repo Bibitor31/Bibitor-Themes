@@ -1961,30 +1961,22 @@ margin-bottom: 10px;
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
 background-color:rgba(255,255,255,0.4)!important;
-box-shadow: 0 0 6px 6px var(--color-text-cat)!important;
+box-shadow: 0 0 3px 3px var(--color-text-cat)!important;
 border-radius: 3px !important;
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
 background: rgba(114, 118, 125, 0)!important;
-box-shadow: 0 0 5px 5px var(--color-base) !important;
+box-shadow: 0 0 3px 3px var(--color-base) !important;
 border-radius:3px !important;
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper input {
 background: rgba(114, 118, 125, 0)!important;
-box-shadow: 0 0 6px 6px rgba(0,0,0,0.4) !important;
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before{
 background: rgba(114, 118, 125, 0)!important;
-box-shadow: 0 0 6px 6px rgba(0,0,0,0.4) !important;
 }
 .themeDefault-24hCdX, .ui-switch-item .ui-switch-wrapper{
-border-color: #075ad4!important;
 background-color:rgba(98, 0, 0,0.5)!important;
-box-shadow: 0 0 5px 5px var(--color-base) !important;
-border-radius: 3px !important;
-transition: background-color 0.9s, box-shadow 0.9s ,border-radius 0.9s !important;
-margin-top: auto !important;
-margin-bottom: auto !important;
 }
 .ui-switch-item:hover .ui-switch-wrapper:hover {
 background-color:rgba(255,255,255,0.4)!important;
@@ -2371,11 +2363,11 @@ color:var(--color-text-cat)!important;
 border:1px solid var(--color-base);
 padding:3px;
 border-radius:4px;
-box-shadow: 0px -6px 6px -6px #fff inset;
+box-shadow: 0px -4px 4px -4px #fff inset;
 }
 .ace-monokai{
-background-color: rgba(0,0,0,0.9);
-background-image: var(--bg-image);
+background-color: rgba(0,0,0,0.9)!important;
+background-image: var(--bg-image)!important;
 background-repeat:no-repeat;
 background-size: cover;
 background-position:50% 50%;
@@ -2411,19 +2403,29 @@ color: var(--color-text-cat);
 border: 1px solid var(--color-base);
 }
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover{
-background:  rgba(14,14,14,0.9)!important;
+background: rgba(14,14,14,0.9)!important;
 }
 .checkbox span {
 padding-left: 30px;
 }
 .checkbox .checkbox-inner span {
 width: 50px;
+box-shadow: 0 0 2px 2px var(--color-base)!important;
+background: rgba(98, 0, 0,0.5);
+}
+.checkbox .checkbox-inner span {
+width: 50px;
+box-shadow: 0 0 2px 2px var(--color-base)!important;
+background: rgba(98, 0, 0,0.5);
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
 margin-left: 15px !important;
 }
-.checkbox .checkbox-inner input[type=checkbox]:checked+span {
-width: 50px;
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span:hover {
+background: rgba(54, 57, 63, 6);
+}
+.checkbox .checkbox-inner span:hover {
+background: rgba(54, 57, 63, 6);
 }
 .bda-slist::before {
 content:"Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien! (Update Themes version 1.6.8)";
