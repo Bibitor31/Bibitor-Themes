@@ -22,7 +22,7 @@
 
 ![Légende](https://i.imgur.com/7N1W8Nq.png)
 
-![Légende](https://i.imgur.com/3JMj73m.png)
+![Légende](https://i.imgur.com/uquAfTy.png)
 
 ![Légende](https://i.imgur.com/v3huZWo.png)
 
