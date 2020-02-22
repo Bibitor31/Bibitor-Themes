@@ -322,8 +322,7 @@ color: var(--color-text-cat);
 border: 2px solid var(--color-base);
 box-shadow: inset 0 0 4px 1px var(--gradient2);
 }
-.toast,
-.bd-toast {
+.toast,.bd-toast {
 background: rgba(0, 0, 0 ,0.9)!important;
 color: var(--color-text-cat);
 font-weight: 700; 
@@ -332,22 +331,6 @@ border: 1px solid var(--color-base);
 box-shadow: 0px -6px 6px -6px #fff inset;
 padding: 1% 2%;
 border-radius: 8px;
-}
-#editor-detached{
-background: rgba(0, 0, 0 ,0.5)!important;
-text-align: center;
-padding:15px;
-border-radius: 5px;
-border: 1px solid var(--color-base);
-}
-.standardSidebarView-3F1I7i #editor-detached h3{
-color: var(--color-text-cat);
-}
-.standardSidebarView-3F1I7i #editor-detached button{
-background-image: var(--bg2);
-border: 2px solid var(--color-base)!important;	
-margin: 10px 0px 5px 0px;
-height: 35px;
 }
 .theme-dark .activeButton-1BJAiN, .theme-dark .activeButton-1BJAiN:hover{
 background: rgba(0, 0, 0 ,0.5)!important;
@@ -2067,12 +2050,12 @@ background-image: var(--bg2)!important;
 color: var(--color-text-cat);
 }
 .theme-dark .closeButton-1tv5uR{
-background-color: rgba(114, 118, 125, 0.10);
+background-color: rgba(0, 0, 0, 0.30);
 border: 2px solid var(--color-base)!important;	
 border-radius: 5px;
 }
 .theme-dark .closeButton-1tv5uR:hover{
-background-color: rgba(0,0,0,0.6);
+background-color: rgba(0, 0, 0, 0.50);
 box-shadow: 0 0 10px 0  var(--color-base)!important;
 }
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs{
@@ -2354,7 +2337,7 @@ content: url("https://i.imgur.com/07JKTuF.png");
 opacity: 0.5;
 }
 .esc-text:after, .keybind-KpFkfr {
-font-size: 0px;
+font-size: 0;
 }
 #dv-mount{
 background-color:rgba(14,14,14,0.35) !important;
@@ -2372,11 +2355,33 @@ left: 10px;
 top: 50%;
 transform: translateY(-50%);
 }
+#editor-detached{
+background: rgba(0, 0, 0 ,0.5)!important;
+text-align: center;
+padding:15px;
+border-radius: 5px;
+border: 1px solid var(--color-base);
+}
 #bd-settingspane-container h2.ui-form-title{
 color:var(--color-text-cat)!important;
 border:1px solid var(--color-base);
 padding:3px;
 border-radius:4px;
+box-shadow: 0px -4px 4px -4px #fff inset;
+}
+.standardSidebarView-3F1I7i #editor-detached h3{
+color: rgba(255, 255, 255, 0.7);
+font-size: 18px;
+}
+.standardSidebarView-3F1I7i #editor-detached button{
+background-image: var(--bg2);
+border: 1px solid var(--color-base)!important;	
+color: rgba(255, 255, 255, 0.7);
+font-size: 18px;
+margin: 10px 0px 5px 0px;
+height: 35px;
+}
+.standardSidebarView-3F1I7i #editor-detached button:hover{
 box-shadow: 0px -4px 4px -4px #fff inset;
 }
 .ace-monokai{
@@ -2436,10 +2441,10 @@ background: rgba(98, 0, 0,0.5);
 margin-left: 15px !important;
 }
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span:hover {
-background: rgba(54, 57, 63, 6);
+background: rgba(14,14,14,0.9)!important;
 }
 .checkbox .checkbox-inner span:hover {
-background: rgba(54, 57, 63, 6);
+background: rgba(14,14,14,0.9)!important;
 }
 .bda-slist::before {
 content:"Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien! (Update Themes version 1.6.8)";
