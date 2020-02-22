@@ -2339,6 +2339,59 @@ opacity: 0.5;
 .esc-text:after, .keybind-KpFkfr {
 font-size: 0;
 }
+.bda-slist::before {
+content:"";
+padding:35px;
+border: 1px solid var(--color-base)!important;
+border-radius: 20px 20px 5px 5px;
+background: rgba(0, 0, 0,0.7);
+display:flex;
+background-image:url("https://i.imgur.com/8Lg1rx3.png");
+background-repeat:no-repeat;
+background-size:60px;
+background-position:center;
+box-shadow: 0px -6px 6px -6px #fff inset;
+}
+[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
+content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Themes version 1.6.8)";
+padding:20px;
+border: 1px solid var(--color-base)!important;
+border-radius: 5px;
+background:rgba(0,0,0,0.6);
+line-height:25px;
+margin:12px 0;
+padding-left:120px;
+display:flex;
+color:#bfbfbf;
+background-image:url("https://i.imgur.com/cMOiGyt.png");
+background-repeat:no-repeat;
+background-size:80px;
+background-position:20px 50%;
+box-shadow: 0px -6px 6px -6px #fff inset;
+}
+#app-mount::after { 
+content:"Merci d\0027utiliser Themes Family-Fusion!"; 
+font-weight: 500; 
+z-index: 9999999999; 
+position: absolute; 
+right: 0; top:90%; 
+color: var(--color-text-cat)!important;
+border: 1px solid var(--color-base) !important;
+border-radius: 10px; 
+transition: 450ms ease all !important; 
+background-color: rgba(0,0,0,0.5);
+padding: 20px; rgb(255, 255, 255)-space: nowrap;
+box-shadow: 0px -6px 6px -6px #fff inset;
+border-left: 3px solid rgba(255, 255, 255, 0.3); 
+transform: translateX(105%);
+animation: loadnotif 120s cubic-bezier(.25, 1, .25, 1); 
+cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); 
+opacity: 0; } 5% { 
+transform: none; 
+opacity: 1; } 15% { 
+transform: translateX(105%); 
+opacity: 0;
+}
 #dv-mount{
 background-color:rgba(14,14,14,0.35) !important;
 }
@@ -2445,61 +2498,4 @@ background: rgba(14,14,14,0.9)!important;
 }
 .checkbox .checkbox-inner span:hover {
 background: rgba(14,14,14,0.9)!important;
-}
-.bda-slist::before {
-content:"Merci d\0027utiliser les Themes Family ! Bien que ces thémes soient parfaitement fonctionnels  nous vous recommandons de vérifier régulièrement les mises à jour. Amusez-vous bien! (Update Themes version 1.6.8)";
-padding:10px;
-border: 1px solid var(--color-base)!important;
-border-radius: 5px;
-background: rgba(0, 0, 0,0.9);
-line-height:25px;
-padding-left:120px;
-display:block;
-color:#bfbfbf;
-background-image:url("https://i.imgur.com/CjJYCrF.png");
-background-repeat:no-repeat;
-background-size:80px;
-background-position:20px 50%;
-filter: drop-shadow(0 0 0.40rem var(--color-base));
-box-shadow: 0px -6px 6px -6px #fff inset;
-}
-[layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
-content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Themes version 1.6.8)";
-padding:20px;
-border: 1px solid var(--color-base)!important;
-border-radius: 5px;
-background:rgba(0,0,0,0.6);
-line-height:25px;
-margin:12px 0;
-padding-left:120px;
-display:block;
-color:#bfbfbf;
-background-image:url("https://i.imgur.com/cMOiGyt.png");
-background-repeat:no-repeat;
-background-size:80px;
-background-position:20px 50%;
-box-shadow: 0px -6px 6px -6px #fff inset;
-}
-#app-mount::after { 
-content:"Merci d\0027utiliser Themes Family-Fusion!"; 
-font-weight: 500; 
-z-index: 9999999999; 
-position: absolute; 
-right: 0; top:90%; 
-color: var(--color-text-cat)!important;
-border: 1px solid var(--color-base) !important;
-border-radius: 10px; 
-transition: 450ms ease all !important; 
-background-color: rgba(0,0,0,0.5);
-padding: 20px; rgb(255, 255, 255)-space: nowrap;
-box-shadow: 0px -6px 6px -6px #fff inset;
-border-left: 3px solid rgba(255, 255, 255, 0.3); 
-transform: translateX(105%);
-animation: loadnotif 120s cubic-bezier(.25, 1, .25, 1); 
-cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); 
-opacity: 0; } 5% { 
-transform: none; 
-opacity: 1; } 15% { 
-transform: translateX(105%); 
-opacity: 0;
 }
