@@ -2470,7 +2470,7 @@ content:"";
 padding:35px;
 border: 1px solid var(--color-base)!important;
 border-radius: 20px 20px 5px 5px;
-background: rgba(0, 0, 0,0.7);
+background: rgba(0, 0, 0,0.6);
 display:flex;
 background-image:url("https://i.imgur.com/8Lg1rx3.png");
 background-repeat:no-repeat;
@@ -2483,7 +2483,7 @@ content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Them
 padding:20px;
 border: 1px solid var(--color-base)!important;
 border-radius: 5px;
-background:rgba(0,0,0,0.6);
+background:rgba(0,0,0,0.8);
 line-height:25px;
 margin:12px 0;
 padding-left:120px;
