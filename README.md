@@ -2,7 +2,7 @@
 <h4 align="center">Couleurs des thèmes personnalisables</h4>
 <h4 align="center">(--color-base:#xxxxxx;)  (--color-text-cat:#xxxxxx;)</h4>
 
-- ![#00a118](https://placehold.it/15/00a118/b5e853?text=+) **`Core.css`** [Thèmes Family](https://bibitor31.github.io/Bibitor-Themes/addons/core.css) **`Update 20/02/2020`**
+- ![#00a118](https://placehold.it/15/00a118/b5e853?text=+) **`Core.css`** [Thèmes Family](https://bibitor31.github.io/Bibitor-Themes/addons/core.css) **`Update 23/02/2020`**
 
 - ![#256498](https://placehold.it/15/256498/b5e853?text=+) **`Bleu_family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Bleu_family.theme.css) **`Update 17/02/2020`**
 
