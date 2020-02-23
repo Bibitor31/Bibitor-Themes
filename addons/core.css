@@ -892,6 +892,9 @@ color: var(--interactive-normal)!important;
 .topPill-30KHOu .item-PXvHYJ:hover  { 
 color: var(--color-text-cat)!important;
 }
+.item-3HknzM, .item-PXvHYJ[style*="background-color: rgb(67, 181, 129, 0.2);"] {
+background-color: rgba(14,14,14,0.35) !important;
+}
 ::selection {
 background: var(--color-base) !important;
 color:rgb(255, 255, 0);
@@ -1844,7 +1847,7 @@ color: rgba(255, 255, 255, 0.5); }
 #app-mount .title-3qD0b- .item-PXvHYJ:hover, #app-mount .libraryHeader-3g95kE .item-PXvHYJ:hover, #app-mount .headerBar-1YYOfi .item-PXvHYJ:hover, #app-mount .container-1r6BKw .item-PXvHYJ:hover { 
 background: rgba(0, 0, 0, 0.3); }
 #app-mount .title-3qD0b- .item-PXvHYJ.selected-3s45Ha, #app-mount .libraryHeader-3g95kE .item-PXvHYJ.selected-3s45Ha, #app-mount .headerBar-1YYOfi .item-PXvHYJ.selected-3s45Ha, #app-mount .container-1r6BKw 
-.item-PXvHYJ.selected-3s45Ha { background: linear-gradient(var(--ggradient-direction), var(--gradient1), var(--gradient2)); }
+.item-PXvHYJ.selected-3s45Ha { background: linear-gradient(var(--ggradient-direction), var(--gradient3), var(--gradient1)); }
 #app-mount .divider-3FBTu8 { background: rgba(255, 255, 255, 0.1); }
 #app-mount .searchBar-3dMhjb, #app-mount .searchBar-TUoVPN, #app-mount .searchBar-s2JxlI { background: rgba(0, 0, 0, 0.3); }
 #app-mount .searchBar-3dMhjb .public-DraftEditorPlaceholder-root, #app-mount .searchBar-TUoVPN .public-DraftEditorPlaceholder-root, #app-mount .searchBar-s2JxlI .public-DraftEditorPlaceholder-root { 
@@ -2501,7 +2504,7 @@ background-position:center;
 box-shadow: 0px -6px 6px -6px #fff inset;
 }
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
-content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Themes version 1.6.9)";
+content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Themes version 1.6.9";
 padding:20px;
 border: 1px solid var(--color-base)!important;
 border-radius: 5px;
