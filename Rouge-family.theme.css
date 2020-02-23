@@ -1,8 +1,8 @@
 /**
 * @name Family-Fusion-Rouge
 * @author Bibitor31#7704
-* @version 1.6.8
-* @description  Couleurs personnalisables | (--color-base:#xxxxxx;) (--color-text-cat:#xxxxxx;)
+* @version 1.6.9 
+* @description  Customizable colors | (--color-base:#xxxxxx;) (--color-text-cat:#xxxxxx;)
 * @website https://bibitor31.github.io/Bibitor-Themes/
 * @source https://github.com/Bibitor31/Bibitor-Themes
 **/
@@ -18,5 +18,6 @@
 --bg4: rgba(64, 64, 64, 0.420);
 --gradient1: rgb(64, 64, 64);
 --gradient2: var(--color-base);
+--gradient3: rgb(0, 0, 0);
 --ggradient-direction: 25deg ; 
 }
