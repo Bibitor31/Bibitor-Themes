@@ -1998,6 +1998,8 @@ background: rgba(114, 118, 125, 0)!important;
 }
 .themeDefault-24hCdX, .ui-switch-item .ui-switch-wrapper{
 background-color:rgba(98, 0, 0,0.5)!important;
+box-shadow: 0 0 3px 3px var(--color-base)!important;
+border-radius:3px !important;
 }
 .ui-switch-item:hover .ui-switch-wrapper:hover {
 background-color:rgba(255,255,255,0.4)!important;
@@ -2026,9 +2028,8 @@ height: 11px!important;
 display: none!important;
 }
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
-border-color: #075ad4!important;
 background-color:rgba(255,255,255,0.6)!important;
-box-shadow: 0 0 6px 6px var(--color-base)!important;
+box-shadow: 0 0 3px 3px var(--color-text-cat)!important;
 transition: background-color 0.9s, box-shadow 0.9s ,border-radius 0.9s !important;
 margin-top: auto !important;
 margin-bottom: auto !important;
@@ -2508,7 +2509,7 @@ background-position:center;
 box-shadow: 0px -6px 6px -6px #fff inset;
 }
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
-content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Themes version 1.6.9";
+content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Themes version 1.6.9)";
 padding:20px;
 border: 1px solid var(--color-base)!important;
 border-radius: 5px;
