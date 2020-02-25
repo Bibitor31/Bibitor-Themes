@@ -1598,6 +1598,9 @@ color: #ffffff;
 background-image: var(--bg2);
 border: 1px solid var(--color-base);
 }
+.lookFilled-1Gx00P.colorRed-1TFJan{
+background-color:rgb(60, 7, 7);
+}
 .lookOutlined-3sRXeN.colorRed-1TFJan{
 background-image: var(--bg2);
 color:#f04747;
@@ -2384,6 +2387,7 @@ height: 0;
 margin: 0 10px;
 height: 0;
 }
+/* //////////////////////////////////////////// */
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e {
 padding: 60px 10px 10px 25px ;
 max-width: 60%;
@@ -2395,6 +2399,7 @@ flex: 0;
 padding: 60px 30px 80px ;
 max-width: 70%;
 }
+/* //////////////////////////////////////////// */
 .defaultColor-1_ajX0 {
 color: var(--interactive-normal);
 }
@@ -2499,6 +2504,24 @@ background: rgba(14,14,14,0.9)!important;
 }
 .bda-header-title{
 color: var(--interactive-normal);
+}
+.video-1FfuMD{
+background: transparent ;
+background: rgba(0, 0, 0,0.5);
+border-radius: 10px;
+top: -15px;
+}
+.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r{
+background: transparent ;	
+border: 1px solid var(--color-base)!important;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan{
+background-color:rgb(60, 7, 7);
+}
+.theme-dark .quickSelectPopout-X1hvgV
+{
+background: rgba(0, 0, 0,0.8);
+border: 1px solid var(--color-base)!important;
 }
 .bda-slist::before {
 content:"";
