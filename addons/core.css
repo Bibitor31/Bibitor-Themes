@@ -2386,14 +2386,14 @@ height: 0;
 }
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e {
 padding: 60px 10px 10px 25px ;
-width: 300px 
+max-width: 60%;
 }
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
 flex: 0;
 }
 .standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {
-max-width: 90%;
-padding: 60px 30px 80px  ;
+padding: 60px 30px 80px ;
+max-width: 70%;
 }
 .defaultColor-1_ajX0 {
 color: var(--interactive-normal);
