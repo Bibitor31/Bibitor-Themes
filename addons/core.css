@@ -2534,8 +2534,8 @@ font-weight: 700;
 font-size: 18px;
 color: var(--color-text-cat)!important;
 justify-content: center;
-animation: loadnotif 120s cubic-bezier(.25, 1, .25, 1); 
-cursor: pointer; } @keyframes loadnotif { 0% { transform: translateX(105%); 
+animation: loadnotif 60s cubic-bezier(.25, 1, .25, 1); 
+cursor: none; } @keyframes loadnotif { 0% { transform: scale3d(2.5, 1.2, 0.3); 
 opacity: 0; } 5% { 
 transform: none; 
 opacity: 1; } 15% { 
