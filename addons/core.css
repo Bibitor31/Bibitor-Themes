@@ -1,4 +1,11 @@
-/* Bibitor31#7704  https://bibitor31.github.io/Bibitor-Themes */
+/** 
+* @name Family-Beta
+* @author Bibitor31#7704
+* @version 1.6.9 
+* @description  Customizable colors | (--color-base:#xxxxxx;) (--color-text-cat:#xxxxxx;)
+* @website https://bibitor31.github.io/Bibitor-Themes
+* @source https://github.com/Bibitor31/Bibitor-Themes
+**/
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
 :root {
 --color-base:rgb(188, 124, 0);
@@ -30,7 +37,7 @@ box-shadow: 0 0 15px var(--color-base);
 background-image: var(--bg1);  
 }
 #app-mount .app-2rEoOp {
-background-image: var(--bg-image) !important ;
+background-image: url("https://i.imgur.com/yFRZRLj.jpg")!important ;
 background-size: cover !important ;
 }
 #user-settings {
@@ -1736,6 +1743,13 @@ box-shadow: 0px -5px 5px -5px #fff inset;
 color: var(--color-text-cat) !important;
 border-radius: 5px;
 }
+.info-1VyQPT::before {
+content: "Bibitor31 -> 1.6.9";
+font-size: 12px;
+line-height: 16px;
+font-weight: 500;
+color: rgb(0, 176, 244);
+}
 .app,
 body::after {
 -webkit-animation: cv-fade 7s ease-out;
@@ -2367,8 +2381,8 @@ border: 2px solid var(--color-base);
 box-shadow: 0 0 10px 0 var(--gradient1)!important;
 }
 .keybind-KpFkfr:after {
-content: url("https://i.imgur.com/07JKTuF.png"); 
-opacity: 0.5;
+content: url("https://i.imgur.com/9AIKGW2.png"); 
+opacity: 0.0;
 }
 .esc-text:after, .keybind-KpFkfr {
 font-size: 0;
@@ -2478,6 +2492,7 @@ border: 1px solid var(--color-base);
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover{
 background: rgba(14,14,14,0.9)!important;
 }
+
 .checkbox span {
 padding-left: 30px;
 }
