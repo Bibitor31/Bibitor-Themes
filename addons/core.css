@@ -2387,7 +2387,6 @@ height: 0;
 margin: 0 10px;
 height: 0;
 }
-/* //////////////////////////////////////////// */
 .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e {
 padding: 60px 10px 10px 25px ;
 max-width: 60%;
@@ -2399,16 +2398,15 @@ flex: 0;
 padding: 60px 30px 80px ;
 max-width: 70%;
 }
-/* //////////////////////////////////////////// */
 .defaultColor-1_ajX0 {
 color: var(--interactive-normal);
 }
 .sidebar-CFHs9e .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf)::before,
 .side-8zPYf6 .item-PXvHYJ:not(.role-3wi9Tf)::before {
 content: "";
-background-image:url("https://i.imgur.com/KI3ynN7.png");
-width: 20px;
-height: 20px;
+background-image:url("https://i.imgur.com/XzRIr3I.png");
+width: 22px;
+height: 22px;
 background-size: cover!important;
 position: absolute;
 left: 10px;
