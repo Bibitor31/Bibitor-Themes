@@ -1,11 +1,4 @@
-/** 
-* @name Family-Beta
-* @author Bibitor31#7704
-* @version 1.6.9 
-* @description  Customizable colors | (--color-base:#xxxxxx;) (--color-text-cat:#xxxxxx;)
-* @website https://bibitor31.github.io/Bibitor-Themes
-* @source https://github.com/Bibitor31/Bibitor-Themes
-**/
+/* Bibitor31#7704  https://bibitor31.github.io/Bibitor-Themes */
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
 :root {
 --color-base:rgb(188, 124, 0);
@@ -37,7 +30,7 @@ box-shadow: 0 0 15px var(--color-base);
 background-image: var(--bg1);  
 }
 #app-mount .app-2rEoOp {
-background-image: url("https://i.imgur.com/yFRZRLj.jpg")!important ;
+background-image: var(--bg-image) !important ;
 background-size: cover !important ;
 }
 #user-settings {
