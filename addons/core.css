@@ -1769,6 +1769,22 @@ font-size: 12px;
 color: #fff; 
 border: 1px solid var(--color-base) !important;
 }
+#bda-qem button:first-child {
+border-left-color: transparent;
+}
+#bda-qem button {
+border-left: 1px solid var(--color-base);
+background: var(--bg2);
+box-shadow: rgba(0,0,0,.1) 1px 0 0 0;
+flex-grow: 1;
+color: var(--interactive-normal);
+}
+#bda-qem button:hover {
+background: rgba(0,0,0,.4);
+}
+#bda-qem button.active, #bda-qem button.active:hover {
+background-image: var(--bg1);
+}
 .container-3gCOGc,
 .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
 background:transparent !important;
@@ -2373,12 +2389,13 @@ background: linear-gradient(var(--ggradient-direction), var(--gradient1), var(--
 border: 2px solid var(--color-base);
 box-shadow: 0 0 10px 0 var(--gradient1)!important;
 }
-.keybind-KpFkfr:after {
-content: url("https://i.imgur.com/9AIKGW2.png"); 
-opacity: 0.0;
-}
+/* .keybind-KpFkfr:after { */
+/* content: url("https://i.imgur.com/9AIKGW2.png");  */
+/* opacity: 0.0; */
+/* } */
 .esc-text:after, .keybind-KpFkfr {
 font-size: 0;
+margin-right: 80px;
 }
 #dv-mount{
 background-color:rgba(14,14,14,0.35) !important;
