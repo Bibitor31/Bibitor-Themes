@@ -14,6 +14,10 @@
 
 - ![#9900cc](https://placehold.it/15/9900cc/b5e853?text=+) **`Violet_family`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Violet-family.theme.css) **`Update 27/02/2020`**
 
+- ![#00a118](https://placehold.it/15/00a118/b5e853?text=+) **`Starwars.css`** [Thèmes Family Fusion!](https://bibitor31.github.io/Bibitor-Themes/addons/Starwars.css) **`Update 29/02/2020`**
+
+- ![#2d2d2d](https://placehold.it/15/2d2d2d/b5e853?text=+) **`Star-wars`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Star-wars.theme.css) **`Update 29/02/2020`**
+
 - ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+) `Installer Bandaged BD pour utiliser les Thèmes`  [BetterDiscord](https://betterdiscord.net/home/) !
 
 - ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+) `Guide Bandaged BD`  [Guide Bandaged BD](https://0x71.cc/bd/guide/) !
@@ -26,9 +30,9 @@
 
 ![Légende](https://i.imgur.com/dkgayen.png)
 
-![Légende](https://i.imgur.com/hl4h2CP.png)
+![Légende](https://i.imgur.com/ZhbSxPc.png)
 
-![Légende](https://i.imgur.com/a6EHpYE.png)
+![Légende](https://i.imgur.com/h3ejPhk.png)
 
-![Légende](https://i.imgur.com/yWsr06p.png)
+![Légende](https://i.imgur.com/L9yayim.png)
 
