@@ -2358,7 +2358,6 @@ background-color: transparent;
 border: 2px solid var(--color-base) !important;
 }
 .theme-dark .theme-dark .or-3THJsp, .theme-dark .theme-light .or-3THJsp {
-background: linear-gradient(var(--ggradient-direction), var(--gradient1), var(--gradient2));
 border: 2px solid var(--color-base);
 box-shadow: 0 0 10px 0 var(--gradient1)!important;
 }
