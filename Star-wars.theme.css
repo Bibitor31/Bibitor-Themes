@@ -1,0 +1,23 @@
+/**
+* @name Star-wars
+* @author Bibitor31#7704
+* @version 1.0.2
+* @description  Customizable colors | (--color-base:#xxxxxx;) (--color-text-cat:#xxxxxx;)
+* @website https://bibitor31.github.io/Bibitor-Themes/
+* @source https://github.com/Bibitor31/Bibitor-Themes
+**/
+@import url("https://bibitor31.github.io/Bibitor-Themes/addons/Starwars.css");
+:root {
+--color-base:rgb(3, 63, 110);
+--color-text-cat:rgb(165, 42, 42);
+--bg-image:url("https://i.imgur.com/2hkVg05.jpg");
+--bg-image2:url("https://i.imgur.com/IGkcs0Z.jpg");
+--bg1:url("https://i.imgur.com/J1FcPn3.jpg");
+--bg2:url("https://i.imgur.com/e2RyM9Y.jpg");
+--bg3: var(--color-base);
+--bg4: rgba(64, 64, 64, 0.420);
+--gradient1: rgb(64, 64, 64);
+--gradient2: var(--color-base);
+--gradient3: rgb(0, 0, 0);
+--ggradient-direction: 25deg ; 
+}
