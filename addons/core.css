@@ -76,8 +76,9 @@ margin-top: 0px;
 background: rgba(0,0,0,0.6);
 }
 .clickable-2ap7je {
+border: 1px solid var(--color-base)!important;
 border-radius: 5px;
-box-shadow: inset 0 0 6px 1px var(--gradient2);
+/* box-shadow: inset 0 0 6px 1px var(--gradient2); */
 background-image: var(--bg2);
 }
 .da-wordmark svg path {
@@ -139,8 +140,9 @@ animation: background 10s infinite linear
 90% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 100% {background-image: var(--bg1);background-size:cover;transition: linear ;}
 }
-.timestampCozy-1HNQR2{
-color: var(--interactive-normal);
+.compact-T3H92H .timestamp-3ZCmNB, .cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt{
+color: var(--color-text-cat);
+font-weight: 700;
 }
 .groupStart-23k01U{
 background:rgba(0,0,0,0.4) !important; 
@@ -152,10 +154,6 @@ background:rgba(0,0,0,0.4) !important;
 margin: 0px 10px 0px;
 padding-top:5px ; 
 padding-bottom: 10px;
-}
-.timestampCozyAlt-1Hs08c{
-color: var(--color-text-cat) ;
-font-weight: 700;
 }
 .edited-DL9ECl {
 color: var(--color-text-cat) ;
@@ -1677,7 +1675,18 @@ min-width: 300px;
 color:var(--color-base);
 text-align: center;
 font-weight: 700;
-text-shadow: 0px 0px 6px #282828, 0px 0px 6px #282828, 0px 0px 6px #282828, 0px 0px 6px #282828, 0px 0px 6px #282828, 0px 0px 6px #282828, 0px 0px 6px #282828, 0px 0px 6px #282828, 0px 0px 6px #282828, 0px 0px 6px #282828, 0px 0px 6px #282828, 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255), 0px 0px 6px rgb(255, 255, 255);
+text-shadow: 0px 0px 6px #282828,
+ 0px 0px 6px #282828, 0px 0px 6px #282828, 
+ 0px 0px 6px #282828, 0px 0px 6px #282828, 
+ 0px 0px 6px #282828, 0px 0px 6px #282828, 
+ 0px 0px 6px #282828, 0px 0px 6px #282828, 
+ 0px 0px 6px #282828, 0px 0px 6px #282828,
+ 0px 0px 6px rgb(255, 255, 255), 
+ 0px 0px 6px rgb(255, 255, 255), 
+ 0px 0px 6px rgb(255, 255, 255), 
+ 0px 0px 6px rgb(255, 255, 255), 
+ 0px 0px 6px rgb(255, 255, 255), 
+ 0px 0px 6px rgb(255, 255, 255);
 }
 .emoji {
 min-width: 25px !important;
