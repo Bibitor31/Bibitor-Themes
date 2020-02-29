@@ -1833,19 +1833,6 @@ color: rgba(255, 255, 254,  0.5)!important;
 border: 1px solid var(--color-base) !important;
 border-radius: 10% 10% 10% 10%;
 }
-#app-mount .contentWrapper-3WC1ID{
-background-image: var(--bg2);
-border: 1px solid var(--color-base);
-border-radius: 5px ;
-}
-#app-mount .contentWrapper-3WC1ID .pill-1dHPfk:nth-child(2) {
-background: var(--bg3);
-border: 1px solid var(--color-base) !important;
-}
-#app-mount .contentWrapper-3WC1ID .pill-1dHPfk:nth-child(1) {
-background: var(--bg3);
-border: 1px solid var(--color-base) !important;
-}
 #app-mount .title-3qD0b-, #app-mount .libraryHeader-3g95kE, #app-mount .headerBar-1YYOfi, #app-mount .container-1r6BKw { background: transparent; box-shadow: none; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
 #app-mount .title-3qD0b- .lookFilled-1Gx00P.colorPrimary-3b3xI6, #app-mount .libraryHeader-3g95kE .lookFilled-1Gx00P.colorPrimary-3b3xI6, #app-mount .headerBar-1YYOfi .lookFilled-1Gx00P.colorPrimary-3b3xI6, #app-mount 
 .container-1r6BKw .lookFilled-1Gx00P.colorPrimary-3b3xI6 { background: linear-gradient(var(--ggradient-direction), var(--gradient1), var(--gradient2)); }
