@@ -499,29 +499,6 @@ border-radius: 5px;
 .panels-j1Uci_ {
 background-color: transparent !important;
 }
-.button-38aScr {
-overflow: hidden;
-color: var(--color-base);
-}
-.button-38aScr:after,
-.button-38aScr:before {
-content: "";
-position: absolute;
-height: 300%;
-background: hsla(0,0%,100%,.1);
-transform: rotate(45deg);
-animation-duration: 2s;
-animation-iteration-count: infinite;
-animation-name: shine-animation;
-animation-timing-function: ease-in-out;
-}
-.button-38aScr:after {
-margin-left: 7.5%;
-width: 5%;
-}
-.button-38aScr:before {
-width: 20%;
-}
 .button-14-BFJ {
 border-radius: 5px;
 color: var(--color-base);
@@ -1768,10 +1745,6 @@ transform: scale(1.1);
 transition: height 0.5s;
 -webkit-transition: height 0.5s;
 margin-bottom: 0px;
-}
-@keyframes shine-animation {
-from {left: -50%;}
-to {left: 150%;}
 }
 #app-mount .scroller-2FKFPG { 
 background: transparent ; 
