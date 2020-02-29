@@ -2471,7 +2471,7 @@ height: 35px;
 .standardSidebarView-3F1I7i #editor-detached button:hover{
 box-shadow: 0px -4px 4px -4px #fff inset;
 }
-.ace-monokai .ace_gutter {
+.ace_gutter-layer{
 background: rgba(0,0,0,2);
 }
 .ace-monokai{
