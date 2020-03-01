@@ -1225,11 +1225,11 @@ display: none;
 }
 .childWrapper-anI2G9 {
 background-color: transparent !important;
-background-image: url("https://i.imgur.com/CjJYCrF.png");
+background-image: url("https://i.imgur.com/zUr2aP1.png");
 background-size: cover;
 }
 .childWrapper-anI2G9:hover  {
-background-image:url("https://i.imgur.com/8Lg1rx3.png");
+background-image:url("https://i.imgur.com/VKSVWgQ.png");
 }
 #app-mount .tooltipBrand-g03Nz8,
 #app-mount .tooltipBlack-PPG47z,
@@ -2400,9 +2400,9 @@ color: var(--interactive-normal);
 .sidebar-CFHs9e .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf)::before,
 .side-8zPYf6 .item-PXvHYJ:not(.role-3wi9Tf)::before {
 content: "";
-background-image:url("https://i.imgur.com/XzRIr3I.png");
-width: 22px;
-height: 22px;
+background-image:url("https://i.imgur.com/zUr2aP1.png");
+width: 24px;
+height: 24px;
 background-size: cover!important;
 position: absolute;
 left: 10px;
@@ -2525,7 +2525,7 @@ border: 1px solid var(--color-base)!important;
 border-radius: 20px 20px 5px 5px;
 background: rgba(0, 0, 0,0.6);
 display:flex;
-background-image:url("https://i.imgur.com/dPq3lF5.png");
+background-image:url("https://i.imgur.com/GvsrmWu.png");
 background-repeat:no-repeat;
 background-position:center;
 box-shadow: 0px -6px 6px -6px #fff inset;
