@@ -6,7 +6,7 @@
 --bg-image:url("https://i.imgur.com/2hkVg05.jpg");
 --bg-image2:url("https://i.imgur.com/IGkcs0Z.jpg");
 --bg1:url("https://i.imgur.com/J1FcPn3.jpg");
---bg2:url("https://i.imgur.com/e2RyM9Y.jpg");
+--bg2:url("https://i.imgur.com/lkp6hSb.jpg");
 --bg3: var(--color-base);
 --bg4: rgba(64, 64, 64, 0.420);
 --gradient1: rgb(64, 64, 64);
@@ -134,7 +134,7 @@ animation: background 10s infinite linear
 }
 .scrollableContainer-2NUZem{
 background-image: var(--bg2);
-opacity: 0.5;
+opacity: 0.8;
 border: 2px solid var(--color-base);
 box-shadow: 0 0 20px var(--color-base);
 }
@@ -179,16 +179,19 @@ background-image: var(--bg2);
 border: 1px solid var(--color-base) !important;
 }
 .avatar-1BDn8e{
-width: 40px;
-height: 40px;
-left: 6px;
+width: 45px;
+height: 45px;
+left: 3px;
 top: 2px;
 margin: 0px 0px 0px 10px!important;
 border: 2px solid var(--color-base);
 border-radius: 5px;
 }
+.cozy-3raOZG.wrapper-2a6GCs {
+padding-top:6px ; 
+}
 .avatar-1BDn8e:hover {
-box-shadow: 0 0 10px 0 var(--color-base);
+box-shadow: 0 0 15px 0 var(--color-base);
 }
 .cozyMessage-3V1Y8y.groupStart-23k01U .container-2LR0t2{
 margin: 0px 0px 0px 10px!important;
@@ -1037,7 +1040,9 @@ color: var(--color-base);
 background-image: var(--bg2)!important; 
 background-size:  cover !important; 
 border-radius: 5px; 
-border: 1px solid var(--color-base); }
+border: 1px solid var(--color-base); 
+box-shadow: 0 0 10px var(--color-base);
+}
 .search-l1Wz-Q {
 margin: 0 4px 0 8px;
 background: rgba(78,70 , 50, 0.2);
@@ -1160,6 +1165,7 @@ border: 1px solid var(--color-base);
 background-image: var(--bg2)!important;
 background-size:  cover !important;
 border: 1px solid var(--color-base)!important;
+box-shadow: 0 0 10px var(--color-base);
 border-radius: 6px;
 }
 .theme-dark .item-1GzJrl:hover {
