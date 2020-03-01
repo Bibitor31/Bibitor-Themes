@@ -5,7 +5,7 @@
 --color-text-cat:rgb(165, 42, 42);
 --bg-image:url("https://i.imgur.com/2hkVg05.jpg");
 --bg-image2:url("https://i.imgur.com/IGkcs0Z.jpg");
---bg1:url("https://i.imgur.com/J1FcPn3.jpg");
+--bg1:url("https://i.imgur.com/jEQ2g0i.jpg");
 --bg2:url("https://i.imgur.com/lkp6hSb.jpg");
 --bg3: var(--color-base);
 --bg4: rgba(64, 64, 64, 0.420);
@@ -2536,7 +2536,7 @@ background-image:url("https://i.imgur.com/GvsrmWu.png");
 background-repeat:no-repeat;
 background-position:center;
 box-shadow: 0px -6px 6px -6px #fff inset;
-box-shadow: 0 0 10px var(--color-base);
+box-shadow: 0 0 12px var(--color-base);
 }
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
 content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Star-wars Version bêta 1.0.1)";
