@@ -133,6 +133,7 @@ animation: background 10s infinite linear
 }
 .scrollableContainer-2NUZem{
 background-image: var(--bg2);
+opacity: 0.8;
 border: 2px solid var(--color-base);
 box-shadow: 0 0 15px var(--color-base);
 }
