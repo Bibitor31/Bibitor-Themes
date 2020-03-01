@@ -30,9 +30,9 @@
 
 ![Légende](https://i.imgur.com/dkgayen.png)
 
-![Légende](https://i.imgur.com/ZhbSxPc.png)
+![Légende](https://i.imgur.com/cyUTqtG.png)
 
-![Légende](https://i.imgur.com/h3ejPhk.png)
+![Légende](https://i.imgur.com/s4GcQui.png)
 
-![Légende](https://i.imgur.com/L9yayim.png)
+![Légende](https://i.imgur.com/724FYsj.png)
 
