@@ -608,6 +608,7 @@ border-top: 2px dashed var(--background-modifier-accent);
 background-image: var(--bg2)!important;
 border: 1px solid var(--color-base) !important; 
 box-shadow: 0px -5px 5px -5px #fff inset;
+box-shadow: 0 0 15px var(--color-base);
 border-radius: 8px;
 width: 385px!important;
 height: 85px !important;
@@ -616,11 +617,10 @@ display: inline-block;
 margin: 10px 5px 0 20px;
 }
 .peopleListItem-2nzedh:hover{
-background-size:  cover !important;
-border: 1px solid var(--color-base) !important; 
+background-image: var(--bg1)!important;
+border: 1px solid rgb(165, 42, 42) !important; 
 box-shadow: 0px -5px 5px -5px #fff inset;
-width: 385px!important;
-padding: 16px 10px;
+box-shadow: 0 0 15px rgb(165, 42, 42);
 margin: 10px 5px 0 20px;
 }
 :focus {
@@ -897,7 +897,7 @@ color: var(--color-text-cat)!important;
 background-color: rgba(14,14,14,0.35) !important;
 }
 ::selection {
-background: var(--color-base) !important;
+background: var(--color-text-cat) !important;
 color:rgb(255, 255, 0);
 }
 .newMessagesBar-mujexs {
