@@ -371,9 +371,9 @@ background: rgba(0, 0, 0 ,0.5)!important;
 }
 .itemCard-v9viV7:first-of-type{
 background-image: var(--bg2);
-opacity: 0.8;
 border-radius: 5px;
 border: 1px solid var(--color-base);
+box-shadow: 0 0 10px var(--color-base);
 }
 .theme-dark .enabled-1t_Gxm:hover {
 background-image: var(--bg2);
@@ -385,8 +385,9 @@ border-radius: 5px;
 border: 1px solid var(--color-base);
 }
 .theme-dark .outer-1AjyKL.active-1xchHY, .theme-dark .outer-1AjyKL.interactive-3B9GmY:hover{
-
-background-size:  cover !important;
+background-image: var(--bg1);
+box-shadow: 0 0 10px rgb(165, 42, 42);
+border: 1px solid rgb(165, 42, 42) !important; 
 }
 .theme-dark .memberListItem-31QoHj:not(.popoutDisabled-2RK7MF):hover {
 background-image: var(--bg2);
@@ -608,7 +609,7 @@ border-top: 2px dashed var(--background-modifier-accent);
 background-image: var(--bg2)!important;
 border: 1px solid var(--color-base) !important; 
 box-shadow: 0px -5px 5px -5px #fff inset;
-box-shadow: 0 0 15px var(--color-base);
+box-shadow: 0 0 10px var(--color-base);
 border-radius: 8px;
 width: 385px!important;
 height: 85px !important;
@@ -620,7 +621,7 @@ margin: 10px 5px 0 20px;
 background-image: var(--bg1)!important;
 border: 1px solid rgb(165, 42, 42) !important; 
 box-shadow: 0px -5px 5px -5px #fff inset;
-box-shadow: 0 0 15px rgb(165, 42, 42);
+box-shadow: 0 0 10px rgb(165, 42, 42);
 margin: 10px 5px 0 20px;
 }
 :focus {
@@ -636,6 +637,7 @@ background-color: transparent;
 background:rgba(0,0,0,0.4) !important;
 border:none !important;
 border: 1px solid var(--color-base) !important;
+box-shadow: 0 0 10px var(--color-base);
 border-radius: 8PX;
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY{
@@ -964,12 +966,11 @@ border: 1px solid var(--color-base) !important;
 .theme-dark .membersGroup-v9BXpm {
 background: linear-gradient(25deg, transparent 35%, var(--gradient2) 80%);
 text-align: center;
-transform: translateY(-0px) !important;
 color: var(--color-text-cat);
 border: 1px solid var(--color-base);
 padding-top:5px;
 height: 30px;
-margin-top: 0px;
+margin-top: 0;
 border-radius:5px;
 margin-left:3px;
 box-shadow: 0 0 15px var(--color-base);
@@ -1232,10 +1233,10 @@ display: none;
 }
 .childWrapper-anI2G9 {
 background-color: transparent !important;
-background-image: url("https://i.imgur.com/zUr2aP1.png");
+background-image: url("https://i.imgur.com/LXg9xe9.png");
 background-size: cover;
 }
-.childWrapper-anI2G9:hover  {
+.childWrapper-anI2G9:hover {
 background-image:url("https://i.imgur.com/VKSVWgQ.png");
 }
 #app-mount .tooltipBrand-g03Nz8,
