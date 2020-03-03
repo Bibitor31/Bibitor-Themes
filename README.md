@@ -22,7 +22,7 @@
 
 - ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+) `Guide Bandaged BD`  [Guide Bandaged BD](https://0x71.cc/bd/guide/) !
 
-- ![#cac60e](https://placehold.it/15/cac60e/b5e853?text=+) `Preview Thèmes: Family`
+- ![#cac60e](https://placehold.it/15/cac60e/b5e853?text=+) `Preview Thèmes: Family & Star-wars`
 
 ![Légende](https://i.imgur.com/EUYJHr4.png)
 
