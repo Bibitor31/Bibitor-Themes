@@ -143,6 +143,11 @@ opacity: 0.8;
 border: 2px solid var(--color-base);
 box-shadow: 0 0 20px var(--color-base);
 }
+.attachPopout-36hjtN{
+background-image: var(--bg2);
+border: 1px solid var(--color-base);
+box-shadow: 0 0 20px var(--color-base);
+}
 .channelTextAreaDisabled-8rmlrp .scrollableContainer-2NUZem{
 background-image: var(--bg1);  
 }
@@ -1992,7 +1997,6 @@ background: var(--bg2);
 background-size: cover;
 color: var(--color-text-cat) ;
 border: 1px solid var(--color-base) !important;
-box-shadow: 0px -5px 5px -5px #fff inset;
 height: 30px;
 font-weight: 700;
 }
