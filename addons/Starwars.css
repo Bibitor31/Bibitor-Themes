@@ -259,8 +259,6 @@ color: rgb(175, 10, 0)!important;
 }
 .divider-3_HH5L {
 margin: 15px 20rem 15px 20rem;
-/* height: 22px; */
-/* border-top: 0px; */
 }
 .unreadPillCapStroke-7rkHbg {
 display:none;
@@ -583,7 +581,7 @@ font-weight: 700;
 color: var(--color-text-cat);
 }
 .actionButton-uPB8Fs{
-background-image: var(--bg1)!important;
+background-image: var(--bg2)!important;
 background-size: cover !important;
 border: 2px solid var(--color-base)!important;
 border-radius: 5px;
@@ -596,7 +594,7 @@ transform: scale(1.1);
 border-top: 2px dashed var(--background-modifier-accent);
 }
 .peopleListItem-2nzedh{
-background-image: var(--bg2)!important;
+background-color: rgba(0, 0, 0, 0.70)!important; 
 background-size: cover !important;
 border: 1px solid var(--color-base) !important; 
 box-shadow: 0 0 12px var(--color-base);
@@ -1871,6 +1869,7 @@ color: #dcddde !important;
 }
 .wrapper-35wsBm{
 background-image: var(--bg2)!important;
+/* opacity: 0.5!important; */
 border: 1px solid var(--color-base) ;
 border-radius: 5px ;
 }
