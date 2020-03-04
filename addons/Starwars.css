@@ -2524,7 +2524,7 @@ background-position:center;
 box-shadow: 0px -6px 6px -6px #fff inset,0 0 12px var(--color-base);
 }
 [layer-id="user-settings"] .userSettingsAccount-2eMFVR~ :last-child:after {
-content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Star-wars Version bêta 1.0.1)";
+content:"Themes Family!  https://bibitor31.github.io/Bibitor-Themes (Update Darth Vader Version bêta 1.0.1)";
 padding:35px;
 border: 1px solid var(--color-base)!important;
 border-radius: 5px;
@@ -2540,7 +2540,7 @@ background-position:20px 50%;
 box-shadow: 0px -6px 6px -6px #fff inset; 
 }
 .bda-slist::before { 
-content:"Thank you for using Themes Star-wars!"; 
+content:"Thank you for using Themes Darth Vader!"; 
 font-weight: 700; 
 font-size: 18px;
 color: var(--interactive-normal);
