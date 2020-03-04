@@ -717,22 +717,24 @@ box-shadow: 0px -5px 5px -5px #fff inset,0 0 10px var(--color-base);
 .item-PXvHYJ:hover{
 background: linear-gradient(25deg, transparent 35%, rgb(52, 0, 0) 100%);
 color: rgb(240, 71, 71);
-border-radius: 8px ;
+border: 1px solid var(--color-base); 
+border-radius: 5px ;
 box-shadow: 0px -5px 5px -5px #fff inset;
 }
 .side-8zPYf6 .item-PXvHYJ:nth-child(8){
 color: var(--interactive-normal)!important; 
 }																										   
 .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"] {
+background: linear-gradient(25deg, transparent 35%, var(--gradient2) 120%)!important;
 color: var(--color-text-cat)!important;
-border: 1px solid var(--color-base) !important; 
-box-shadow: 0px -5px 5px -5px #fff inset;
+border-radius: 5px ;
+box-shadow: 0px -5px 5px -5px #fff inset,0 0 10px var(--color-base);
 }
 .side-8zPYf6.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ{
 background: linear-gradient(25deg, transparent 55%, var(--gradient2) 100%);
 background-size:  cover !important;
 font-weight: 700;
-border-radius: 8px ;
+border-radius: 5px ;
 box-shadow: 0px -5px 5px -5px #fff inset,0 0 10px var(--color-base);
 color: var(--color-text-cat);
 }
@@ -740,7 +742,7 @@ color: var(--color-text-cat);
 color: var(--color-text-cat)!important;
 border: 1px solid var(--color-base) !important; 
 box-shadow: 0px -5px 5px -5px #fff inset;
-border-radius: 8px ;
+border-radius: 5px ;
 }
 .listRow-hutiT_:hover{
 background: var(--bg2)!important;
@@ -1706,7 +1708,6 @@ border-radius: 5px;
 border: 1px solid var(--color-base);
 }
 #bd-settings-sidebar .ui-tab-bar-item.selected {
-/* background-image: var(--bg1)!important; */
 background: linear-gradient(25deg, transparent 35%, rgb(52, 0, 0) 120%)!important;
 background-size:  cover !important;
 border: 1px solid var(--color-base)!important;
@@ -1714,7 +1715,6 @@ box-shadow: 0px -5px 5px -5px #fff inset;
 border-radius: 5px;
 }
 #bd-settings-sidebar .ui-tab-bar-item:hover {
-/* background-image: var(--bg1)!important; */
 background: linear-gradient(25deg, transparent 35%, rgb(52, 0, 0) 120%)!important;
 background-size:  cover !important;
 border: 1px solid var(--color-base)!important;
