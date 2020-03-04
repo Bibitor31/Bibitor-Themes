@@ -75,10 +75,10 @@ margin-top: 0px;
 background: rgba(0,0,0,0.6);
 }
 .clickable-2ap7je {
-border: 1px solid var(--color-base)!important;
-border-radius: 5px;
-/* box-shadow: inset 0 0 66px 1px var(--gradient2); */
 background-image: var(--bg2);
+background-size: cover !important ;
+box-shadow: inset 0 0 10px 1px var(--gradient2);
+border-radius: 5px;
 }
 .da-wordmark svg path {
 display: none;
@@ -497,18 +497,22 @@ left: 0;
 border-radius: 5px;
 }
 .panels-j1Uci_ {
-background-color: transparent !important;
+background-color: rgba(14, 14, 14, 0.35)!important;
+background-image: var(--bg2);
+background-size: cover !important ;
+box-shadow: inset 0 0 6px 1px var(--gradient2);
+border-radius: 5px;
 }
 .button-14-BFJ {
-border-radius: 5px;
 color: var(--color-base);
-background: linear-gradient(25deg, transparent 85%, var(--gradient1) 100%);
+background: rgba(0,0,0,0.9);
+border-radius: 5px;
 box-shadow: inset 0 0 6px 1px var(--gradient2);
 margin: 2px;
 }
 .button-14-BFJ.enabled-2cQ-u7:hover {
-color: rgb(255, 255, 255);
-background-color: rgba(0,0,0,0.6);
+color:  var(--color-text-cat);
+background-color: rgba(0,0,0,0.9);
 padding-bottom: 10%;
 }
 .container-3baos1:last-child:not(:hover) > div:last-child > :nth-child(1){
