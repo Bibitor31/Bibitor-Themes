@@ -709,9 +709,10 @@ color:var(--color-text-cat)!important;
 border: 1px solid var(--color-base) !important;
 }																										   
 .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"] {
-background-image: var(--bg1)!important;
+background: linear-gradient(25deg, transparent 35%, var(--gradient3) 120%)!important;
 color: var(--color-text-cat)!important;
 border: 1px solid var(--color-base) !important; 
+border-radius: 5px ;
 box-shadow: 0px -5px 5px -5px #fff inset;
 }
 .side-8zPYf6.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ{
