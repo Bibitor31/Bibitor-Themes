@@ -693,7 +693,6 @@ border-radius: 5px ;
 box-shadow: 0px -5px 5px -5px #fff inset;
 }
 .item-PXvHYJ:hover{
-/* background-image: var(--bg2)!important; */
 background: linear-gradient(25deg, transparent 35%, rgb(52, 0, 0) 100%);
 color: rgb(240, 71, 71);
 border: 1px solid var(--color-base) !important; 
@@ -716,7 +715,6 @@ border-radius: 5px ;
 box-shadow: 0px -5px 5px -5px #fff inset;
 }
 .side-8zPYf6.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,.themed-OHr7kt.selected-3s45Ha.item-PXvHYJ{
-/* background-image: var(--bg1)!important; */
 background: linear-gradient(25deg, transparent 55%, var(--gradient2) 160%);
 background-size:  cover !important;
 border: 1px solid var(--color-base) !important; 
@@ -1693,7 +1691,6 @@ border-radius: 5px;
 border: 1px solid var(--color-base);
 }
 #bd-settings-sidebar .ui-tab-bar-item.selected {
-/* background-image: var(--bg1)!important; */
 background: linear-gradient(25deg, transparent 35%, rgb(52, 0, 0) 120%)!important;
 background-size:  cover !important;
 border: 1px solid var(--color-base)!important;
@@ -1701,7 +1698,6 @@ box-shadow: 0px -5px 5px -5px #fff inset;
 border-radius: 5px;
 }
 #bd-settings-sidebar .ui-tab-bar-item:hover {
-/* background-image: var(--bg1)!important; */
 background: linear-gradient(25deg, transparent 35%, rgb(52, 0, 0) 120%)!important;
 background-size:  cover !important;
 border: 1px solid var(--color-base)!important;
@@ -2477,10 +2473,31 @@ border: 1px solid var(--color-base)!important;
 .lookFilled-1Gx00P.colorRed-1TFJan{
 background-color:rgb(60, 7, 7);
 }
-.theme-dark .quickSelectPopout-X1hvgV
-{
+.theme-dark .quickSelectPopout-X1hvgV{
 background: rgba(0, 0, 0,0.8);
 border: 1px solid var(--color-base)!important;
+}
+.container-16j22k{
+background-image: var(--bg-image2)!important ;
+background-size: 100vw 100vh ;
+}
+.content-1-zrf2{
+background: rgba(0, 0, 0,0.6);
+border: 1px solid var(--color-base)!important;
+border-radius: 10px;
+width: 350px;
+height: 300px;
+}
+.hasMore-3e72_v{
+background-image: var(--bg2)!important;
+color: var(--color-text-cat);
+font-weight: 700; 
+border: 1px solid var(--color-base);
+box-shadow: 0 0 15px var(--color-base);
+border-radius: 8px;
+}
+.hasMore-3e72_v:hover{
+color: var(--color-base);
 }
 .bda-slist::before {
 content:"";
