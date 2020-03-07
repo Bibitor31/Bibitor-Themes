@@ -8,7 +8,7 @@
 --bg1:url("https://i.imgur.com/yg8dmFk.jpg");
 --bg2:url("https://i.imgur.com/lkp6hSb.jpg");
 --bg3: var(--color-base);
---bg4: rgba(64, 64, 64, 0.420);
+--bg4: rgba(64, 64, 64, 0.4);
 --gradient1: rgb(64, 64, 64);
 --gradient2: var(--color-base);
 --gradient3: rgb(65, 0, 0);
@@ -2574,6 +2574,9 @@ border: 1px solid var(--color-base)!important;
 .container-16j22k{
 background-image: var(--bg-image2)!important ;
 background-size: 100vw 100vh ;
+}
+.platform-win .container-16j22k {
+top: 0px;
 }
 .content-1-zrf2{
 background: rgba(0, 0, 0,0.6);
