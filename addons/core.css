@@ -871,6 +871,12 @@ mask: none;
 .wrapper-3t9DeA foreignObject[mask] {
 mask: none;
 }
+.topSectionSpotify-1lI0-P{
+background-image: var(--bg2)!important;
+}
+.activity-1ythUs{
+background: linear-gradient(var(--ggradient-direction), var(--gradient2), var(--gradient1));
+}
 .avatarHint-1qgaV3 {
 background: linear-gradient(60deg, transparent 62%, var(--gradient2), var(--gradient1));
 }											
