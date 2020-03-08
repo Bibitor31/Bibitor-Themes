@@ -14,7 +14,7 @@
 --gradient3: rgb(0, 0, 0);
 --ggradient-direction: 25deg;
 }
-#voice-connection, #friends, .friends-header, .friends-table, .guilds-wrapper, .guild-header header, .channels-wrap, .private-channels .search-bar, .private-channels, .guild-channels, .account, .friend-table-add-header, .chat, .content, .title-wrap:not(.search-bar), .messages-wrapper, .messages .divider span, .messages .divider:before, .content, .message-group-blocked, .is-local-bot-message, .channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .typing, .container-RYiLUQ, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .channel-members, .container-2OU7Cz, .theme-dark .chat form, .channels-3g2vYe, .theme-dark .friends-table, .theme-dark .messages-wrapper, .content .flex-spacer, .theme-dark .chat>.content, .theme-dark .chat, .channel-members, .search .search-bar, .container-iksrDt, .container-3lnMWU, .theme-dark .title-qAcLxz, .theme-dark .typing-3eiiL_, .container-2OU7Cz, .theme-dark .activityFeed-HeiGwL, .theme-dark .headerBar-cxbhPD, .theme-dark .lfg-3xoFkI, .video-3lOWa6, .theme-dark .private-channel-call, .appMount-3VJmYg, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8, .channels-Ie2l6A, .container-PNkimc, .container-2Thooq, .container-2Thooq, .theme-dark .title-3qD0b-, .theme-dark .typing-2GQL18, .search-bar.search-bar-light, .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S, .theme-dark .members-1998pB, .theme-dark .card-2WxYqG, .theme-dark .layer-kosS71, .theme-dark .layers-20RVFW, .typeWindows-15E0Ys 
+#voice-connection, #friends, .friends-header, .friends-table, .guilds-wrapper, .guild-header header, .channels-wrap, .private-channels .search-bar, .private-channels, .guild-channels, .account, .friend-table-add-header, .chat, .content, .title-wrap:not(.search-bar), .messages-wrapper, .messages .divider span, .messages .divider:before, .content, .message-group-blocked, .is-local-bot-message, .channel-members-loading, .channel-members-loading .heading, .channel-members-loading .member, .typing, .container-RYiLUQ, .theme-dark .ui-standard-sidebar-view, .theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region, .theme-dark .channel-members, .container-2OU7Cz, .theme-dark .chat form, .channels-3g2vYe, .theme-dark .friends-table, .theme-dark .messages-wrapper, .content .flex-spacer, .theme-dark .chat.content, .theme-dark .chat, .channel-members, .search .search-bar, .container-iksrDt, .container-3lnMWU, .theme-dark .title-qAcLxz, .theme-dark .typing-3eiiL_, .container-2OU7Cz, .theme-dark .activityFeed-HeiGwL, .theme-dark .headerBar-cxbhPD, .theme-dark .lfg-3xoFkI, .video-3lOWa6, .theme-dark .private-channel-call, .appMount-3VJmYg, .theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ, .container-2lgZY8, .channels-Ie2l6A, .container-PNkimc, .container-2Thooq, .container-2Thooq, .theme-dark .title-3qD0b-, .theme-dark .typing-2GQL18, .search-bar.search-bar-light, .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S, .theme-dark .members-1998pB, .theme-dark .card-2WxYqG, .theme-dark .layer-kosS71, .theme-dark .layers-20RVFW, .typeWindows-15E0Ys 
 { 
 background-color: rgba(14, 14, 14, 0.35)!important; 
 }
@@ -706,7 +706,7 @@ color: var(--interactive-normal)!important;
 .item-PXvHYJ:hover:not([style*="color: rgb(240, 71, 71);"]) {
 color:var(--color-text-cat)!important;
 border: 1px solid var(--color-base) !important;
-}																										   
+}																							   
 .side-8zPYf6 .item-PXvHYJ[style*="background-color: rgb(114, 137, 218);"] {
 background: linear-gradient(25deg, transparent 35%, var(--gradient3) 120%)!important;
 color: var(--color-text-cat)!important;
@@ -721,6 +721,28 @@ border: 1px solid var(--color-base) !important;
 border-radius: 5px ;
 box-shadow: 0px -5px 5px -5px #fff inset;
 color: var(--color-text-cat);
+}
+[style*="color: rgb(114, 137, 218);"] { 
+color: var(--interactive-normal)!important; 
+}
+.theme-dark .tierHeaderLocked-1a2opw{
+background-color: rgba(0, 0, 0, 0.6)!important; 
+border: 1px solid var(--color-base) !important;
+box-shadow: 0 1px 5px 0 var(--color-base);
+}
+.theme-dark .tierBody-x9kBBp{
+background-color: rgba(0, 0, 0, 0.3)!important; 
+border: 1px solid var(--color-base) !important;
+box-shadow: 0 1px 10px 0 var(--color-base);
+}
+.item-1GzJrl.invite-271nFU{ 
+color: var(--interactive-normal)!important; 
+}
+.connectedAccount-36nQx7{
+color: var(--color-text-cat)!important;
+border: 1px solid var(--color-base) !important; 
+box-shadow: 0px -5px 5px -5px #fff inset;
+border-radius: 5px ;
 }
 .listRow-hutiT_:hover{
 background: var(--bg2)!important;
@@ -2177,6 +2199,30 @@ border: 1px solid var(--color-base) !important;
 box-shadow: 0px -5px 5px -5px #fff inset;
 border-radius: 5px;
 }
+.css-2yldzf-control,.css-1yegjoj-control:hover{
+border: 1px solid var(--color-base) !important; 
+border-radius: 5px 5px 0px 0px;
+} 
+.theme-dark .container-1nZlH6{
+background-image: var(--bg2)!important;
+border: 1px solid var(--color-base) !important; 
+box-shadow: 0px -5px 5px -5px #fff inset;
+border-radius: 5px 5px 0px 0px;
+}
+.lookGhost-2Fn_0-.colorGrey-2DXtkV{
+border: 1px solid var(--color-base) !important; 
+}
+.lookGhost-2Fn_0-.colorBrand-3pXr91:hover{
+border: 1px solid var(--color-base) !important; 
+color: var(--color-text-cat);
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3{
+background-image: var(--bg1)!important;
+border: 1px solid var(--color-base) !important
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover{
+box-shadow: inset 0 0 6px 1px var(--gradient2);
+}
 .codeRedemptionRedirect-1wVR4b{
 background:rgba(0,0,0,0.3) !important;
 border: 1px solid var(--color-base) !important;
@@ -2477,6 +2523,19 @@ background-color:rgb(60, 7, 7);
 background: rgba(0, 0, 0,0.8);
 border: 1px solid var(--color-base)!important;
 }
+.mulitplePlaceholderUsername-pogq9I, .placeholderAvatar-damqh6, .placeholderUsername-2B_OA9{
+background: rgba(0, 0, 0,0.6);
+border: 1px solid var(--color-base)!important;
+border-radius: 5px;
+}
+.platform-win .container-16j22k {
+top: 0px;
+}
+.memberGroupsPlaceholder-3mwPub{
+background: rgba(0, 0, 0,0.6);
+border: 1px solid var(--color-base)!important;
+border-radius: 5px;
+}
 .container-16j22k{
 background-image: var(--bg-image2)!important ;
 background-size: 100vw 100vh ;
@@ -2487,6 +2546,11 @@ border: 1px solid var(--color-base)!important;
 border-radius: 10px;
 width: 350px;
 height: 300px;
+}
+.problems-3mgf6w{
+background: rgba(0, 0, 0,0.8);
+border: 1px solid var(--color-base)!important;
+padding-top:10px ; 
 }
 .hasMore-3e72_v{
 background-image: var(--bg2)!important;
