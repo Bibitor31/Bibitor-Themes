@@ -755,8 +755,16 @@ box-shadow: 0 0 10px 0  var(--color-base)!important;
 [class*="lookFilled-"] {
 border: 1px solid var(--color-base)!important;
 }
+.backdrop-1wrmKB {
+background-image: url("https://i.imgur.com/yFRZRLj.jpg")!important;
+background-size: cover !important;
+opacity: 0.95 !important;
+}
 .root-SR8cQa{
 border: 1px solid var(--color-base) ;
+box-shadow: 0 0 15px var(--color-base);
+opacity: 0.95;
+top: 100px;
 }
 .topSectionNormal-2-vo2m,.body-3ND3kc{
 background: var(--bg2)!important;
