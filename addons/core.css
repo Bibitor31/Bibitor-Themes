@@ -1263,6 +1263,14 @@ background-size: cover;
 .childWrapper-anI2G9:hover  {
 background-image:url("https://i.imgur.com/8Lg1rx3.png");
 }
+.folder-21wGz3, .folderIconWrapper-226oVY{
+background: linear-gradient(var(--ggradient-direction), var(--gradient), var(--gradient2));
+box-shadow: inset 0 0 20px 0 rgba(0,0,0,.5);
+border-radius: 5px !important;
+}
+.folder-21wGz3, .folderIconWrapper-226oVY:hover{
+box-shadow: inset 0 0 25px 0 var(--color-base);
+}
 #app-mount .tooltipBrand-g03Nz8,
 #app-mount .tooltipBlack-PPG47z,
 #app-mount .tooltipRed-8-9NeP {
