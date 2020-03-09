@@ -144,7 +144,7 @@ width: 250px;
 height: 20px;
 }
 .theme-dark .quickMessage-1yeL4E {
-/* background-color: rgba(78,70 , 50, 0.2); */
+background-color: rgba(78,70 , 50, 0.2);
 border-color: var(--color-base);
 color: hsla(0,0%,100%,.7);
 }
