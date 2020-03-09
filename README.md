@@ -1,5 +1,5 @@
 <h2 align="center">Thèmes for BetterDiscord</h2>
-<h4 align="center">Couleurs des thèmes personnalisables</h4>
+<h4 align="center">Couleurs des thèmes personnalisables (Customizable colors)</h4>
 <h4 align="center">(--color-base:#xxxxxx;)  (--color-text-cat:#xxxxxx;)</h4>
 
 - ![#00a118](https://placehold.it/15/00a118/b5e853?text=+) **`Core.css`** [Thèmes Family Fusion!](https://bibitor31.github.io/Bibitor-Themes/addons/core.css) **`Update 09/03/2020`**
