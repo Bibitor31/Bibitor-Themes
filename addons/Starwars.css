@@ -792,7 +792,7 @@ border: 1px solid var(--color-base) !important;
 box-shadow: 0 1px 5px 0 var(--color-base);
 }
 .backdrop-1wrmKB {
-background-image: url("https://i.imgur.com/4ypExmL.jpg")!important;
+background-image: url("https://i.imgur.com/RCXS32R.jpg")!important;
 background-size: cover !important;
 opacity: 0.95 !important;
 }
@@ -800,7 +800,6 @@ opacity: 0.95 !important;
 border: 1px solid var(--color-base) ;
 box-shadow: 0 0 15px var(--color-base);
 opacity: 0.95;
-top: 100px;
 }
 .topSectionNormal-2-vo2m{
 background: var(--bg2)!important;
