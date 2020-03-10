@@ -18,8 +18,6 @@
 
 ![Légende](https://i.imgur.com/xLdIeV7.png)
 
-![Légende](https://i.imgur.com/F96euMh.png)
-
 ![Légende](https://i.imgur.com/cQu15yO.png)
 
 ![Légende](https://i.imgur.com/GgAUb6r.png)
