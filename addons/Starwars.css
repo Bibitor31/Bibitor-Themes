@@ -1004,6 +1004,8 @@ border-radius: 5px;
 }
 .mention:hover {
 color: var(--color-base) !important;
+transition: padding .2s ease;
+padding-left: 15px;
 }
 .name-IbjUBS {
 background: linear-gradient(25deg, transparent 55%, var(--gradient2) 80%),url("https://i.imgur.com/e2RyM9Y.jpg");
@@ -2052,6 +2054,12 @@ border: 1px solid var(--color-base) !important;
 box-shadow: 0px -5px 5px -5px #fff inset;
 height: 30px;
 font-weight: 700;
+}
+.theme-dark .bda-slist .bda-header {
+border-bottom-color: var(--color-base);
+}
+.theme-dark .bda-slist .bda-footer {
+border-top-color: var(--color-base);
 }
 .bda-slist .bda-header, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper {
 margin-top:5px!important;
