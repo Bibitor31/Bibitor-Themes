@@ -1403,32 +1403,10 @@ border: 1px solid var(--color-base);
 .theme-dark .guild-1EfMGQ.audio-3vVhBi .guildInner-3DSoA4:after, .theme-dark .guild-1EfMGQ.video-15yGu3 .guildInner-3DSoA4:after {
 background-color: var(--color-base);
 }
-/* .emoji.jumboable { */
-/* width: 2rem; */
-/* height: 2rem; */
-/* min-height: 3rem; */
-/* } */
-/* .emoji.jumboable:hover { */
-/* transform: scale(2); */
-/* transition: all 0.9s; */
-/* } */
-/* .emoji.jumboable { */
-/* transition: all 0.9s; */
-/* } */
-/* [class*="emote "]:hover{ */
-/* transform: scale(2); */
-/* transition: all 0.9s; */
-/* } */
-/* [class*="emote "] { */
-/* transition: all 0.9s; */
-/* } */
-/* .emoji:hover { */
-/* transform: scale(2); */
-/* transition: all 0.5s; */
-/* }  */
-/* .emoji { */
-/* transition: all 0.5s; */
-/* } */
+.emoji.jumboable {
+width: 2rem;
+height: 2rem;
+}
 .theme-dark .wrapper-29NfPK {
 background-color: rgba(32, 34, 37, 0);
 }
