@@ -5,10 +5,10 @@
 --color-text-cat:rgb(119, 136, 153);
 --bg-image:url("https://i.imgur.com/XZjvqF5.jpg");
 --bg-image2:url("https://i.imgur.com/sYOO3N9.jpg");
---bg1:url("https://i.imgur.com/8bFP6Yz.jpg");
---bg2:url("https://i.imgur.com/1nnlZvu.jpg");
+--bg1:url("https://i.imgur.com/keqo9BB.jpg");
+--bg2:url("https://i.imgur.com/e2RyM9Y.jpg");
 --bg3: var(--color-base);
---bg4: rgba(64, 64, 64, 0.420);
+--bg4: rgba(64, 64, 64, 0.45);
 --gradient1: rgb(64, 64, 64);
 --gradient2: var(--color-base);
 --gradient3: rgb(0, 0, 0);
@@ -627,26 +627,25 @@ margin: 5px;
 .actionButton-uPB8Fs:hover{
 transform: scale(1.1);
 }
+
 .peopleListItem-2nzedh{
-border-top: 2px dashed var(--background-modifier-accent);
-}
-.peopleListItem-2nzedh{
-background-color: rgba(0, 0, 0, 0.70)!important;
+background:var(--bg2) !important;
 background-size: cover !important;
+filter: brightness(50%);
 border: 1px solid var(--color-base) !important;
 box-shadow: 0 0 12px var(--color-base);
 border-radius: 8px;
-width: 385px!important;
+width: 595px!important;
 height: 85px !important;
 padding: 16px 10px;
 display: inline-block;
 margin: 10px 5px 0 20px;
 }
 .peopleListItem-2nzedh:hover{
-background-size:  cover !important;
+filter: brightness(80%);
 border: 1px solid var(--color-base) !important;
 box-shadow: 0px -5px 5px -5px #fff inset,0 0 10px var(--color-base);
-width: 385px!important;
+width: 595px!important;
 padding: 16px 10px;
 margin: 10px 5px 0 20px;
 }
@@ -1649,7 +1648,7 @@ background: linear-gradient(25deg, transparent 35%, var(--gradient2) 100%);
 border:none !important;
 color: var(--color-text-cat);
 border: 1px solid var(--color-base)!important;
-border-radius: 8PX;
+border-radius: 8px;
 }
 .lookInverted-2D7oAl.colorBrand-3pXr91{
 background-color: var(--bg2)!important;
@@ -1667,6 +1666,7 @@ color: #ffffff;
 .lookOutlined-3sRXeN.colorRed-1TFJan{
 background-image: var(--bg2);
 border: 1px solid var(--color-base);
+border-radius: 8px;
 }
 .lookFilled-1Gx00P.colorRed-1TFJan{
 background-color:rgb(60, 7, 7);
@@ -2338,8 +2338,9 @@ background:rgba(0,0,0,0.3) !important;
 border: 1px solid var(--color-base) !important;
 }
 .emptyApplications-3GTmw- , .emptyUsers--hiToV, .tier1Banner-1BTgv0, .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC{
-background:rgba(0,0,0,0.4) !important;
+background:var(--bg4)!important;
 border: 1px solid var(--color-base) !important;
+border-radius: 5px;
 }
 .bar-2Qqk5Z{
 border: 1px solid var(--color-base) !important;
