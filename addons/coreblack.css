@@ -187,12 +187,6 @@ background-image: var(--bg1);
 color: var(--color-text-cat);
 font-weight: 700;
 }
-.message-2qnXI6{
-background:rgba(0,0,0,0.6) !important;
-margin: 0px 10px 0px;
-padding-top:5px ;
-padding-bottom: 10px;
-}
 .edited-DL9ECl {
 color: var(--color-text-cat) ;
 font-weight: 700;
@@ -235,6 +229,12 @@ background-size: cover !important ;
 box-shadow: inset 0 0 6px 1px var(--gradient2);
 border-radius: 8px 8px 0px 0px;
 }
+.message-2qnXI6{
+background:rgba(0,0,0,0.6) !important;
+margin: 0px 10px 0px;
+padding-top:5px ;
+padding-bottom: 10px;
+}
 .groupStart-23k01U{
 background:rgba(0,0,0,0.6) !important;
 border: 1px solid var(--color-base) !important;
@@ -245,6 +245,9 @@ border-radius: 8px 8px 0px 0px;
 margin: 0px 0px 0px 10px!important;
 min-height: 3.0rem;
 padding: 5px 10px 5px 80px;
+}
+.message-2qnXI6.selected-2P5D_Z, .mouse-mode .message-2qnXI6:hover{
+/* background:rgba(15,15,15,0.8)!important; */
 }
 .hasContent-1cNJDh{
 border: 6px solid var(--color-base);
@@ -2119,18 +2122,28 @@ margin-top: auto !important;
 margin-bottom: auto !important;
 border-radius: 3px !important;
 }
-.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg {
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(1)>.viewBody-2Qz-jg {
 -webkit-text-security: square;
 text-decoration-color : var(--color-base);
-color: var(--color-base);
+color: var(--color-text-cat);
 box-shadow: inset 0 0 10px 2px var(--color-base);
 border-radius: 3px !important;
 display: table;
 }
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg {
+-webkit-text-security: square;
+text-decoration-color : var(--color-base);
+color: var(--color-text-cat);
+box-shadow: inset 0 0 10px 2px var(--color-base);
+border-radius: 3px !important;
+display: table;
+}
+.userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(1)>.viewBody-2Qz-jg:hover {
+-webkit-text-security: none;
+font-weight: 700;
+}
 .userSettingsAccount-2eMFVR div:nth-child(2)>div:nth-child(2)>.viewBody-2Qz-jg:hover {
 -webkit-text-security: none;
-text-decoration-color : var(--color-text-cat);
-color: var(--color-text-cat);
 font-weight: 700;
 }
 .theme-dark .searchResultsContainer-1ma_dc {
