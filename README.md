@@ -8,7 +8,7 @@
 
 - ![#00a118](https://placehold.it/15/00a118/b5e853?text=+) **`Starwars.css`** [Thèmes Family Starwars!](https://bibitor31.github.io/Bibitor-Themes/addons/Starwars.css) **`Update 09/03/2020`**
 
-- ![#a52a2a](https://placehold.it/15/a52a2a/b5e853?text=+) **`Darth Vader`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/DarthVader-family.theme.css) **`Update 09/03/2020`**
+- ![#a52a2a](https://placehold.it/15/a52a2a/b5e853?text=+) **`Family-Fusion Darth Vader`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/DarthVader-family.theme.css) **`Update 09/03/2020`**
 
 - ![#d7d7d7](https://placehold.it/15/d7d7d7/b5e853?text=+) `Installer Bandaged BD pour utiliser les Thèmes`  [BetterDiscord](https://betterdiscord.net/home/) !
 
