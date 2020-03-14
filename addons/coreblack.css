@@ -930,13 +930,13 @@ mask: none;
 background-image: var(--bg2)!important;
 }
 .activity-1ythUs{
-background: linear-gradient(var(--ggradient-direction), var(--gradient2), var(--gradient1));
+background: linear-gradient(var(--ggradient-direction), var(--gradient2), var(--gradient3));
 }
 .avatarHint-1qgaV3 {
-background: linear-gradient(60deg, transparent 62%, var(--gradient2), var(--gradient1));
+background: linear-gradient(60deg, transparent 62%, var(--gradient2), var(--gradient3));
 }
 .activity-11LB_k{
-background: linear-gradient(var(--ggradient-direction), var(--gradient2), var(--gradient1));
+background: linear-gradient(var(--ggradient-direction), var(--gradient2), var(--gradient3));
 box-shadow: inset 0 0 6px 2px rgba(0,0,0,.5);
 }
 .wrapper-3t9DeA.avatar-1BDn8e{
