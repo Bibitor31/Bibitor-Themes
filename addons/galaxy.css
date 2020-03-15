@@ -322,13 +322,13 @@ border: 1px solid var(--color-base);
 .mention{
 background: linear-gradient(25deg, transparent 75%, var(--gradient1) 100%),url("https://i.imgur.com/e2RyM9Y.jpg");
 padding: 0 5px;
-color: var(--color-text-cat) !important;
+color: var(--color-text-cat)!important;
 box-shadow: 0px -4px 4px -4px #fff inset;
 font-weight: 700;
 }
 .mention:hover {
 background-image: var(--bg1);
-color: rgb(67, 181, 129)!important;
+color: rgb(38, 139, 210)!important;
 transition: padding .2s ease;
 padding-left: 15px;
 }
@@ -1994,9 +1994,16 @@ color:rgb(165, 42, 42);
 .actionIcon-2Hi9ZG:hover{
 color:var(--color-text-cat);
 }
-.art-347BZj {
+.art-347BZj{
 background-image: url("https://i.imgur.com/CjJYCrF.png")!important;
 background-position: center;
+}
+.art-2gnmb7{
+background-image: url("https://i.imgur.com/CjJYCrF.png")!important;
+background-position: center;
+}
+.theme-dark .header-3po9qd{
+color: var(--color-text-cat);
 }
 .headerText-2uyvpY{
 color: var(--color-text-cat);
@@ -2492,6 +2499,9 @@ margin-right: 80px;
 }
 #dv-mount{
 background-color:rgba(5, 5, 5, 0.30) !important;
+}
+#dv-main{
+color: var(--color-text-cat)!important;
 }
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item, .side-8zPYf6 .item-PXvHYJ {
 padding-left:40px;
