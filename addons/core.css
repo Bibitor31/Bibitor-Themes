@@ -1589,6 +1589,9 @@ color: hsl(0, 0%, 100%);
 background-color: rgba(84, 55, 0, 0.5) !important;
 border: 3px solid var(--color-base);
 }
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled{
+background-color: transparent !important;
+}
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
 background: linear-gradient(25deg, transparent 35%, var(--gradient2) 100%);
 border:none !important;
