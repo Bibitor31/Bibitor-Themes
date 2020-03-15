@@ -1991,6 +1991,13 @@ color:rgb(165, 42, 42);
 .actionIcon-2Hi9ZG:hover{
 color:var(--color-text-cat);
 }
+.art-347BZj {
+background-image: url("https://i.imgur.com/CjJYCrF.png")!important;
+background-position: center;
+}
+.headerText-2uyvpY{
+color: var(--color-text-cat);
+}
 .container-2XeR5Z{
 background-image: var(--bg1)!important;
 border: 1px solid var(--color-base) ;
@@ -2199,10 +2206,6 @@ box-shadow: 0 0 10px 0  var(--color-base)!important;
 .accountBtn-2Nozo3 .accountBtnInner-sj5jLs{
 background-color: rgba(0,0,0,0.35) ;
 border: 1px solid var(--color-base)!important;
-}
-.art-347BZj {
-background-image: url("https://i.imgur.com/CjJYCrF.png")!important;
-background-position: center;
 }
 .theme-dark .input-cIJ7To:focus {
 border-color: var(--color-base)!important;
