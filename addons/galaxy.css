@@ -319,6 +319,47 @@ box-shadow: inset 0 0 6px 1px rgba(0,0,0,.5);
 background: var(--bg2);
 border: 1px solid var(--color-base);
 }
+.mention{
+background: linear-gradient(25deg, transparent 75%, var(--gradient1) 100%),url("https://i.imgur.com/e2RyM9Y.jpg");
+padding: 0 5px;
+color: var(--color-text-cat) !important;
+box-shadow: 0px -4px 4px -4px #fff inset;
+font-weight: 700;
+}
+.mention:hover {
+background-image: var(--bg1);
+color: rgb(67, 181, 129)!important;
+transition: padding .2s ease;
+padding-left: 15px;
+}
+.theme-dark .mentioned-xhSam7 .mention, .theme-light .mentioned-xhSam7 .mention{
+border-radius: 5px;
+}
+.theme-dark .isMentioned-N-h9aa {
+background-image: var(--bg2);
+opacity: 0.8;
+border-radius: 5px;
+border: 1px solid var(--color-base);
+}
+.isMentionedCozy-3isp7y:after {
+display: none;
+}
+.username-1A8OIy.clickable-1bVtEA:hover{
+background: linear-gradient(25deg, transparent 75%, var(--gradient1) 100%),var(--bg1);
+border-radius: 5px;
+}
+.theme-dark .isMentioned-N-h9aa {
+background: rgba(78,70 , 50, 0.13);
+}
+.isMentionedCozy-3isp7y:after {
+display: none;
+}
+.theme-dark .isMentioned-N-h9aa {
+background-image: var(--bg2);
+opacity: 0.8;
+border-radius: 5px;
+border: 1px solid var(--color-base);
+}
 .channelNotice-1-XFjC.invite-OjTXrW{
 background-image:url("https://i.imgur.com/CjJYCrF.png");
 background-size:60px;
@@ -449,15 +490,7 @@ border: 1px solid var(--color-base);
 background-image: var(--bg2);
 border: 1px solid var(--color-base);
 }
-.theme-dark .isMentioned-N-h9aa {
-background-image: var(--bg2);
-opacity: 0.8;
-border-radius: 5px;
-border: 1px solid var(--color-base);
-}
-.isMentionedCozy-3isp7y:after {
-display: none;
-}
+
 .da-chat .da-scroller:not(.members-1998pB)::-webkit-scrollbar-track-piece {
 display: none;
 }
@@ -993,20 +1026,6 @@ color: hsl(0, 0%, 100%);
 .jumpToPresentBar-9P20AM button:last-child {
 color: hsl(0, 0%, 100%);
 }
-.mention{
-padding: 0 5px;
-color: var(--color-text-cat) !important;
-box-shadow: 0px -4px 4px -4px #fff inset;
-font-weight: 700;
-}
-.theme-dark .mentioned-xhSam7 .mention, .theme-light .mentioned-xhSam7 .mention{
-border-radius: 5px;
-}
-.mention:hover {
-color: var(--color-base) !important;
-transition: padding .2s ease;
-padding-left: 15px;
-}
 .name-IbjUBS {
 background: linear-gradient(25deg, transparent 55%, var(--gradient2) 80%),url("https://i.imgur.com/e2RyM9Y.jpg");
 text-align: center;
@@ -1229,8 +1248,9 @@ background-color: rgba(64, 64, 64, 0.420);
 border: none;
 }
 .botTagRegular-2HEhHi {
-background: -webkit-linear-gradient(60deg, var(--gradient1), var(--gradient2));
-color: #fff;
+background: linear-gradient(25deg, transparent 5%, var(--color-base) 100%);
+color: var(--color-text-cat);
+font-weight: 700;
 }
 .searchBar--fTZYa{
 background-image: var(--bg2)!important;
@@ -1376,12 +1396,6 @@ border: 1px solid var(--color-base) !important;
 background-color: rgba(255, 255, 255, 0.17);
 color: var(--color-text-cat);
 }
-.theme-dark .isMentioned-N-h9aa {
-background: rgba(78,70 , 50, 0.13);
-}
-.isMentionedCozy-3isp7y:after {
-display: none;
-}
 .theme-dark .hljs {
 -webkit-text-size-adjust: none;
 background: #002b36;
@@ -1395,12 +1409,6 @@ background: var(--color-base);
 }
 .theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM {
 color: hsl(0, 0%, 100%);
-}
-.theme-dark .isMentioned-N-h9aa {
-background-image: var(--bg2);
-opacity: 0.8;
-border-radius: 5px;
-border: 1px solid var(--color-base);
 }
 .theme-dark .guild-1EfMGQ.audio-3vVhBi .guildInner-3DSoA4:after, .theme-dark .guild-1EfMGQ.video-15yGu3 .guildInner-3DSoA4:after {
 background-color: var(--color-base);
