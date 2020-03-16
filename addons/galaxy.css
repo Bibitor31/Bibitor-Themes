@@ -412,7 +412,7 @@ color: red;
 content: " [sending]";
 color: yellow;
 }
-.privateChannels-1nO12o .channel-2QD9_O:nth-child(2),.privateChannels-1nO12o .channel-2QD9_O:nth-child(3){
+.privateChannels-1nO12o .channel-2QD9_O:nth-child(1),.privateChannels-1nO12o .channel-2QD9_O:nth-child(2),.privateChannels-1nO12o .channel-2QD9_O:nth-child(3){
 display: inline-block;
 max-width: 100%;
 overflow: visible
