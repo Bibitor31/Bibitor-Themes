@@ -324,7 +324,7 @@ color: red;
 content: " [sending]";
 color: yellow;
 }
-.privateChannels-1nO12o .channel-2QD9_O:nth-child(2),.privateChannels-1nO12o .channel-2QD9_O:nth-child(3){
+.privateChannels-1nO12o .channel-2QD9_O:nth-child(1),.privateChannels-1nO12o .channel-2QD9_O:nth-child(2),.privateChannels-1nO12o .channel-2QD9_O:nth-child(3){
 display: inline-block;
 max-width: 100%;
 overflow: visible
@@ -2440,6 +2440,9 @@ margin-right: 80px;
 }
 #dv-mount{
 background-color:rgba(14,14,14,0.35) !important;
+}
+#dv-main{
+color: var(--color-text-cat)!important;
 }
 .side-8zPYf6 #bd-settings-sidebar .ui-tab-bar-item, .side-8zPYf6 .item-PXvHYJ {
 padding-left:40px;
