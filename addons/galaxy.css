@@ -439,13 +439,15 @@ padding: 1% 2%;
 border-radius: 8px;
 }
 .theme-dark .activeButton-1BJAiN, .theme-dark .activeButton-1BJAiN:hover{
-background: rgba(0, 0, 0 ,0.5)!important;
+background: linear-gradient(25deg, transparent 55%, var(--gradient1) 80%);
 color: var(--color-text-cat);
 border: 2px solid var(--color-base);
+border-radius: 5px;
 }
 .theme-dark .pageButton-MknE-_:hover{
-background: rgba(0, 0, 0 ,0.3)!important;
+background: linear-gradient(25deg, transparent 55%, var(--gradient2) 80%);
 border: 2px solid var(--color-base);
+border-radius: 5px;
 }
 .form-2fGMdU:before {
 border:none !important;
