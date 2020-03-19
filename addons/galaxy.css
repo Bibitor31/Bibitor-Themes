@@ -1689,11 +1689,11 @@ background-image: var(--bg2);
 border: 1px solid var(--color-base);
 box-shadow: 0 0 10px 0 var(--color-text-cat)!important;
 }
-.marginBottom8-AtZOdT{
-background-image: var(--bg2);
-border: 1px solid var(--color-base);
-border-radius: 5px;
-}
+/* .marginBottom8-AtZOdT{ */
+/* background-image: var(--bg2); */
+/* border: 1px solid var(--color-base); */
+/* border-radius: 5px; */
+/* } */
 .theme-dark .footer-2aTx0s {
 background-color: rgb(100, 75, 29);
 color: #ffffff;
