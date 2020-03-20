@@ -12,12 +12,4 @@
 --color-text-cat:rgb(165, 42, 42);
 --bg-image:url("https://i.imgur.com/2hkVg05.jpg");
 --bg-image2:url("https://i.imgur.com/IGkcs0Z.jpg");
---bg1:url("https://i.imgur.com/J1FcPn3.jpg");
---bg2:url("https://i.imgur.com/e2RyM9Y.jpg");
---bg3: var(--color-base);
---bg4: rgba(45, 45, 45, 0.4);
---gradient1: rgb(45, 45, 45);
---gradient2: var(--color-base);
---gradient3: rgb(65, 0, 0);
---ggradient-direction: 25deg ; 
 }
