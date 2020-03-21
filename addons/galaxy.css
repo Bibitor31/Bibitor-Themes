@@ -19,6 +19,7 @@
 {
 background-color: rgba(5, 5, 5, 0.25)!important;
 }
+
 #app-mount .wrapper-1Rf91z, .hiddenMembers-2dcs_q, .platform-win .sidebar-2K8pFh {
 background-color: rgba(5, 5, 5, 0.30)!important;
 }
@@ -2640,15 +2641,15 @@ opacity: 0.4;
 border: 1px solid var(--color-base);
 }
 .contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls{
-background: rgba(0,0,0,0.6);
+background: rgba(0,0,0,0.8);
 border: 1px solid var(--color-base);
 color: var(--color-base);
+font-weight: 700;
 border-top: none;
 }
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
-background-color: rgba(0,0,0,0.5);
-border: 1px solid var(--color-base);
-color: var(--color-base);
+background-color: rgba(0,0,0,0.8);
+border-color: var(--color-base);
 border-radius: 3px;
 }
 .theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span{
@@ -2658,9 +2659,17 @@ border: 1px solid var(--color-base);
 background: rgba(0,0,0,0.5);
 color: var(--color-text-cat);
 border: 1px solid var(--color-base);
+width:80px;
 }
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover{
 background: rgba(14,14,14,0.9)!important;
+}
+.checkbox-group {
+line-height:25px;
+padding-right:10px;
+height:0px;
+display:flex;
+flex-direction: row-reverse;
 }
 .checkbox span {
 padding-left: 30px;
@@ -2670,14 +2679,11 @@ width: 50px;
 box-shadow: 0 0 2px 2px var(--color-base)!important;
 background: rgba(98, 0, 0,0.5);
 }
-.checkbox .checkbox-inner span {
-width: 50px;
-box-shadow: 0 0 2px 2px var(--color-base)!important;
-background: rgba(98, 0, 0,0.5);
-}
 .checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
 margin-left: 15px !important;
+border-color:   var(--color-text-cat);
 }
+#bd-customcss-attach-controls .help-text
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span:hover {
 background: rgba(14,14,14,0.9)!important;
 }
