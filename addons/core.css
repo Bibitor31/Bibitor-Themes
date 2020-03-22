@@ -253,7 +253,7 @@ margin: 15px 20rem 15px 20rem;
 /* height: 22px; */
 /* border-top: 0px; */
 }
-.unreadPillCapStroke-7rkHbg {
+.unreadPillCapStroke-7rkHbg{
 display:none;
 }
 .unreadPillCap-3_K2q2, .da-unreadPillCap{
@@ -2664,6 +2664,9 @@ border-radius: 8px;
 }
 .hasMore-3e72_v:hover{
 color: var(--color-base);
+}
+.userSettingsSecurityImage-21pI_Q{
+padding: 25px 0px 50px 0px;
 }
 .bda-slist::before {
 content:"";
