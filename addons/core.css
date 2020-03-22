@@ -2528,6 +2528,7 @@ box-shadow: 0px -4px 4px -4px #fff inset;
 }
 .ace_gutter-layer{
 background: rgba(0,0,0,2);
+color: var(--color-text-cat);
 }
 #app-mount .ace_scrollbar-v::-webkit-scrollbar, #app-mount .ace_scrollbar-h::-webkit-scrollbar {
 height: 8px;
@@ -2545,23 +2546,23 @@ background-size: cover;
 background-position:50% 50%;
 }
 .ace-monokai .ace_gutter-active-line,.ace-monokai .ace_marker-layer .ace_active-line {
-background-color: var(--color-base);
+background: var(--color-base)!important;
 opacity: 0.4;
 }
 .editor-wrapper{
 border: 1px solid var(--color-base);
 }
 .contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls{
-background: rgba(0,0,0,0.6);
+background: rgba(0,0,0,0.8);
 border: 1px solid var(--color-base);
 color: var(--color-base);
+font-weight: 700;
 border-top: none;
 }
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
-background-color: rgba(0,0,0,0.5);
-border: 1px solid var(--color-base);
-color: var(--color-base);
-border-radius: 3px;
+background-color: rgba(0,0,0,0.8);
+border-color: var(--color-base);
+border-radius: 5px;
 }
 .theme-dark .checkbox-3kaeSU .checkboxInner-3yjcPe span{
 border: 1px solid var(--color-base);
@@ -2569,28 +2570,35 @@ border: 1px solid var(--color-base);
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button, #bd-customcss-attach-controls .help-text .inline{
 background: rgba(0,0,0,0.5);
 color: var(--color-text-cat);
-border: 1px solid var(--color-base);
+border: 1px solid var(--color-base)!important;
+width:80px;
+margin-left:4px !important;
+border-radius:5px !important;
 }
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover{
 background: rgba(14,14,14,0.9)!important;
 }
-
+.checkbox-group {
+line-height:30px;
+padding-right:10px;
+height:0px;
+display:flex;
+flex-direction: row-reverse;
+}
 .checkbox span {
 padding-left: 30px;
 }
 .checkbox .checkbox-inner span {
-width: 50px;
-box-shadow: 0 0 2px 2px var(--color-base)!important;
 background: rgba(98, 0, 0,0.5);
-}
-.checkbox .checkbox-inner span {
+border: 1px solid var(--color-base) !important;
+border-radius: 5px;
 width: 50px;
-box-shadow: 0 0 2px 2px var(--color-base)!important;
-background: rgba(98, 0, 0,0.5);
 }
 .checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
 margin-left: 15px !important;
+border-color:   var(--color-text-cat);
 }
+#bd-customcss-attach-controls .help-text
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span:hover {
 background: rgba(14,14,14,0.9)!important;
 }
