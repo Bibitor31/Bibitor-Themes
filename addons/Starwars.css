@@ -2722,6 +2722,9 @@ border-radius: 8px;
 .hasMore-3e72_v:hover{
 color: var(--color-base);
 }
+.userSettingsSecurityImage-21pI_Q{
+padding: 25px 0px 50px 0px;
+}
 .bda-slist::before {
 content:"";
 padding:25px;
