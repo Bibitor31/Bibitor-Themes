@@ -19,7 +19,6 @@
 {
 background-color: rgba(5, 5, 5, 0.25)!important;
 }
-
 #app-mount .wrapper-1Rf91z, .hiddenMembers-2dcs_q, .platform-win .sidebar-2K8pFh {
 background-color: rgba(5, 5, 5, 0.30)!important;
 }
@@ -2008,7 +2007,12 @@ border-radius: 5px ;
 }
 .item-2hkk8m {
 background-color: var(--color-base);
+border-radius: 1px ;
+width: 12px;
 }
+/* .pill-31IEus { */
+/* display: none; */
+/* } */
 .flowerStar-1GeTsn {
 color:var(--color-base);
 }
@@ -2688,7 +2692,7 @@ border-color:   var(--color-text-cat);
 }
 #bd-customcss-attach-controls .help-text
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span:hover {
-background: rgba(14,14,14,0.9)!important;
+/* background: rgba(14,14,14,0.9)!important; */
 }
 .checkbox .checkbox-inner span:hover {
 background: rgba(14,14,14,0.9)!important;
