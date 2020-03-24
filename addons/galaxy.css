@@ -1368,6 +1368,7 @@ color: var(--color-text-cat);
 border: 1px solid var(--color-base) !important;
 box-shadow: inset 0 0 6px 1px rgba(255, 255, 255, 0.40);
 border-radius: 8px;
+animation: loadnotif 10s cubic-bezier(.25, 1, .25, 1); 
 }
 .tooltipPointer-3ZfirK {
 border-top-color: var(--color-base) !important;
