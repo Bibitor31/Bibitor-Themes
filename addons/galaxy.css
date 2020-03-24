@@ -701,6 +701,9 @@ background-color: transparent;
 #app-mount .wrapper-1Rf91z {
 background-color: transparent;
 }
+#app-mount .wrapper-1Rf91z foreignObject {
+mask: none !important;
+}
 .emptyCard-1RJw8n{
 background:rgba(0,0,0,0.4) !important;
 border:none !important;
@@ -847,9 +850,6 @@ border: none;
 background-image: var(--bg2)!important;
 border: 2px solid var(--color-base);
 box-shadow: 0 0 15px var(--color-base);
-}
-#app-mount .wrapper-1Rf91z foreignObject {
-mask: none !important;
 }
 .circleIconButton-jET_ig {
 background: linear-gradient(var(--ggradient-direction), var(--gradient1), var(--gradient2));
@@ -1186,12 +1186,22 @@ cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/LinkSelect.cur'
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Unavailable.cur'), default !important;
 }
 [role] .status-1AY8sU {
-display: none; }
+display: none; 
+}
 [role] .status-3Kz6VS {
-width: 15px !important;
-height: 15px !important;
-border-radius: 3px;
-margin-right: 10px !important;
+width: 25px !important;
+height: 17px !important;
+background-image: url("https://i.imgur.com/x24yhxh.png");
+background-repeat: no-repeat;
+background-size: 50%;
+background-position: 50%;
+border-radius: 4px;
+margin-right: 10px;
+}
+.helper-2c73HK {
+margin: 0 0 4px 35px;
+color: rgba(67, 181, 129, 0.8);
+font-weight: 500;
 }
 [role] :nth-of-type(1) .status-3Kz6VS {
 background-color: rgb(67, 181, 129);
@@ -1207,6 +1217,17 @@ background-color: rgb(116, 127, 141);
 }
 .customStatusEmoji-2NpCsS {
 display: none;
+}
+.customStatusEmojiPlaceholder-1NdyxH {
+background-color: rgb(66, 66, 66);
+background-image: url("https://i.imgur.com/LjOJHhj.png");
+background-repeat: no-repeat;
+background-size: 85%;
+background-position: 50%; 
+border-radius: 4px;
+width: 20px !important;
+height: 20px !important;
+margin-right: 5px;
 }
 .itemActive-2V2HNc{
 background-image: var(--bg1);
