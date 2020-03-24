@@ -1218,7 +1218,8 @@ color: var(--color-text-cat);
 font-weight: 700;
 }
 .itemBase-1Qj4z6:hover{
-background-image: var(--bg2);
+background: linear-gradient(25deg, transparent 35%, var(--gradient3) 80%);
+box-shadow: 0px -6px 6px -6px #fff inset;
 background-size: cover;
 color: rgb(67, 181, 129);
 border: 1px solid var(--color-base);
@@ -2645,6 +2646,7 @@ border-top: none;
 }
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
 background-color: rgba(0,0,0,0.8);
+box-shadow: 0px -6px 6px -6px #fff inset;
 border-color: var(--color-base);
 border-radius: 5px;
 }
@@ -2653,6 +2655,7 @@ border: 1px solid var(--color-base);
 }
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button, #bd-customcss-attach-controls .help-text .inline{
 background: rgba(0,0,0,0.5);
+box-shadow: 0px -6px 6px -6px #fff inset;
 color: var(--color-text-cat);
 border: 1px solid var(--color-base)!important;
 width:80px;
