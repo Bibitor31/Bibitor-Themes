@@ -20,7 +20,7 @@
 
 ![Légende](https://i.imgur.com/oqdUP3R.jpg)
 
-![Légende](https://i.imgur.com/uqD1z5b.jpg)
+![Légende](https://i.imgur.com/BlAv5WD.jpg)
 
 ![Légende](https://i.imgur.com/wPZN2TK.jpg)
 
