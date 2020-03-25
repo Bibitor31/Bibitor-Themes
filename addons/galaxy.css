@@ -226,8 +226,18 @@ border-radius: 5px;
 .cozy-3raOZG.wrapper-2a6GCs {
 padding-top:6px ;
 }
-.avatar-1BDn8e:hover {
-box-shadow: 0 0 15px 0 var(--color-base);
+.avatar-1BDn8e:hover{
+box-shadow: 0 0 10px 0 var(--color-text-cat);
+border-radius: 10px;
+}
+.wrapper-3t9DeA.avatar-1BDn8e{
+border: 2px solid var(--color-base);
+overflow: hidden;
+border-radius: 5px;
+}
+.wrapper-3t9DeA.avatar-1BDn8e:hover{
+box-shadow: 0 0 10px 0 var(--color-text-cat);
+border-radius: 10px;
 }
 .welcomeMessage-ULm0mo{
 background-image: var(--bg2);
@@ -964,13 +974,8 @@ background: linear-gradient(60deg, transparent 62%, var(--gradient2), var(--grad
 background: linear-gradient(var(--ggradient-direction), var(--gradient2), var(--gradient3));
 box-shadow: inset 0 0 6px 2px rgba(0,0,0,.5);
 }
-.wrapper-3t9DeA.avatar-1BDn8e{
-border: 2px solid var(--color-base);
-border-radius: 5px;
-}
 .avatar-17mtNa .wrapper-3t9DeA {
-border: 2px solid var(--color-base);
-border-radius: 5px;
+/* display: none; */
 }
 .topPill-30KHOu .item-PXvHYJ{
 border: 1px solid var(--color-base);
@@ -1178,11 +1183,15 @@ border-color: var(--color-base);
 border-radius:10px;
 }
 #app-mount, .da-chat .da-title, .titleBar-AC4pGV {
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Select.cur'), default !important;}
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Select.cur'), default !important;
+}
 textarea, input, .da-markup {
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/TextSelect.cur'), default !important;}
-a, .da-textHover, .da-expandable, [role="button"], [role="button"] header, [type="checkbox"], label, .da-button, .item-26Dhrx, .clickable-1JJAn8:hover .layout-2DM8Md, .clickable-3Ya1ho, .da-item, .da-interactive, .friendsTable-133bsv .friendsRow-2yicud,.da-winButton{
-cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/LinkSelect.cur'), default !important;}
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/TextSelect.cur'), default !important;
+}
+a, .da-textHover, .da-expandable, [role="button"], [role="button"] header, [type="checkbox"], label, .da-button, .item-26Dhrx, .clickable-1JJAn8:hover .layout-2DM8Md, .clickable-3Ya1ho, .da-item, .da-interactive, .friendsTable-133bsv .friendsRow-2yicud,.da-winButton
+{
+cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/LinkSelect.cur'), default !important;
+}
 .disabled, .modeLocked-SZJhTy {
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Unavailable.cur'), default !important;
 }
@@ -1968,7 +1977,7 @@ padding-top:3px;
 display: none;
 }
 .bd-guild :hover{
-box-shadow: 0 0 8px 0 var(--color-base);
+box-shadow: 0 0 7px 0  var(--color-text-cat);
 border-radius: 5px;
 }
 .base-PmTxvP{
@@ -2015,6 +2024,9 @@ opacity: 0.8 !important;
 border: 1px solid var(--color-base) !important;
 opacity: 0.8 !important;
 }
+/* .wrapper-sa6paO{ */
+/* display: none; */
+/* } */ 
 .wrapper-35wsBm{
 background-image: var(--bg2)!important;
 border: 1px solid var(--color-base) ;
@@ -2026,9 +2038,9 @@ border-radius: 5px !important;
 width: 8px;
 border: 1.5px solid var(--color-text-cat);
 }
-/* .pill-31IEus { */
-/* display: none; */
-/* } */
+.pill-3YxEhL {
+display: none;
+}
 .flowerStar-1GeTsn {
 color:var(--color-base);
 }
