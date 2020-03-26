@@ -868,6 +868,9 @@ color: var(--color-text-cat);
 border-radius: 5px ;
 border: 1px solid var(--color-base);
 }
+.circleIconButton-jET_ig:hover {
+border-radius: 10px ;
+}
 .circleIconButton-jET_ig.selected-ugP_am {
 background: linear-gradient(var(--ggradient-direction), var(--gradient2), var(--gradient1));
 box-shadow: inset 0 0 6px 5px rgba(0,0,0,.5);
@@ -1203,7 +1206,7 @@ width: 25px !important;
 height: 17px !important;
 background-image: url("https://i.imgur.com/x24yhxh.png");
 background-repeat: no-repeat;
-background-size: 50%;
+background-size: 30%;
 background-position: 50%;
 border-radius: 4px;
 margin-right: 10px;
@@ -1358,6 +1361,9 @@ background: linear-gradient(var(--ggradient-direction), var(--gradient1), var(--
 box-shadow: inset 0 0 10px 0 rgba(0,0,0,.9);
 border-radius: 5px ;
 }
+.listItemWrapper-3X98Pc:hover  {
+border-radius: 10px ;
+}
 .childWrapper-anI2G9 {
 background-color: transparent !important;
 background-image: var(--bgart) !important ;
@@ -1366,7 +1372,7 @@ background-size: cover;
 width: 85%;
 height: 85%;
 }
-.childWrapper-anI2G9:hover  {
+.childWrapper-anI2G9:hover {
 background-image: var(--bgart) !important ;
 filter: brightness(80%);
 width: 90%;
@@ -1388,6 +1394,7 @@ border: 1px solid var(--color-base);
 .folderIconWrapper-226oVY:hover{
 background: linear-gradient(var(--ggradient-direction), var(--gradient2), var(--gradient1));
 box-shadow: inset 0 0 6px 5px rgba(0,0,0,.5);
+border-radius: 10px ;
 }
 #app-mount .tooltipBrand-g03Nz8,
 #app-mount .tooltipBlack-PPG47z,
@@ -1973,12 +1980,12 @@ background-color: transparent;
 .bd-guild{
 padding-top:3px;
 }
-.bd-guild-separator {
-display: none;
-}
 .bd-guild :hover{
 box-shadow: 0 0 7px 0  var(--color-text-cat);
-border-radius: 5px;
+border-radius: 10px;
+}
+.bd-guild-separator {
+display: none;
 }
 .base-PmTxvP{
 background: rgba(0, 0, 0, 1)!important;
