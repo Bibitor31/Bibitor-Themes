@@ -1245,6 +1245,7 @@ margin-right: 5px;
 }
 .itemActive-2V2HNc{
 background-image: var(--bg1);
+box-shadow: 0px -4px 4px -4px #fff inset;
 border: 1px solid var(--color-base)!important;
 border-radius:5px;
 }
