@@ -1204,10 +1204,11 @@ display: none;
 [role] .status-3Kz6VS {
 width: 25px !important;
 height: 17px !important;
-background-image: url("https://i.imgur.com/x24yhxh.png");
-background-repeat: no-repeat;
-background-size: 30%;
-background-position: 50%;
+/* background-image: url("https://i.imgur.com/x24yhxh.png"); */
+/* background-repeat: no-repeat; */
+/* background-size: 30%; */
+/* background-position: 50%; */
+border: 1px solid var(--color-base)!important;
 border-radius: 4px;
 margin-right: 10px;
 }
@@ -1217,16 +1218,16 @@ color: rgba(67, 181, 129, 0.8);
 font-weight: 500;
 }
 [role] :nth-of-type(1) .status-3Kz6VS {
-background-color: rgb(67, 181, 129);
+background: linear-gradient(20deg, transparent 40%, rgb(67, 181, 129));
 }
 [role] :nth-of-type(3) .status-3Kz6VS {
-background-color: rgb(250, 166, 26);
+background: linear-gradient(20deg, transparent 40%, rgb(250, 166, 26));
 }
 [role] :nth-of-type(4) .status-3Kz6VS {
-background-color: rgb(240, 71, 71);
+background: linear-gradient(20deg, transparent 40%, rgb(240, 71, 71));
 }
 [role] :nth-of-type(5) .status-3Kz6VS {
-background-color: rgb(116, 127, 141);
+background: linear-gradient(20deg, transparent 40%, rgb(116, 127, 141));
 }
 .customStatusEmoji-2NpCsS {
 display: none;
