@@ -2168,6 +2168,9 @@ opacity: 1;
 color: var(--color-text-cat)!important;
 font-weight: 700; 
 }
+.bd-search-wrapper{
+background-image: var(--bg1)!important;
+}
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
 background-color:rgba(255,255,255,0.6)!important;
 box-shadow: 0 0 3px 3px var(--color-text-cat)!important;
