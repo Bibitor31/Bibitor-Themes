@@ -2175,8 +2175,7 @@ background: linear-gradient(25deg, transparent 10%, var(--gradient2) 120%)!impor
 margin-top: 15px !important;
 }
 .bd-addon-controls {
-background-image: var(--bg1)!important;
-background-size:  cover !important;
+background:rgba(0,0,0,0.6);
 border: 1px solid var(--color-base)!important;
 border-radius: 5px;
 }
@@ -2187,6 +2186,10 @@ opacity: 0.5;
 opacity: 1;
 color: var(--color-text-cat)!important;
 font-weight: 700; 
+}
+.bd-search-wrapper {
+background-image: var(--bg2)!important;
+background-size:  cover !important;
 }
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
 background-color:rgba(255,255,255,0.6)!important;
