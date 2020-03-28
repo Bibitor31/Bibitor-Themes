@@ -1245,6 +1245,7 @@ margin-right: 5px;
 }
 .itemActive-2V2HNc{
 background-image: var(--bg1);
+box-shadow: 0px -4px 4px -4px #fff inset;
 border: 1px solid var(--color-base)!important;
 border-radius:5px;
 }
@@ -2195,11 +2196,6 @@ background: rgba(114, 118, 125, 0)!important;
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before{
 background: rgba(114, 118, 125, 0)!important;
 }
-.themeDefault-24hCdX, .ui-switch-item .ui-switch-wrapper{
-background-color:rgba(98, 0, 0,0.5)!important;
-box-shadow: 0 0 3px 3px var(--color-base)!important;
-border-radius:3px !important;
-}
 .ui-switch-item:hover .ui-switch-wrapper:hover {
 background-color: var(--color-text-cat)!important;
 transition: background-color 0.5s, box-shadow 0.5s ,border-radius 0.5s !important;
@@ -2211,6 +2207,11 @@ color: var(--color-text-cat) ;
 border: 1px solid var(--color-base) !important;
 height: 30px;
 font-weight: 700;
+}
+.themeDefault-24hCdX, .ui-switch-item .ui-switch-wrapper{
+background-color:rgba(98, 0, 0,0.5)!important;
+box-shadow: 0 0 3px 3px var(--color-base)!important;
+border-radius:3px !important;
 }
 .themeDefault-24hCdX, .ui-switch-item .ui-switch-wrapper {
 margin-top: 17px!important;
@@ -2226,9 +2227,66 @@ height: 11px!important;
 .themeDefault-24hCdX:after, .ui-switch-item .ui-switch-wrapper .ui-switch:before{
 display: none!important;
 }
+.bd-switch:after, .bd-checkbox:before{
+display: none!important;
+}
+.bd-switch{
+width: 35px!important;
+height: 11px!important;
+margin: 0px 10px 0px;
+border-radius:3px !important;
+background-color:rgba(98, 0, 0,0.5)!important;
+box-shadow: 0 0 3px 3px var(--color-base)!important;
+}
+.bd-switch-checked{
+background-color:var(--color-text-cat)!important;
+box-shadow: 0 0 3px 3px var(--color-base)!important;
+border-radius:3px !important;
+}
+.theme-dark .bd-addon-list .bd-addon-card{
+background:rgba(0,0,0,0.6) !important;
+color: var(--color-text-cat);
+border-color: var(--color-base);
+box-shadow: 0 0 8px 1px var(--color-base)!important;
+border-radius: 8px;
+}
+.theme-dark .bd-addon-list .bd-addon-card:hover{
+background:rgba(0,0,0,0.8) !important;
+box-shadow: 0 0 8px 1px var(--color-text-cat) !important;
+}
+.bd-addon-list a{
+color: rgb(0, 176, 244);
+}
+.bd-search-wrapper,.bd-search{
+background:transparent;
+color: var(--color-text-cat);
+font-weight: 700; 
+}
+.bd-select-transparent .bd-select-options{
+background-image: var(--bg2);
+border: 1px solid var(--color-base) !important;
+border-radius: 5px;
+}
+.bd-select .bd-select-option.selected{
+background-image: var(--bg1);
+}
+.bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected{
+background: linear-gradient(25deg, transparent 10%, var(--gradient2) 120%)!important;
+}
+.bd-addon-list{
+margin-top: 15px !important;
+}
+.bd-addon-controls {
+background-image: var(--bg2)!important;
+background-size:  cover !important;
+border: 1px solid var(--color-base)!important;
+border-radius: 5px;
+}
+.bd-addon-button,.bd-icon{
+opacity: 0.5;
+}
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
 background-color:rgba(255,255,255,0.6)!important;
-box-shadow: 0 0 3px 3px var(--color-text-cat)!important;
 transition: background-color 0.9s, box-shadow 0.9s ,border-radius 0.9s !important;
 margin-top: auto !important;
 margin-bottom: auto !important;
@@ -2504,7 +2562,6 @@ border: 1px solid var(--color-base) !important;
 border-radius:4px;
 }
 .side-8zPYf6 .header-2RyJ0Y {
-/* background: linear-gradient(25deg, transparent 35%, var(--gradient2) 80%); */
 background: linear-gradient(25deg, transparent 55%, var(--gradient2) 80%),url("https://i.imgur.com/e2RyM9Y.jpg");
 text-align:center;
 color:var(--color-text-cat)!important;
@@ -2519,7 +2576,6 @@ box-shadow: 0 0 10px var(--color-base);
 padding-top:3px;
 }
 #bd-settings-sidebar .ui-tab-bar-header {
-/* background: linear-gradient(25deg, transparent 35%, var(--gradient2) 80%); */
 background: linear-gradient(25deg, transparent 55%, var(--gradient2) 80%),url("https://i.imgur.com/e2RyM9Y.jpg");
 text-align:center;
 color:var(--color-text-cat)!important;
@@ -2731,7 +2787,7 @@ border-color:   var(--color-text-cat);
 }
 #bd-customcss-attach-controls .help-text
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span:hover {
-/* background: rgba(14,14,14,0.9)!important; */
+background: rgba(14,14,14,0.9)!important;
 }
 .checkbox .checkbox-inner span:hover {
 background: rgba(14,14,14,0.9)!important;
