@@ -894,6 +894,7 @@ box-shadow: inset 0 0 6px 2px rgba(0,0,0,.5);
 }
 .wrapper-3t9DeA.avatar-1BDn8e{
 border: 2px solid var(--color-base);
+overflow: hidden;
 border-radius: 5px;
 }
 .avatar-17mtNa .wrapper-3t9DeA {
@@ -1151,17 +1152,20 @@ background-color: rgb(240, 71, 71);
 [role] :nth-of-type(5) .status-3Kz6VS {
 background-color: rgb(116, 127, 141);
 }
-.customStatusEmojiPlaceholder-1NdyxH {
-background-color: rgb(66, 66, 66);
-background-image: url("https://i.imgur.com/LjOJHhj.png");
-background-repeat: no-repeat;
-background-size: 85%;
-background-position: 50%; 
-border-radius: 4px;
-width: 20px !important;
-height: 20px !important;
-margin-right: 5px;
+.customStatusEmoji-2NpCsS {
+display: none;
 }
+/* .customStatusEmojiPlaceholder-1NdyxH { */
+/* background-color: rgb(66, 66, 66); */
+/* background-image: url("https://i.imgur.com/LjOJHhj.png"); */
+/* background-repeat: no-repeat; */
+/* background-size: 85%; */
+/* background-position: 50%;  */
+/* border-radius: 4px; */
+/* width: 20px !important; */
+/* height: 20px !important; */
+/* margin-right: 5px; */
+/* } */
 .users-i_3-kL {
 color: rgb(255, 255, 255);
 width: 28px;
@@ -1357,11 +1361,11 @@ border: 1px solid var(--color-base);
 .theme-dark .guild-1EfMGQ.audio-3vVhBi .guildInner-3DSoA4:after, .theme-dark .guild-1EfMGQ.video-15yGu3 .guildInner-3DSoA4:after {
 background-color: var(--color-base);
 }
-/* .emoji.jumboable { */
-/* width: 2rem; */
-/* height: 2rem; */
-/* min-height: 3rem; */
-/* } */
+.emoji.jumboable {
+width: 2rem;
+height: 2rem;
+min-height: 2rem;
+}
 /* .emoji.jumboable:hover { */
 /* transform: scale(2); */
 /* transition: all 0.9s; */
@@ -1733,12 +1737,6 @@ text-shadow: 0px 0px 6px #282828,
  0px 0px 6px rgb(255, 255, 255), 
  0px 0px 6px rgb(255, 255, 255);
 }
-.emoji {
-min-width: 25px !important;
-min-height: 25px !important;
-margin: -30px 10 -3px 5px!important;
-line-height: 20px;margin-top: 0px;
-}
 .theme-dark .contentRegion-3nDuYy {
 background: rgba(54, 57, 63, 0);
 }
@@ -1940,8 +1938,14 @@ border: 1px solid var(--color-base) ;
 border-radius: 5px ;
 }
 .item-2hkk8m {
-background-color: var(--color-base);
+background: linear-gradient(25deg, transparent 50%, var(--color-text-cat) 80%) ;
+border-radius: 5px !important;
+width: 8px;
+border: 1.5px solid var(--color-base);
 }
+/* .pill-31IEus { */
+/* display: none; */
+/* } */
 .flowerStar-1GeTsn {
 color:var(--color-base);
 }
@@ -1961,6 +1965,7 @@ height: 16px;
 }
 .actionIcon-2Hi9ZG{
 color:rgb(215, 52, 42);
+/* display: none; */
 }
 #app-mount .root-1gCeng,#app-mount .modal-yWgWj- {
 background-image: var(--bg2)!important;
@@ -2085,6 +2090,64 @@ height: 11px!important;
 }
 .themeDefault-24hCdX:after, .ui-switch-item .ui-switch-wrapper .ui-switch:before{
 display: none!important;
+}
+.bd-switch:after, .bd-checkbox:before{
+display: none!important;
+}
+.bd-switch{
+width: 35px!important;
+height: 11px!important;
+margin: 0px 10px 0px;
+border-radius:3px !important;
+background-color:rgba(98, 0, 0,0.5)!important;
+box-shadow: 0 0 3px 3px var(--color-base)!important;
+}
+.bd-switch-checked{
+background-color:rgba(255,255,255,0.4)!important;
+box-shadow: 0 0 3px 3px var(--color-text-cat)!important;
+border-radius:3px !important;
+}
+.theme-dark .bd-addon-list .bd-addon-card{
+background:rgba(0,0,0,0.6) !important;
+color: var(--color-text-cat);
+border-color: var(--color-base);
+box-shadow: 0 0 8px 1px var(--color-base)!important;
+border-radius: 8px;
+}
+.theme-dark .bd-addon-list .bd-addon-card:hover{
+background:rgba(0,0,0,0.8) !important;
+box-shadow: 0px -6px 6px -6px #fff inset!important;
+}
+.bd-addon-list a{
+color: rgb(0, 176, 244);
+}
+.bd-search-wrapper,.bd-search{
+background:transparent;
+color: var(--color-text-cat);
+font-weight: 700; 
+}
+.bd-select-transparent .bd-select-options{
+background-image: var(--bg2);
+border: 1px solid var(--color-base) !important;
+border-radius: 5px;
+}
+.bd-select .bd-select-option.selected{
+background-image: var(--bg1);
+}
+.bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected{
+background: linear-gradient(25deg, transparent 10%, var(--gradient2) 120%)!important;
+}
+.bd-addon-list{
+margin-top: 15px !important;
+}
+.bd-addon-controls {
+background-image: var(--bg2)!important;
+background-size:  cover !important;
+border: 1px solid var(--color-base)!important;
+border-radius: 5px;
+}
+.bd-addon-button,.bd-icon{
+opacity: 0.5;
 }
 .themeDefault-24hCdX.valueChecked-m-4IJZ {
 background-color:rgba(255,255,255,0.6)!important;
