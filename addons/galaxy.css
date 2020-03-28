@@ -2277,8 +2277,7 @@ background: linear-gradient(25deg, transparent 10%, var(--gradient2) 120%)!impor
 margin-top: 15px !important;
 }
 .bd-addon-controls {
-background-image: var(--bg2)!important;
-background-size:  cover !important;
+background:rgba(0,0,0,0.6);
 border: 1px solid var(--color-base)!important;
 border-radius: 5px;
 }
