@@ -1,6 +1,6 @@
 /* Bibitor31#7704  https://bibitor31.github.io/Bibitor-Themes */
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
-:root {
+:root {	
 --color-base:rgb(3, 63, 110);
 --color-text-cat:rgb(165, 42, 42);
 --bg-image:url("https://i.imgur.com/2hkVg05.jpg");
@@ -2180,7 +2180,7 @@ border: 1px solid var(--color-base)!important;
 border-radius: 5px;
 }
 .bd-addon-button,.bd-icon{
-opacity: 0.5;
+fill: var(--text-muted);
 }
 .bd-select-wrapper label{
 opacity: 1;
@@ -2478,7 +2478,6 @@ border: 1px solid var(--color-base) !important;
 border-radius:4px;
 }
 .side-8zPYf6 .header-2RyJ0Y {
-/* background: linear-gradient(25deg, transparent 35%, var(--gradient2) 80%); */
 background: linear-gradient(25deg, transparent 55%, var(--gradient2) 80%),url("https://i.imgur.com/e2RyM9Y.jpg");
 text-align:center;
 color:var(--color-text-cat)!important;
@@ -2493,17 +2492,21 @@ box-shadow: 0 0 10px var(--color-base);
 padding-top:3px;
 }
 #bd-settings-sidebar .ui-tab-bar-header {
-/* background: linear-gradient(25deg, transparent 35%, var(--gradient2) 80%); */
 background: linear-gradient(25deg, transparent 55%, var(--gradient2) 80%),url("https://i.imgur.com/e2RyM9Y.jpg");
-text-align:center;
 color:var(--color-text-cat)!important;
 font-size: 14px;
+justify-content: center;
 border:1px solid var(--color-base);
 border-radius:4px;
 height: 25px;
 padding-top:3px;
 box-shadow: 0 0 10px var(--color-base);
 }
+#bd-settings-sidebar .ui-tab-bar-header .bd-icon{
+fill: rgb(0, 176, 244)!important;
+margin-left: 50%;
+}
+
 .theme-dark .searchBox-3Y2Vi7{
 background-image: var(--bg2);
 border: 1px solid var(--color-base) !important;
