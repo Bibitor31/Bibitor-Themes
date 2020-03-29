@@ -681,6 +681,7 @@ margin: 5px;
 box-shadow: 0 0 12px var(--color-base);
 transform: scale(1.1);
 }
+.peopleListItem-2nzedh{
 background:var(--bg2) !important;
 background-size: cover !important;
 filter: brightness(50%);
