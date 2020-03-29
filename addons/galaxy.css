@@ -2033,20 +2033,24 @@ opacity: 0.8 !important;
 border: 1px solid var(--color-base) !important;
 opacity: 0.8 !important;
 }
-/* .wrapper-sa6paO{ */
-/* display: none; */
-/* } */ 
 .wrapper-35wsBm{
 background-image: var(--bg2)!important;
 border: 1px solid var(--color-base) ;
 border-radius: 5px ;
 }
 .item-2hkk8m {
-background: linear-gradient(25deg, transparent 50%, var(--color-base) 80%) ;
+background: linear-gradient(25deg, transparent 50%, var(--color-base) 80%);
 border-radius: 5px !important;
 width: 8px;
 border: 1.5px solid var(--color-text-cat);
+margin-left: 1px;
 }
+.wrapper-sa6paO {
+overflow: visible;
+}
+/* .wrapper-sa6paO{  */
+/* display: none;  */
+/* }  */
 .pill-3YxEhL {
 display: none;
 }
@@ -2281,6 +2285,11 @@ background:rgba(0,0,0,0.6);
 border: 1px solid var(--color-base)!important;
 border-radius: 5px;
 }
+/* .bda-slist.bd-addon-list .bd-addon-controls.bda-controls{ */
+/* background:rgba(0,0,0,0.6); */
+/* border: 1px solid var(--color-base)!important; */
+/* border-radius: 5px; */
+/* } */
 .bd-addon-button,.bd-icon{
 fill: var(--text-muted);
 }
