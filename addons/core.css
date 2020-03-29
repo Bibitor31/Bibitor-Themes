@@ -1953,7 +1953,7 @@ border-radius: 5px ;
 }
 .item-2hkk8m {
 background: linear-gradient(25deg, transparent 50%, var(--color-text-cat) 80%) ;
-border-radius: 5px !important;
+border-radius: 4px !important;
 width: 8px;
 border: 1.5px solid var(--color-base);
 margin-left: 1px;
