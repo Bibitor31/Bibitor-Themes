@@ -2282,7 +2282,7 @@ border: 1px solid var(--color-base)!important;
 border-radius: 5px;
 }
 .bd-addon-button,.bd-icon{
-opacity: 0.5;
+fill: var(--text-muted);
 }
 .bd-select-wrapper label{
 opacity: 1;
@@ -2584,14 +2584,21 @@ padding-top:3px;
 }
 #bd-settings-sidebar .ui-tab-bar-header {
 background: linear-gradient(25deg, transparent 55%, var(--gradient2) 80%),url("https://i.imgur.com/e2RyM9Y.jpg");
-text-align:center;
 color:var(--color-text-cat)!important;
 font-size: 14px;
+justify-content: center;
 border:1px solid var(--color-base);
 border-radius:4px;
 height: 25px;
 padding-top:3px;
 box-shadow: 0 0 10px var(--color-base);
+}
+#bd-settings-sidebar .ui-tab-bar-header .bd-icon{
+fill: rgb(0, 176, 244)!important;
+margin-left: 50%;
+}
+.icon-vGGh7_{
+color: rgb(0, 176, 244)!important;
 }
 .theme-dark .searchBox-3Y2Vi7{
 background-image: var(--bg2);
