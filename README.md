@@ -2,7 +2,7 @@
 <h4 align="center">Couleurs des thèmes personnalisables (Customizable colors)</h4>
 <h4 align="center">(--color-base:#xxxxxx;)  (--color-text-cat:#xxxxxx;)</h4>
 
-- ![#4d79ff](https://placehold.it/15/4d79ff/b5e853?text=+) **`Family-Fusion Galaxy`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Galaxy-family.theme.css) **`Update 29/03/2020`**
+- ![#4d79ff](https://placehold.it/15/4d79ff/b5e853?text=+) **`Family-Fusion Galaxy`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/Galaxy-family.theme.css) **`Update 30/03/2020`**
 
 - ![#a52a2a](https://placehold.it/15/a52a2a/b5e853?text=+) **`Family-Fusion Darth Vader`** [Theme.css](https://bibitor31.github.io/Bibitor-Themes/DarthVader-family.theme.css) **`Update 28/03/2020`**
 
