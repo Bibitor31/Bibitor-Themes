@@ -112,7 +112,7 @@ display: block;
 height: 16px;
 }
 .wordmark-2iDDfm:after {
-content: "Saber Version: 1.7.0";
+content: "Saber";
 opacity: 0.8;
 position: absolute;
 font-size: 12px;
@@ -770,6 +770,20 @@ box-shadow: 0 0 10px 0  var(--color-base)!important;
 [class*="lookFilled-"] {
 border: 1px solid var(--color-base)!important;
 }
+.wrapper-KXM2i0{
+border: 1px solid var(--color-base);
+border-radius: 8px 8px 0px 0px;
+box-shadow: 0 0 12px 0 var(--color-base)!important;
+}
+.gradientContainer-12xgBp.disabled-2yhZLU{
+background-image: var(--bg2)!important;
+background-color: rgba(5, 5, 5, 0.55)!important;
+}
+#app-mount .title-3qD0b-, #app-mount .libraryHeader-3g95kE, #app-mount .headerBar-1YYOfi, #app-mount .container-1r6BKw{
+background-color: rgba(5, 5, 5, 0.55)!important;
+box-shadow: 0 0 12px 0 var(--color-base)!important;
+border-radius: 8px 8px 0px 0px;
+}
 .backdrop-1wrmKB {
 background-image: url("https://i.imgur.com/4xUUOhA.jpg")!important;
 background-size: cover !important;
@@ -827,8 +841,8 @@ color:#fff;
 font-weight: 700;
 opacity: 0.3
 }
-.da-button[tabindex="2"]{
-display:none;
+.buttonWrapper-1ZmCpA﻿[tabindex="2"] {
+display: none !important;
 }
 .avatarSpeaking-3MqCHL{
 box-shadow: inset 0 0 10px 0 rgba(0,0,0,.5);
@@ -1143,43 +1157,38 @@ cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/LinkSelect.cur'
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Unavailable.cur'), default !important;
 }
 [role] .status-1AY8sU {
-display: none; }
+display: none; 
+}
 [role] .status-3Kz6VS {
-width: 15px !important;
-height: 15px !important;
-background-image: url("https://i.imgur.com/LjOJHhj.png");
-background-repeat: no-repeat;
-background-size: 75%;
-background-position: 50%;
-border-radius: 3px;
-margin-right: 8px !important; 
+width: 25px !important;
+height: 17px !important;
+border: 1px solid var(--color-base)!important;
+border-radius: 4px;
+margin-right: 8px;
 }
 [role] :nth-of-type(1) .status-3Kz6VS {
-background-color: rgb(67, 181, 129);
+background: linear-gradient(20deg, transparent 40%, rgb(67, 181, 129));
 }
 [role] :nth-of-type(3) .status-3Kz6VS {
-background-color: rgb(250, 166, 26);
+background: linear-gradient(20deg, transparent 40%, rgb(250, 166, 26));
 }
 [role] :nth-of-type(4) .status-3Kz6VS {
-background-color: rgb(240, 71, 71);
+background: linear-gradient(20deg, transparent 40%, rgb(240, 71, 71));
 }
 [role] :nth-of-type(5) .status-3Kz6VS {
-background-color: rgb(116, 127, 141);
+background: linear-gradient(20deg, transparent 40%, rgb(116, 127, 141));
+}
+.helper-2c73HK {
+margin: 0 0 4px 35px;
+color: rgba(67, 181, 129, 0.8);
+font-weight: 500;
+}
+.separator-2zcjq8{
+display: none; 
 }
 .customStatusEmoji-2NpCsS {
 display: none;
 }
-/* .customStatusEmojiPlaceholder-1NdyxH { */
-/* background-color: rgb(66, 66, 66); */
-/* background-image: url("https://i.imgur.com/LjOJHhj.png"); */
-/* background-repeat: no-repeat; */
-/* background-size: 85%; */
-/* background-position: 50%;  */
-/* border-radius: 4px; */
-/* width: 20px !important; */
-/* height: 20px !important; */
-/* margin-right: 5px; */
-/* } */
 .users-i_3-kL {
 color: rgb(255, 255, 255);
 width: 28px;
@@ -2298,6 +2307,12 @@ border-radius: 8PX;
 .theme-dark .cardPrimaryEditable-3KtE4g:hover{
 background: var(--bg2) !important;
 box-shadow: inset 0 0 6px 1px var(--color-base);
+}
+.descriptionBox-1EKQKL{
+background:rgba(0,0,0,0.4) !important;
+border:none !important;
+border: 2px solid var(--color-base) !important;
+border-radius: 8PX;
 }
 .auditLog-3jNbM6{
 background:rgba(0,0,0,0.4) !important;
