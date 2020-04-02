@@ -1199,7 +1199,6 @@ cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/LinkSelect.cur'
 .disabled, .modeLocked-SZJhTy {
 cursor: url('https://bibitor31.github.io/Bibitor-Themes/Pointers/Unavailable.cur'), default !important;
 }
-
 [role] .status-1AY8sU {
 display: none; 
 }
@@ -1208,7 +1207,7 @@ width: 25px !important;
 height: 17px !important;
 border: 1px solid var(--color-base)!important;
 border-radius: 4px;
-margin-right: 10px;
+margin-right: 8px;
 }
 [role] :nth-of-type(1) .status-3Kz6VS {
 background: linear-gradient(20deg, transparent 40%, rgb(67, 181, 129));
@@ -1232,17 +1231,6 @@ display: none;
 }
 .customStatusEmoji-2NpCsS {
 display: none;
-}
-.customStatusEmojiPlaceholder-1NdyxH {
-background-color: rgb(66, 66, 66);
-background-image: url("https://i.imgur.com/LjOJHhj.png");
-background-repeat: no-repeat;
-background-size: 85%;
-background-position: 50%; 
-border-radius: 4px;
-width: 20px !important;
-height: 20px !important;
-margin-right: 5px;
 }
 .itemActive-2V2HNc{
 background-image: var(--bg1);
