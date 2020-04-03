@@ -2046,8 +2046,8 @@ display: none;
 }
 .item-2hkk8m {
 background: linear-gradient(25deg, transparent 50%, var(--color-base) 80%);
-border-radius: 4px !important;
-width: 8px;
+border-radius: 3px !important;
+width: 7px;
 border: 1.5px solid var(--color-text-cat);
 margin-left: 1px;
 }
