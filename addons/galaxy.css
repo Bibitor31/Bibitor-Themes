@@ -898,8 +898,8 @@ color:#fff;
 font-weight: 700;
 opacity: 0.3
 }
-.buttonWrapper-1ZmCpA﻿[tabindex="2"] {
-display: none !important;
+.buttons-3JBrkn [tabindex]:nth-last-of-type(2) {
+display: none;
 }
 .avatarSpeaking-3MqCHL{
 box-shadow: inset 0 0 10px 0 rgba(0,0,0,.5); 
@@ -1725,10 +1725,11 @@ border-radius: 8px 8px 0px 0px;
 .lookFilled-1Gx00P.colorRed-1TFJan{
 background-color:rgb(60, 7, 7);
 }
-
 .lookOutlined-3sRXeN.colorRed-1TFJan{
 background: linear-gradient(25deg, transparent 35%, var(--gradient2) 100%);
 color: var(--color-text-cat);
+border-radius: 8px;
+box-shadow: 0 0 8px 0 rgba(240,71,71,.3)!important;
 font-weight: 700;
 }
 .lookOutlined-3sRXeN.colorRed-1TFJan:hover {
