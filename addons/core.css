@@ -841,8 +841,8 @@ color:#fff;
 font-weight: 700;
 opacity: 0.3
 }
-.buttonWrapper-1ZmCpA﻿[tabindex="2"] {
-display: none !important;
+.buttons-3JBrkn [tabindex]:nth-last-of-type(2) {
+display: none;
 }
 .avatarSpeaking-3MqCHL{
 box-shadow: inset 0 0 10px 0 rgba(0,0,0,.5);
@@ -1206,8 +1206,9 @@ background-color: rgba(64, 64, 64, 0.420);
 border: none;
 }
 .botTagRegular-2HEhHi {
-background: -webkit-linear-gradient(60deg, var(--gradient1), var(--gradient2));
-color: #fff;
+background: -webkit-linear-gradient(60deg, var(--gradient3), var(--gradient1));
+color: var(--color-base);
+font-weight: 700;
 }
 .searchBar--fTZYa{
 background-image: var(--bg2)!important;
@@ -1800,7 +1801,7 @@ color: var(--color-text-cat) !important;
 border-radius: 5px;
 }
 .info-1VyQPT::before {
-content: "Bibitor31 -> Saber";
+content: "Bibitor31 -> Family";
 font-size: 12px;
 line-height: 16px;
 font-weight: 500;
