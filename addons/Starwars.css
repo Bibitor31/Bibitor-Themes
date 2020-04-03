@@ -927,7 +927,15 @@ border: 1px solid var(--color-base);
 border-radius: 5px;
 }
 .theme-dark .attachment-33OFj0{
+background-color: rgba(5, 5, 5, 0.25);
 border: 2px solid var(--color-base);
+border-radius: 5px;
+}
+.metadata-3WGS0M{
+color: var(--color-text-cat);
+font-weight: 700;
+text-align:center;
+box-shadow: 0px -5px 5px -5px #fff inset;
 border-radius: 5px;
 }
 .theme-dark .card-3DjzTQ, .theme-dark .cardPlaceholder-1zrbbe{
