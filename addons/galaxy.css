@@ -1,4 +1,4 @@
-/* Bibitor31#7704  https://bibitor31.github.io/Bibitor-Themes */
+ /* Bibitor31#7704  https://bibitor31.github.io/Bibitor-Themes */
 @import url("https://bibitor31.github.io/Bibitor-Themes/addons/statusColor.css");
 :root {
 --color-base:rgb(85, 85, 85);
@@ -976,8 +976,8 @@ box-shadow: 0px -5px 5px -5px #fff inset;
 border-radius: 5px;
 }
 .theme-dark .card-3DjzTQ, .theme-dark .cardPlaceholder-1zrbbe{
-background: linear-gradient(var(--ggradient-direction), var(--gradient2), var(--gradient1));
-border: 2px solid var(--color-base);
+background: linear-gradient(var(--ggradient-direction), var(--gradient1), var(--gradient3));
+border: 2px solid var(--color-text-cat);
 border-radius: 5px;
 }
 .avatar-17mtNa,.avatarHint-1qgaV3 foreignObject[mask] {
@@ -2874,11 +2874,12 @@ border-radius: 5px;
 }
 .container-16j22k{
 background-image: var(--bg-image2)!important ;
+filter: brightness(50%);
 background-size: 100vw 100vh ;
 }
 .content-1-zrf2{
 background: rgba(0, 0, 0,0.6);
-border: 1px solid var(--color-base)!important;
+border: 2px solid var(--color-base)!important;
 border-radius: 10px;
 width: 350px;
 height: 300px;
